@@ -43,5 +43,5 @@
 
 ### Vidéos
 
-[Sara Soueidan - Building Better Interfaces With SVG](https://www.youtube.com/watch?v=lMFfTRiipOQ)
-[SVG can do that?! (Sarah Drasner)](https://www.youtube.com/watch?v=ADXX4fmWHbo)
+* [Sara Soueidan - Building Better Interfaces With SVG](https://www.youtube.com/watch?v=lMFfTRiipOQ)
+* [SVG can do that?! (Sarah Drasner)](https://www.youtube.com/watch?v=ADXX4fmWHbo)
