@@ -41,7 +41,8 @@
 
 ## SVG
 
-[Cours](https://beta.observablehq.com/@idris-maps/svg)
+* [Cours](https://beta.observablehq.com/@idris-maps/svg)
+* [Documentation sur MDN](https://developer.mozilla.org/fr/docs/Web/SVG)
 
 ### Vidéos
 
