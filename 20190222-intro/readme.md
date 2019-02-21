@@ -2,7 +2,7 @@
 
 ## Pourquoi visualiser des données?
 
-* Carte de John Snow
+### Carte de John Snow
 
 ![John Snow Cholera map](https://upload.wikimedia.org/wikipedia/commons/2/27/Snow-cholera-map-1.jpg)
 
@@ -10,16 +10,13 @@
 
 [John Snow's data journalism - THE GUARDIAN](https://www.theguardian.com/news/datablog/2013/mar/15/john-snow-cholera-map)
 
-* Le [quartet d'Anscombe](https://beta.observablehq.com/@idris-maps/quartet-danscombe)
+### Le [quartet d'Anscombe](https://beta.observablehq.com/@idris-maps/quartet-danscombe)
 
 ## Types de visualisation
 
 [Choisir le type de visualisation](https://beta.observablehq.com/@idris-maps/visualisation-de-donnees)
 
 ![Carte figurative des pertes successives en hommes de l’Armée française dans la campagne de Russie en 1812-1813](https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png)
-![1826, Charles Dupin](https://commons.wikimedia.org/wiki/File:Carte_figurative_de_l%27instruction_populaire_de_la_France.jpg)
-![1858, Minard](https://commons.wikimedia.org/wiki/File:Minard-carte-viande-1858.png)
-![1858, Nightingale](https://commons.wikimedia.org/wiki/File:Nightingale-mortality.jpg)
 
 ### Visualisation web
 
@@ -32,8 +29,19 @@
 * Outils pour la visualisation web
 * Trouver et manipuler des données
 
-**Projet**: créer une visualisation de données web avec les données de votre choix
+### Projet
+
+* Créer une visualisation de données web avec les données de votre choix
+* Expliquer le processus:
+  - Publique cible
+  - Choix des données
+  - Choix de la représentation
 
 ## SVG
 
 [SVG](https://beta.observablehq.com/@idris-maps/svg)
+
+### Vidéos
+
+[Sara Soueidan - Building Better Interfaces With SVG](https://www.youtube.com/watch?v=lMFfTRiipOQ)
+[SVG can do that?! (Sarah Drasner)](https://www.youtube.com/watch?v=ADXX4fmWHbo)
