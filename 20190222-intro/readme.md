@@ -12,6 +12,8 @@
 
 ### Le [quartet d'Anscombe](https://beta.observablehq.com/@idris-maps/quartet-danscombe)
 
+![Le quartet d'Anscombe](https://upload.wikimedia.org/wikipedia/commons/e/ec/Anscombe%27s_quartet_3.svg)
+
 ## Types de visualisation
 
 [Choisir le type de visualisation](https://beta.observablehq.com/@idris-maps/visualisation-de-donnees)
@@ -39,7 +41,7 @@
 
 ## SVG
 
-[SVG](https://beta.observablehq.com/@idris-maps/svg)
+[Cours](https://beta.observablehq.com/@idris-maps/svg)
 
 ### Vidéos
 
