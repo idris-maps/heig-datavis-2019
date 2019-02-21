@@ -17,11 +17,15 @@
 [Choisir le type de visualisation](https://beta.observablehq.com/@idris-maps/visualisation-de-donnees)
 
 ![Carte figurative des pertes successives en hommes de l’Armée française dans la campagne de Russie en 1812-1813](https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png)
+![1826, Charles Dupin](https://commons.wikimedia.org/wiki/File:Carte_figurative_de_l%27instruction_populaire_de_la_France.jpg)
+![1858, Minard](https://commons.wikimedia.org/wiki/File:Minard-carte-viande-1858.png)
+![1858, Nightingale](https://commons.wikimedia.org/wiki/File:Nightingale-mortality.jpg)
 
 ### Visualisation web
 
 * [Gapminder](https://www.gapminder.org/tools)
 * [Big picture](http://research.google.com/bigpicture/music)
+* [Snake Oil Supplements?](http://informationisbeautiful.net/visualizations/snake-oil-scientific-evidence-for-nutritional-supplements-vizsweet/)
 
 ## Plan de cours
 
