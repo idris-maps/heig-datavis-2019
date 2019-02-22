@@ -48,3 +48,24 @@
 
 * [Sara Soueidan - Building Better Interfaces With SVG](https://www.youtube.com/watch?v=lMFfTRiipOQ)
 * [SVG can do that?! (Sarah Drasner)](https://www.youtube.com/watch?v=ADXX4fmWHbo)
+
+## Notes
+
+### Faire un dessin
+
+Cloner le repo
+
+```bash
+git clone git@github.com:idris-maps/heig-datavis-2019.git
+cd heig-datavis-2019
+git branch dessin/<votre-nom>
+git checkout dessin/<votre-nom>
+```
+
+Dans le dossier `heig-datavis-2019/dessins`, créer un dessin `<votre-nom>.svg`
+
+```bash
+git add .
+git commit -m "mon dessin"
+git push
+```
