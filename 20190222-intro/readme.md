@@ -69,3 +69,5 @@ git add .
 git commit -m "mon dessin"
 git push
 ```
+
+[Graphique en bâtons](https://beta.observablehq.com/@idris-maps/batons-svg)
