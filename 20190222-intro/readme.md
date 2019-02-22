@@ -71,3 +71,8 @@ git push
 ```
 
 [Graphique en bâtons](https://beta.observablehq.com/@idris-maps/batons-svg)
+
+# Devoirs
+
+Créer un fichier `.md`
+Expliquer les calculs à faire pour créer un graphique en bâtons.
