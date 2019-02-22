@@ -1,0 +1,8 @@
+<svg width="500" height="100">
+  <circle cx="50" cy="50" r="40" fill="steelblue"
+          stroke="indianred" stroke-width="5" opacity="0.5" />
+  <circle cx="150" cy="50" r="40" fill="steelblue"
+          stroke="indianred" stroke-width="5" fill-opacity="0.5"/>
+  <circle cx="250" cy="50" r="40" fill="steelblue" 
+          stroke="indianred" stroke-width="5" stroke-opacity="0.5"/>
+</svg>
