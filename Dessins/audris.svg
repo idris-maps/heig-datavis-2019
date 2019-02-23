@@ -1,0 +1,10 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="500" 
+  height="100">
+  <path d="M 0 90 L 100 0 L 200 90 Z" fill="steelblue" stroke="indianred" stroke-width="5" opacity="0.5" />
+  <circle cx="150" cy="50" r="40" fill="steelblue" stroke="indianred" stroke-width="5" opacity="0.5" />
+  <circle cx="200" cy="50" r="40" fill="steelblue" stroke="indianred" stroke-width="5" opacity="0.5" />
+  
+  
+</svg>
