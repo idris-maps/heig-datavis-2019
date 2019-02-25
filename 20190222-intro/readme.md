@@ -1,4 +1,4 @@
-# Intro
+# 22 Février 2019
 
 ## Pourquoi visualiser des données?
 
@@ -70,9 +70,10 @@ git commit -m "mon dessin"
 git push
 ```
 
-[Graphique en bâtons](https://beta.observablehq.com/@idris-maps/batons-svg)
-
 # Devoirs
 
 Créer un fichier `.md`
+
 Expliquer les calculs à faire pour créer un graphique en bâtons.
+
+[Graphique en bâtons](https://beta.observablehq.com/@idris-maps/batons-svg)
