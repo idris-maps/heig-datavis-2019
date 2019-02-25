@@ -16,6 +16,8 @@
 
 ## Retour [dessins](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190222-intro/dessins)
 
-## Manipulation DOM
+## Introduction à D3
 
-[Cours](https://beta.observablehq.com/@idris-maps/d3-manipulation-dom)
+### [Manipulation DOM](https://beta.observablehq.com/@idris-maps/d3-manipulation-dom)
+
+### [Joindre des données](https://beta.observablehq.com/@idris-maps/d3-joindre-des-donnees-a-des-elements)
