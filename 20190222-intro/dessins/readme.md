@@ -1,11 +1,10 @@
 ## ok
 
 ![](audris.svg)
-![](benninger)
+![](benninger.svg)
 ![](ciampone.svg)
 ![](dessin1.svg)
 ![](hafeli.svg)
-![](joy-oppliger.svg)
 ![](ksenia.svg)
 ![](loicpostec.svg)
 ![](pedro-gracia.svg)
@@ -25,14 +24,17 @@ Probablement Illustrator mais a été nettoyé
 
 ## ne marche pas
 
+Manque l'attribut `xmlns`
+
+![](christophe.svg)
+![](joy-oppliger.svg)
+![](pauline-baeni.svg)
 ![](maloriegenoud.svg)
 ![](mikaela.svg)
 
 ## copié-collé
 
 ![](angel-lando.svg)
-![](christophe.svg)
 ![](mon-dessin.svg)
 ![](provenzano.svg)
-![](pauline-baeni.svg)
 
