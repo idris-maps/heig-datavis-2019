@@ -1,4 +1,3 @@
-<svg width="500" height="100">
+<svg xmlns="http://www.w3.org/2000/svg" height="300">
   <circle cx="80" cy="80" r="3" fill="yellow" />
-  <text x="120" y="80" font-size="50">Salut</text>
 </svg>
