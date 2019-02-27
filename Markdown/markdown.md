@@ -24,9 +24,6 @@ _italic et **bold** <3_
    1. Item 3a
    1. Item 3b
    
-   ![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-
 
 http://github.com - automatic!
 [GitHub](http://github.com)
@@ -43,7 +40,7 @@ I think you should use an
 `<addr>` element here instead.
 
 
-
+## Code javascript
 ```javascript
 function fancyAlert(arg) {
   if(arg) {
@@ -52,7 +49,7 @@ function fancyAlert(arg) {
 }
 ```
 
-
+## Checklist
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
