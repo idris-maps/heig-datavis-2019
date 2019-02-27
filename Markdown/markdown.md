@@ -3,13 +3,13 @@
 ###### Titre h6 <h6> tag
 
 
-*This text will be italic*
-_This will also be italic_
+*Texte en italic*
+_Texte en italic_
 
-**This text will be bold**
-__This will also be bold__
+**Texte en bold**
+__Texte en bold__
 
-_You **can** combine them_
+_italic et **bold** <3_
 
 
 * Item 1
