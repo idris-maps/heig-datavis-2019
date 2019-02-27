@@ -1,5 +1,17 @@
-<svg width="500" height="100">
+<html>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="100">
   <ellipse cx="50" cy="50" rx="30" ry="20" />
   <line x1="100" y1="0" x2="200" y2="100" stroke="red" />
   <text x="200" y="80">Salut</text>
 </svg>
+
+<div style="width : 600px; height : 100px">
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="80" style="border : solid 1px #ddd">
+  <rect x="5" y="7.5" width="1" height="65" />
+<rect x="5" y="72.5" width="400" height="1"/>
+<rect x="10" y="22.5" width="100" height="50" />
+<rect x="120" y="42.5" width="100" height="30" />
+<rect x="230" y="12.5" width="100" height="60" />
+</svg>
+</div>
+</html>
