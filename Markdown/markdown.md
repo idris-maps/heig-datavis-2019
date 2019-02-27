@@ -78,5 +78,17 @@ function fancyAlert(arg) {
       height=${scaleY(fruit.num)}
       />`)
   }
-</svg>`
+</svg>
+
+LARGEUR_BATON = 50
+
+HAUTEUR_GRAPHIQUE = 100
+
+fruits.map((d, i) => ({ ...d, index: i }))
+
+fruits = ([{name: 'Pomme', num: 5}, {name: 'Pêche', num: 3 }, { name: 'Banane', num: 6 }])
+
+scaleY = d3.scaleLinear().domain([0, 6]).range([0, 100])
+
+d3 = require('d3')
 ```
