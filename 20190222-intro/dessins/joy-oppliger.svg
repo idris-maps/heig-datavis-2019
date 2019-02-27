@@ -1,3 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="200">
-  <circle cx="40" cy="40" r="30" fill="purple" />
+<?xml version="1.0" standalone="yes"?>
+<svg version="1.1"
+viewBox="0.0 0.0 360.0 270.0"
+stroke-miterlimit="10"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+<path
+    d="M 120
+       74 L 149
+       74 L 158
+       48 L 167
+       74 L 196
+       74 L 172.5
+       90 L 181.5
+       116 L 158
+       100 L 134.5
+       116 L 143.5
+       90
+       Z"
+    fill="blue"
+    fill-opacity="0.4"
+    stroke="purple"
+    stroke-width="3.0"
+>
+</path>
 </svg>
