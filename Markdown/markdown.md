@@ -25,8 +25,8 @@ _italic et **bold** <3_
    1. Item 3b
    
 
-http://github.com - automatic!
-[GitHub](http://github.com)
+https://observablehq.com/@jaynel/markdown-summary - automatic!
+[MarkDown](https://observablehq.com/@jaynel/markdown-summary)
 
 
 As Kanye West said:
@@ -65,16 +65,4 @@ function fancyAlert(arg) {
 * Définir "scale y" avec la fonction D3 "scale linear" pour entrer la fourchette des valeurs avec "domain" et la fourchette de la hauteur du graphique avec "range".
 * Utiliser la fonction JS "map" pour dessiner le graphique : - Valeur X = Index * Largeur du baton - Valeur Y = Hauteur du graphique - le scale Y de la valeur - Largeur = Largeur du bâton - Hauteur = scale y de la valeur`
 
-svg`<svg
-  width="200"
-  height="100">
-  <rect width="200" height="100" fill="yellow" />
-  ${
-    fruits.map((fruit, index) => svg`<rect
-      x=${index * (LARGEUR_BATON)}
-      y=${ HAUTEUR_GRAPHIQUE -  scaleY(fruit.num)}
-      width=${LARGEUR_BATON}
-      height=${scaleY(fruit.num)}
-      />`)
-  }
-</svg>`
+
