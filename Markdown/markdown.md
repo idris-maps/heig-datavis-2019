@@ -1,6 +1,6 @@
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+# Titre h1 <h1> tag
+## Titre h2 <h2> tag
+###### Titre h6 <h6> tag
 
 
 *This text will be italic*
