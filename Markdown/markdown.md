@@ -64,3 +64,17 @@ function fancyAlert(arg) {
 * Utiliser la librairie JS "D3".
 * Définir "scale y" avec la fonction D3 "scale linear" pour entrer la fourchette des valeurs avec "domain" et la fourchette de la hauteur du graphique avec "range".
 * Utiliser la fonction JS "map" pour dessiner le graphique : - Valeur X = Index * Largeur du baton - Valeur Y = Hauteur du graphique - le scale Y de la valeur - Largeur = Largeur du bâton - Hauteur = scale y de la valeur`
+
+svg`<svg
+  width="200"
+  height="100">
+  <rect width="200" height="100" fill="yellow" />
+  ${
+    fruits.map((fruit, index) => svg`<rect
+      x=${index * (LARGEUR_BATON)}
+      y=${ HAUTEUR_GRAPHIQUE -  scaleY(fruit.num)}
+      width=${LARGEUR_BATON}
+      height=${scaleY(fruit.num)}
+      />`)
+  }
+</svg>`
