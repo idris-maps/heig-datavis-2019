@@ -30,8 +30,8 @@ git checkout -b <NOM_DE_L_EXERCICE>/<NOM_SUR_GITHUB>
 
 ## Retour [dessins](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190222-intro/dessins)
 
-## Introduction à D3
+## SVG dans une page web
 
-### [Manipulation DOM](https://beta.observablehq.com/@idris-maps/d3-manipulation-dom)
-
-### [Joindre des données](https://beta.observablehq.com/@idris-maps/d3-joindre-des-donnees-a-des-elements)
+* [SVG and CSS](http://tutorials.jenkov.com/svg/svg-and-css.html)
+* [Manipulation DOM](https://beta.observablehq.com/@idris-maps/d3-manipulation-dom)
+* [Joindre des données](https://beta.observablehq.com/@idris-maps/d3-joindre-des-donnees-a-des-elements)

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <g id="3l">
+      <line x1="40" y1="20" x2="40" y2="80" stroke-width="2" />
+      <line x1="50" y1="20" x2="50" y2="80" stroke-width="2" />
+      <line x1="60" y1="20" x2="60" y2="80" stroke-width="2" />
+    </g>
+  </defs>
+  <g transform="translate(0, 5)" stroke="steelblue">
+    <use xlink:href="#3l" />
+    <use xlink:href="#3l" transform="rotate(45, 50, 50)" />
+    <use xlink:href="#3l" transform="rotate(-45, 50, 50)" />
+  </g>
+  <use xlink:href="#3l" stroke="black" />
+  <use xlink:href="#3l" stroke="black" transform="rotate(45, 50, 50)"/>
+  <use xlink:href="#3l" stroke="black" transform="rotate(-45, 50, 50)"/>
+</svg>
