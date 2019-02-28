@@ -11,8 +11,3 @@ Il nous est possible de dessiner notre graphique. Pour se faire, nous allons uti
 - Valeur Y = Hauteur du graphique - scaleY de la valeur
 - Largeur = Largeur du bâton
 - Hauteur = scaleY de la valeur
-
-# Sources
-- https://observablehq.com/@idris-maps/batons-svg
-- https://observablehq.com/@gagah98/creer-un-graphique-en-batons-avec-svg
-- https://stackoverflow.com/questions/42973502/understanding-d3-domain-and-ranges
