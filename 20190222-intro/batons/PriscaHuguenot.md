@@ -1,5 +1,6 @@
 # Créer un graphique en bâton
 
+
 * Récolter et définir les données que l'on souhaite représenter
 * Définir la zone de dessin (hauteur et largeur)
 * Définir la taille du rectangle qui contient le graphique
