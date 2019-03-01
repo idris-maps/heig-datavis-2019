@@ -1,8 +1,8 @@
 const data = [
-  { nom: 'Paul', note: 34 },
-  { nom: 'Pauline', note: 98 },
-  { nom: 'Pierre', note: 74 },
-  { nom: 'Pierrette', note: 52 },
+  { nom: 'Gaëtan', note: 34 },
+  { nom: 'Lisa', note: 98 },
+  { nom: 'Gauthier', note: 74 },
+  { nom: 'William', note: 52 },
 ]
 
 console.log({
