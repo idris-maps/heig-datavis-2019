@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <style>
+html, body { margin: 0; padding: 0 }
+
+ #cercle {
+  fill: blue;
+}
+
+    </style>
+  </head>
+  <body>
+    <svg viewBox="0 0 100 50">
+      <circle id="cercle" cx="50" cy="25" r="10" />
+    </svg>
+    <script>
+let circleIsBig = true
+const cercle = document.getElementById('cercle')
+cercle.addEventListener('click', () => {
+  cercle.style.fill = "red";
+})
+
+
+
+    </script>
+  </body>
+</html>
