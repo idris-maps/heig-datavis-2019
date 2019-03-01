@@ -9,4 +9,5 @@ console.log({
   noms: data.map(),
   notes: data.map(),
   notesSur20: data.map(),
+
 })
