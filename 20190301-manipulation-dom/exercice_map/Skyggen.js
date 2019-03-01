@@ -6,7 +6,7 @@ const data = [
 ]
 
 console.log({
-  noms: data.map(),
-  notes: data.map(),
-  notesSur20: data.map(),
+  noms: data.map(nom),
+  notes: data.map(note),
+  notesSur20: data.map(note/20),
 })
