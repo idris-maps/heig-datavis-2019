@@ -1,6 +1,6 @@
 const data = [
-  { nom: 'Paul', note: 34 },
-  { nom: 'Jacques', note: 98 },
+  { nom: 'Paule', note: 34 },
+  { nom: 'Pauline', note: 98 },
   { nom: 'Pierre', note: 74 },
   { nom: 'Pierrette', note: 52 },
 ]
