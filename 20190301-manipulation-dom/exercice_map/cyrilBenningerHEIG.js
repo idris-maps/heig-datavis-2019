@@ -7,6 +7,6 @@ const data = [
 
 console.log({
   noms: data.map(x=>x.noms),
-  notes: data.map(),
-  notesSur20: data.map(),
+  notes: data.map(x=>x.note),
+  notesSur20: data.map(x=>x.note/5),
 })
