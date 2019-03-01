@@ -2,6 +2,11 @@
 
 ## Précisions
 
+### Vidéos SVG
+
+* [Sara Soueidan - Building Better Interfaces With SVG](https://www.youtube.com/watch?v=lMFfTRiipOQ)
+* [SVG can do that?! (Sarah Drasner)](https://www.youtube.com/watch?v=ADXX4fmWHbo)
+
 ### [Observables](https://beta.observablehq.com/)
 
 * Vous pouvez modifier et "forker" toutes les pages
