@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+
+<svg id="graph"></svg>
+  
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script>
+  const DATA = [
+    { nom: 'Paul', note: 34 },
+    { nom: 'Pauline', note: 98 },
+    { nom: 'Pierre', note: 74 },
+    { nom: 'Pierrette', note: 52 },
+  ]
+  const graph = d3.select('#graph')
+
+  graph.attr('width', 500)
+  graph.attr('height', 200)
+
+  graph.selectAll('rect')
+</script>
+  </body>
+</html>
