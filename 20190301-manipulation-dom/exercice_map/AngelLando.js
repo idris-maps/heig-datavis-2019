@@ -1,5 +1,5 @@
 const data = [
-  { nom: 'Paul', note: 34 },
+  { nom: 'Paul', note: 35 },
   { nom: 'Pauline', note: 98 },
   { nom: 'Pierre', note: 74 },
   { nom: 'Pierrette', note: 52 },
