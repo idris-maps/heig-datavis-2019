@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <style>
-html, body { margin: 0; padding: 0 }
-  </style>
-  <body>
-    <svg>
-    </svg>
-    <script>
-    </script>
-  </body>
+<head>
+    <title>SVG</title>
+    <style> circle{ fill : red}
+    rect{ fill : black}
+    </style>
+</head>
+<body>
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="500"
+  height="500">
+
+<line x1="50" y1="50" x2="250" y2="50" stroke="black"
+        stroke-width="10" />
+<line x1="50" y1="50" x2="50" y2="450" stroke="black"
+        stroke-width="10" />
+<line x1="250" y1="50" x2="50" y2="250" stroke="black"
+        stroke-width="10" />
+
+<line x1="250" y1="50" x2="450" y2="250" stroke="black"
+        stroke-width="10" />
+<line x1="450" y1="50" x2="450" y2="450" stroke="black"
+        stroke-width="10" /> 
+<line x1="250" y1="50" x2="450" y2="50" stroke="black"
+        stroke-width="10" /> 
+
+ <line x1="50" y1="250" x2="250" y2="450" stroke="black"
+        stroke-width="10" /> 
+<line x1="450" y1="250" x2="250" y2="450" stroke="black"
+        stroke-width="10" /> 
+
+<circle class="circle" cx="150" cy="200" r="30" />
+<circle class="circle" cx="350" cy="200" r="30" />
+<line x1="150" y1="350" x2="350" y2="350" stroke="black"
+        stroke-width="10" /> 
+        <line x1="200" y1="300" x2="300" y2="300" stroke="black"
+        stroke-width="10" /> 
+        <line x1="50" y1="450" x2="450" y2="450" stroke="black"
+        stroke-width="10" /> 
+</svg>
+<script>
+const circle = document.getElementsByClassName("circle");
+let bigcircle = true;
+circle.addEventListener('click', () => {
+     bigcircle = !bigcircle;
+    circle.setAttribute('r', bigcircle ? 100 : 30);
+})
+</script>
+</body>
 </html>
