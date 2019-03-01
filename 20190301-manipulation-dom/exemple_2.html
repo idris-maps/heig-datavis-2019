@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <style>
+html, body { margin: 0; padding: 0 }
+  </style>
+  <body>
+    <script>
+const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
+svg.setAttribute('viewBox', `0 0 ${window.innerWidth} ${window.innerHeight}`)
+
+const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect')
+rect.setAttribute('width', window.innerWidth)
+rect.setAttribute('height', window.innerHeight)
+rect.setAttribute('fill', 'lightblue')
+svg.appendChild(rect)
+
+document.body.appendChild(svg)
+
+
+    </script>
+  </body>
+</html>
