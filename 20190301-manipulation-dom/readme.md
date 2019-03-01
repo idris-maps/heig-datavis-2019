@@ -17,8 +17,15 @@
 * Créez une branche pour l'exercice
 
 ```bash
+git checkout master
 git pull
 git checkout -b <NOM_DE_L_EXERCICE>/<NOM_SUR_GITHUB>
+```
+
+Au pire si ça ne marche pas, effacez le dossier et
+
+```
+git clone git@github.com:idris-maps/heig-datavis-2019.git
 ```
 
 * Utilisez votre nom sur github pour identifier votre fichier
