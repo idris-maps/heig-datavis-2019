@@ -42,6 +42,13 @@ git clone git@github.com:idris-maps/heig-datavis-2019.git
 
 ## Retour [dessins](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190222-intro/dessins)
 
+## Métodes sur une liste de données
+
+* `.map` pour créer une nouvelle liste
+* `.filter` pour filter une liste
+
+[Exemples](https://observablehq.com/@idris-maps/methodes-sur-une-liste-array)
+
 ## SVG dans une page web
 
 ### SVG et CSS
