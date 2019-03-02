@@ -42,7 +42,7 @@ git clone git@github.com:idris-maps/heig-datavis-2019.git
 
 ## Retour [dessins](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190222-intro/dessins)
 
-## Métodes sur une liste de données
+## Méthodes sur une liste de données
 
 * `.map` pour créer une nouvelle liste
 * `.filter` pour filter une liste
@@ -77,3 +77,5 @@ Terminez les exercices:
 * [Graphique en bâtons en D3](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190301-manipulation-dom/exercice_d3)
 
 Et faites les revues des exercices de vos collègues. (Voir les listes des binômes sous les liens ci-dessus).
+
+Pour voir le résultat -> [clickez ici](http://datavis.heig190301.surge.sh/).
