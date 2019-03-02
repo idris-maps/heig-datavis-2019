@@ -44,6 +44,20 @@ git clone git@github.com:idris-maps/heig-datavis-2019.git
 
 ## SVG dans une page web
 
-* [SVG and CSS](http://tutorials.jenkov.com/svg/svg-and-css.html)
+### SVG et CSS
+
+* [Liste des attributs qui peuvent être définis en CSS](http://tutorials.jenkov.com/svg/svg-and-css.html)
+
+### Interaction avec javascript
+
+Exemples commentés:
+
+* [Événement "click"](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/exemple_1.html)
+* [Taille du SVG en fonction de la taille du navigateur](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/exemple_2.html)
+* [Positionner un élément en fonction de la taille du navigateur](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/exemple_3.html)
+* [Événement "mousemove"](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/exemple_4.html) 
+
+### Introduction à D3
+
 * [Manipulation DOM](https://beta.observablehq.com/@idris-maps/d3-manipulation-dom)
 * [Joindre des données](https://beta.observablehq.com/@idris-maps/d3-joindre-des-donnees-a-des-elements)

@@ -9,10 +9,12 @@ html, body { margin: 0; padding: 0 }
       <circle id="c" fill="purple" r="20" />
     </svg>
     <script>
+// les éléments
 const rect = document.getElementById('background')
 const cercle = document.getElementById('c')
 const svg = document.getElementsByTagName('svg')[0]
 
+// une fonction appellée quand la taille de l'écran change
 const resize = () => {
   const WIDTH = window.innerWidth
   const HEIGHT = window.innerHeight
@@ -24,11 +26,14 @@ const resize = () => {
   rect.setAttribute('height', HEIGHT)
 }
 
+// une fonction appellée lors d'un mouvement de souris
 const mouseMove = e => {
+  // le cercle est placé sous le pointeur de la souris
   cercle.setAttribute('cx', e.clientX)
   cercle.setAttribute('cy', e.clientY)
 }
 
+// appeller les fonctions lors d'événements sur la fenêtre
 window.onmousemove = mouseMove
 window.onload = () => resize()
 window.onresize = () => resize()

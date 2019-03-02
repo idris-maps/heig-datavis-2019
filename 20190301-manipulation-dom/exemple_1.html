@@ -12,12 +12,18 @@ rect:hover { fill: green }
       <circle id="b" cx="100" cy="50" r="40" />
     </svg>
     <script>
+// les éléments
 const rect = document.getElementById('a')
 const circle = document.getElementById('b')
+
+// la valeur de "let" peut être modifiée, contrairement à "const"
 let leCercleEstGrand = true
+
+// quand le rectangle est cliqué...
 rect.addEventListener('click', () => {
+  // la valeur de "leCercleEstGrand" devient l'opposé de sa valeur
   leCercleEstGrand = !leCercleEstGrand
-  console.log({ leCercleEstGrand })
+  // la taille du cercle est modifiée
   circle.setAttribute('r', leCercleEstGrand ? 40 : 10)
 })
     </script>
