@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <style>
+html, body { margin: 0; padding: 0 }
+  </style>
+  <body>
+    <svg>
+      <rect id="background" fill="lightblue" />
+      <circle id="c" fill="purple" />
+    </svg>
+    <script>
+const rect = document.getElementById('background')
+const cercle = document.getElementById('c')
+const svg = document.getElementsByTagName('svg')[0]
+
+const resize = () => {
+  const WIDTH = window.innerWidth
+  const HEIGHT = window.innerHeight
+  svg.setAttribute(
+    'viewBox',
+    `0 0 ${WIDTH} ${HEIGHT}`
+  )
+  rect.setAttribute('width', WIDTH)
+  rect.setAttribute('height', HEIGHT)
+
+  cercle.setAttribute('cx', WIDTH / 2)
+  cercle.setAttribute('cy', HEIGHT / 2)
+  cercle.setAttribute('r', WIDTH / 4)
+}
+
+window.onload = () => resize()
+window.onresize = () => resize()
+
+    </script>
+  </body>
+</html>

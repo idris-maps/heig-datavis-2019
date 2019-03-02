@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+rect { fill: red }
+rect:hover { fill: green }
+    </style>
+  </head>
+  <body>
+    <svg viewBox="0 0 200 100">
+      <rect id="a" x="0" y="0" width="100" height="100" />
+      <circle id="b" cx="100" cy="50" r="40" />
+    </svg>
+    <script>
+const rect = document.getElementById('a')
+const circle = document.getElementById('b')
+let leCercleEstGrand = true
+rect.addEventListener('click', () => {
+  leCercleEstGrand = !leCercleEstGrand
+  console.log({ leCercleEstGrand })
+  circle.setAttribute('r', leCercleEstGrand ? 40 : 10)
+})
+    </script>
+  </body>
+</html>

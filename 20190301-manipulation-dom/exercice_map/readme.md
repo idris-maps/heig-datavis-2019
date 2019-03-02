@@ -33,3 +33,20 @@ Créez trois listes à partir de `data` en utilisant `.map`
   ]
 }
 ```
+
+## Binômes
+
+```
+Alvis-wesh - PriscaHuguenot
+vesti1066 - christopschranz
+phgarcia93 - teoColomberotto
+Aksumiron - evandu65
+cyrilBenningerHEIG - lucienPochon
+elisabiver - Gioianac
+Ilanss - Lowgic
+Gagah98 - AudrisC
+loicpostec - AngelLando
+Skyggen - christopschranz
+alestuzzi - MalorieGenoud
+Keassa - Kaarroch
+```

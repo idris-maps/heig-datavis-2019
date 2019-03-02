@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <style>
+html, body { margin: 0; padding: 0 }
+  </style>
+  <body>
+    <svg>
+      <rect id="background" fill="lightblue" />
+      <circle id="c" fill="purple" r="20" />
+    </svg>
+    <script>
+const rect = document.getElementById('background')
+const cercle = document.getElementById('c')
+const svg = document.getElementsByTagName('svg')[0]
+
+const resize = () => {
+  const WIDTH = window.innerWidth
+  const HEIGHT = window.innerHeight
+  svg.setAttribute(
+    'viewBox',
+    `0 0 ${WIDTH} ${HEIGHT}`
+  )
+  rect.setAttribute('width', WIDTH)
+  rect.setAttribute('height', HEIGHT)
+}
+
+const mouseMove = e => {
+  cercle.setAttribute('cx', e.clientX)
+  cercle.setAttribute('cy', e.clientY)
+}
+
+window.onmousemove = mouseMove
+window.onload = () => resize()
+window.onresize = () => resize()
+
+    </script>
+  </body>
+</html>
