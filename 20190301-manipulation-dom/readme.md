@@ -36,9 +36,9 @@ git clone git@github.com:idris-maps/heig-datavis-2019.git
 * Vérifiez que vous ne poussez que le / les fichiers voulus
 * Créez un "pull request"
 
-![Créer un PR 1](create_pr_1.png)
+![Créer un PR 1](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/img/create_pr_1.png)
 
-![Créer un PR 2](create_pr_2.png)
+![Créer un PR 2](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/img/create_pr_2.png)
 
 ## Retour [dessins](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190222-intro/dessins)
 
