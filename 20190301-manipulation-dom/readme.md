@@ -71,7 +71,7 @@ Exemples commentés:
 
 ## Devoirs pour la prochaine fois
 
-Terminer les exercices:
+Terminez les exercices:
 
 * [SVG dans une page web](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190301-manipulation-dom/exercice_svg_web)
 * [Graphique en bâtons en D3](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190301-manipulation-dom/exercice_d3)
