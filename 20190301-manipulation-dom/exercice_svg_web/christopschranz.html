@@ -4,9 +4,17 @@
 html, body { margin: 0; padding: 0 }
   </style>
   <body>
-    <svg>
-    </svg>
+      <svg width="400" height="110">
+          <rect id="rect" width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+        </svg>
     <script>
+
+      let target = document.getElementById('rect');
+      target.addEventListener('click', () => {
+  target.setAttribute('width', 400)
+
+      
+      })
     </script>
   </body>
 </html>
