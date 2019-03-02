@@ -1,5 +1,5 @@
 module.exports = [
-  'christopschranz',
+  'paulinebaeni',
   'evandu65',
   'cyrilBenningerHEIG',
   'elisabiver',

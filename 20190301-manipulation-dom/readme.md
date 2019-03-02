@@ -59,10 +59,10 @@ git clone git@github.com:idris-maps/heig-datavis-2019.git
 
 Exemples commentés:
 
-* [Événement "click"](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/exemple_1.html)
-* [Taille du SVG en fonction de la taille du navigateur](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/exemple_2.html)
-* [Positionner un élément en fonction de la taille du navigateur](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/exemple_3.html)
-* [Événement "mousemove"](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/exemple_4.html) 
+* [Événement "click"](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/exemples/exemple_1.html)
+* [Taille du SVG en fonction de la taille du navigateur](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/exemples/exemple_2.html)
+* [Positionner un élément en fonction de la taille du navigateur](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/exemples/exemple_3.html)
+* [Événement "mousemove"](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190301-manipulation-dom/exemples/exemple_4.html) 
 
 ### Introduction à D3
 
