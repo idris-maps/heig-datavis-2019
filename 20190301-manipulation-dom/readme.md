@@ -68,3 +68,12 @@ Exemples commentés:
 
 * [Manipulation DOM](https://beta.observablehq.com/@idris-maps/d3-manipulation-dom)
 * [Joindre des données](https://beta.observablehq.com/@idris-maps/d3-joindre-des-donnees-a-des-elements)
+
+## Devoirs pour la prochaine fois
+
+Terminer les exercices:
+
+* [SVG dans une page web](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190301-manipulation-dom/exercice_svg_web)
+* [Graphique en bâtons en D3](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190301-manipulation-dom/exercice_d3)
+
+Et faites les revues des exercices de vos collègues. (Voir les listes des binômes sous les liens ci-dessus).
