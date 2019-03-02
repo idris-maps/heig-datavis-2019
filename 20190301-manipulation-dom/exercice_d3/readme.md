@@ -4,7 +4,7 @@ Créer un graphique en bâtons avec les données dans `DATA`
 
 ```
 christopschranz - lucienPochon
-christopschranz - Ilanss
+paulinebaeni - Ilanss
 elisabiver - vesti1066
 MalorieGenoud - Aksumiron
 Keassa - Alvis-wesh
