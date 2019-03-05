@@ -22,7 +22,10 @@ Même sans carte SIM, un téléphone sous android envoie les antennes les plus p
 
 Les applications peuvent demander d'avoir accès à la géolocalistion.
 
-![Permission géolocalisation](http://i.stack.imgur.com/AiKMH.jpg)
+<img
+  src="http://i.stack.imgur.com/AiKMH.jpg"
+  alt="Permission géolocalisation"
+  style="width:200px"/>
 
 * [Your Apps Know Where You Were Last Night](https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html)
 * [Confessions of a location data exec](https://digiday.com/marketing/confessions-location-data-exec/)
