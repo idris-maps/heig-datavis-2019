@@ -12,7 +12,7 @@ Articles Google
 * [Manage your Location History](https://support.google.com/accounts/answer/3118687?hl=en)
 * [Timeline](https://www.google.com/maps/timeline) si vous avez un compte google
 
-Exemples de géolocalisation avec "Location History" en mode **off**https://observablehq.com/@idris-maps/d3-shape
+Exemples de géolocalisation avec "Location History" en mode **off**
 
 * [Google tracks your movements, like it or not](https://apnews.com/828aefab64d4411bac257a07c1af0ecb)
 * [Spotlight on Google Maps and Android Location Tracking](https://rise.cs.berkeley.edu/blog/the-right-to-not-be-tracked-a-spotlight-on-google-maps-and-android-location-tracking/)
