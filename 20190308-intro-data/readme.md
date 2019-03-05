@@ -23,7 +23,7 @@ Même sans carte SIM, un téléphone sous android envoie les antennes les plus p
 Les applications peuvent demander d'avoir accès à la géolocalistion.
 
 <img
-  src="http://i.stack.imgur.com/AiKMH.jpg"
+  src="https://github.com/idris-maps/heig-datavis-2019/blob/master/20190308-intro-data/img/permission.jpeg"
   alt="Permission géolocalisation"
   style="width:200px"/>
 
