@@ -47,7 +47,7 @@ sources:
 * Les companies télécom comme swisscom
 * Les applications installées sur votre téléphone
 
-![App location permission](permission.jpg)
+![App location permission](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190308-intro-data/img/permission.jpg)
 
 Une visualisation des données de localisation récoltées par une application: [Your Apps Know Where You Were Last Night](https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html).
 
