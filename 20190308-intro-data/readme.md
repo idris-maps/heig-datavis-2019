@@ -6,30 +6,73 @@
 
 ![Popular times](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190308-intro-data/img/popular_times.png)
 
-Articles Google
+#### Où trouvent-ils ces donnés?
 
-* [Popular times, wait times, and visit duration](https://support.google.com/business/answer/6263531?hl=en)
-* [Manage your Location History](https://support.google.com/accounts/answer/3118687?hl=en)
-* [Timeline](https://www.google.com/maps/timeline) si vous avez un compte google
+```
+Google uses aggregated and anonymized data from users who have opted in to Google Location History.
+```
 
-Exemples de géolocalisation avec "Location History" en mode **off**
+source: [Popular times, wait times, and visit duration](https://support.google.com/business/answer/6263531?hl=en)
 
-* [Google tracks your movements, like it or not](https://apnews.com/828aefab64d4411bac257a07c1af0ecb)
+```
+Location History is a Google Account–level setting that saves where you go with every mobile device where:
+
+    You're signed in to your Google Account,
+    You have turned on Location History, and
+    The device has Location Reporting turned on.
+```
+
+source: [Manage your Location History](https://support.google.com/accounts/answer/3118687?hl=en)
+
+Si vous avez un compte google, vous pouvez voir les points enregistrés [ici](https://www.google.com/maps/timeline).
+
+```
+Google’s support page states: “You can turn off Location History at any time. With Location History off, the places you go are no longer stored.”
+
+That isn’t true. Even with Location History paused, some Google apps automatically store time-stamped location data without asking.
+```
+
+source: [Google tracks your movements, like it or not](https://apnews.com/828aefab64d4411bac257a07c1af0ecb)
+
+Avec le système d'exploitation Android, Google a également accès aux antennes auxquelles se connecte votre téléphone.
+
+sources:
+
 * [Spotlight on Google Maps and Android Location Tracking](https://rise.cs.berkeley.edu/blog/the-right-to-not-be-tracked-a-spotlight-on-google-maps-and-android-location-tracking/)
 * [Google collects Android users’ locations even when location services are disabled](https://qz.com/1131515/google-collects-android-users-locations-even-when-location-services-are-disabled/)
 
-Même sans carte SIM, un téléphone sous android envoie les antennes les plus proches aux serveurs Google.https://observablehq.com/@idris-maps/d3-shape
+#### Qui d'autre a accès à la localisation?
 
-Les applications peuvent demander d'avoir accès à la géolocalistion.
+* Apple (pour les téléphones avec iOS)
+* Les companies télécom comme swisscom
+* Les applications installées sur votre téléphone
 
-<img
-  src="https://github.com/idris-maps/heig-datavis-2019/blob/master/20190308-intro-data/img/permission.jpeg"
-  alt="Permission géolocalisation"
-  style="width:200px"/>
+![App location permission](permission.jpg)
 
-* [Your Apps Know Where You Were Last Night](https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html)
+Une visualisation des données de localisation récoltées par une application: [Your Apps Know Where You Were Last Night](https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html).
+
+Ces données de localisation peuvent être achetées et vendues par des régies publicitaire.
+
 * [Confessions of a location data exec](https://digiday.com/marketing/confessions-location-data-exec/)
 * [Liste des régies publicitaire pour les applications android](https://www.appbrain.com/stats/libraries/ad-networks)
+
+#### Données sur les utilisateur recoltées par les sites internet
+
+Pour voir un exemple de requêtes à des régies publicitaires:
+
+* Ouvrez une page de navigateur
+* Ouvrez la console `network` (`ctrl`-`shift`-`k` sur firefox, `ctrl`-`shift`-`i` sur chrome)
+* Allez sur la page de [24 Heures](https://www.24heures.ch/)
+
+Les régies peuvent vous suivre de site en site grâce à l'emprunte (presque) unique de votre ordinateur.
+
+Testez à quel point votre ordinateur est unique [ici](https://panopticlick.eff.org/)
+
+Exemples de visualisation avec des données utilisateur.
+
+* [Relations entre pays sur Facebook](https://stamen.com/work/facebook-mapping-the-worlds-friendships/)
+* [Pornhub insights](https://www.pornhub.com/insights/2018-year-in-review)
+
 
 ### Données ouvertes
 
