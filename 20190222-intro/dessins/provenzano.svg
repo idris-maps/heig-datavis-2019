@@ -1,0 +1,10 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="500"
+  height="300">
+<<<<<<< HEAD:20190222-intro/template.svg
+  <circle cx="250" cy="150" r="50" fill="red" /> 
+=======
+  <circle cx="250" cy="150" r="100" fill="red" /> 
+>>>>>>> 133faff5d7f2c26db715129e8d15915ac28194f0:20190222-intro/dessins/provenzano.svg
+</svg>

@@ -1,0 +1,8 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="500"
+  height="300">
+   <path d="M 20 20 L 180 20" fill="none" stroke="red" />
+  <path d="M 20 20 C 40 50 160 50 180 20" fill="red" stroke="red" />
+  <text x="100" y="80" font-size="50">Hello!</text>
+</svg>

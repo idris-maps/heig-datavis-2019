@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <style>
+html, body { margin: 0; padding: 0 }
+  </style>
+  <body>
+    <svg height="500" width="500">
+    	<rect id="rect1" width="300" height="100" fill="tomato" />
+    	<rect id="rect2" x="0" y="100" width="300" height="100" fill="blue" />
+		<circle id="circle1" cx="150" cy="100" r="40" stroke-width="3" fill="red"/>
+    </svg>
+    <script>
+		const rect1 = document.getElementById('rect1');
+		const rect2 = document.getElementById('rect2');
+		const circle1 = document.getElementById('circle1');
+
+		rect1.onclick = function() {
+			rect1.setAttribute('fill', 'red');
+		};
+		rect2.onclick = function() {
+			rect2.setAttribute('fill', 'pink');
+		};
+		circle1.onclick = function() {
+			circle1.setAttribute('fill', 'orange');
+		};
+
+    </script>
+  </body>
+</html>

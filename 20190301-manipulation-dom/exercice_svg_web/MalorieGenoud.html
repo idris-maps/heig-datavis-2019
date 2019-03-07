@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<style>
+    html, body {
+        margin: 0;
+        padding: 0
+    }
+</style>
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:1;stroke:rgb(0,0,0)" id="myrect"
+              onclick="doRectClick()"/>
+    </svg>
+
+    <script>
+        function doRectClick() {
+            var myrect = document.getElementById('myrect');
+
+            var r = Math.floor(Math.random() * 255);
+            var g = Math.floor(Math.random() * 255);
+            var b = Math.floor(Math.random() * 255);
+
+            myrect.style.fill = 'rgb(' + r + ', ' + g + ' , ' + b + ')';
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <style>
+html, body { margin: 0; padding: 0 }
+  </style>
+  <body>
+    <svg>
+      <rect id="background" fill="lightblue" />
+      <circle id="c" fill="purple" />
+    </svg>
+    <script>
+// les éléments
+const rect = document.getElementById('background')
+const cercle = document.getElementById('c')
+const svg = document.getElementsByTagName('svg')[0]
+
+// une fonction appellée quand la taille de l'écran change
+const resize = () => {
+  const WIDTH = window.innerWidth
+  const HEIGHT = window.innerHeight
+  // le svg prends toute la taille de l'écran
+  svg.setAttribute(
+    'viewBox',
+    `0 0 ${WIDTH} ${HEIGHT}`
+  )
+  // le rectangle aussi
+  rect.setAttribute('width', WIDTH)
+  rect.setAttribute('height', HEIGHT)
+  // le cercle est placé au milieu de la page
+  cercle.setAttribute('cx', WIDTH / 2)
+  cercle.setAttribute('cy', HEIGHT / 2)
+  cercle.setAttribute('r', WIDTH / 4)
+}
+
+// appeller "resize" lors du chargement de la page
+window.onload = () => resize()
+// appeller "resize" quand la page change de taille
+window.onresize = () => resize()
+
+    </script>
+  </body>
+</html>

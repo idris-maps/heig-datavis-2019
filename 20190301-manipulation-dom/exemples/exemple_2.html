@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <style>
+html, body { margin: 0; padding: 0 }
+  </style>
+  <body>
+    <script>
+
+// créer un élément "sv"g"
+const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
+// la largeur et hauteur du "viewBox" correspond à la largeur et hauteur de la page
+svg.setAttribute('viewBox', `0 0 ${window.innerWidth} ${window.innerHeight}`)
+
+// créer un élément "rect"
+const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect')
+// définir la taille et la couleur
+rect.setAttribute('width', window.innerWidth)
+rect.setAttribute('height', window.innerHeight)
+rect.setAttribute('fill', 'lightblue')
+// attacher le "rect" au "svg"
+svg.appendChild(rect)
+
+// attacher le "svg" au corps de la bage (l'élément "body")
+document.body.appendChild(svg)
+
+
+    </script>
+  </body>
+</html>
