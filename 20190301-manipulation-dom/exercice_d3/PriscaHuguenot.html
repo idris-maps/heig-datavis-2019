@@ -15,7 +15,54 @@
     { nom: 'Pierre', note: 74 },
     { nom: 'Pierrette', note: 52 },
   ]
+  
   const graph = d3.select('#graph')
+  
+  
+  /* START */
+  
+  // définir dimensions et marges du graphe
+  const MARGIN = 5
+  const WIDTH = width
+  
+  // définir graph
+  graph = DOM.svg(WIDTH, HEIGHT)
+  
+  // définir marge
+  const HEIGHT = width / 3
+  
+  // svg reprend le graph ?? 
+  const svg = d3.select(graph)
+  
+  // définir les données
+  const DATA = [
+  { nom: 'Paul', note: 34 },
+  { nom: 'Pauline', note: 98 },
+  { nom: 'Pierre', note: 74 },
+  { nom: 'Pierrette', note: 52 },
+  ]
+  
+  // définir les bâtons
+  const BAR_WIDTH = WIDTH / DATA.length
+  
+ // maintenant "d" représente un objet
+ // par exemple: { nom: 'Paul', note: 34 }
+ const heightScale = d3.scaleLinear()
+ .domain([0, d3.max(DATA, d => d.note)])
+ .range([0, HEIGHT])
+
+ svg.selectAll('rect')
+ .data(DATA)
+ .enter()
+ .append('rect')
+ .attr('x', (d, i) => i * BAR_WIDTH)
+ .attr('width', BAR_WIDTH - MARGIN)
+ .attr('y', d => HEIGHT - heightScale(d.note))
+ .attr('height', d => heightScale(d.note))
+
+
+ return graph
+    
 </script>
   </body>
 </html>
