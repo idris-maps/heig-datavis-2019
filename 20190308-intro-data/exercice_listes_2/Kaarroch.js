@@ -7,9 +7,11 @@ const villes = [
   { nom: 'Vevey', population: 19827 },
 ]
 
+const somme = (result, ville) => result + ville.population
+
 module.exports = {
-  populationDesVilles: villes,
-  villesDeMoinsDe30000Habitants: villes,
-  nombreDHabitantsDeNyon: villes,
-  sommeDuNombreDHabitants: villes,
+  populationDesVilles: villes.map(ville => ville.population),
+  villesDeMoinsDe30000Habitants: villes.filter(ville => ville.population < 30000),
+  nombreDHabitantsDeNyon: villes.find(ville => ville.name==="Nyon").population,
+  sommeDuNombreDHabitants: villes.reduce(somme, 0),
 }
