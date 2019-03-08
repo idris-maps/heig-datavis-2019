@@ -6,7 +6,7 @@
   <body>
 
 <svg id="graph"></svg>
-  
+
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script>
 const WIDTH = window.innerWidth * 0.9
@@ -20,7 +20,12 @@ const DATA = [
   { nom: 'Nyon', population: 20533 },
   { nom: 'Vevey', population: 19827 },
 ]
-const BAR_SPACE = WIDTH / DATA.length
+
+const MARGIN_BOTTOM = HEIGHT / 10
+const BAR_HEIGHT = HEIGHT - MARGIN_BOTTOM
+const MARGIN_LEFT = WIDTH / 20
+const GRAPH_WIDTH = WIDTH - MARGIN_LEFT
+const BAR_SPACE = GRAPH_WIDTH / DATA.length
 const BAR_WIDTH = BAR_SPACE - MARGIN
 
 // l'élément <svg>
@@ -28,13 +33,28 @@ const svg = d3.select('#graph')
   .attr('width', WIDTH)
   .attr('height', HEIGHT)
 
+const fond = svg.append('rect')
+  .attr('width', WIDTH)
+  .attr('height', HEIGHT)
+  .attr('fill', 'lightblue')
+
 // un élément <g> pour les bâtons
 const barsGroup = svg.append('g')
+  .attr('transform', `translate(${MARGIN_LEFT}, 0)`)
 
 // l'échelle pour la hauteur
 const heightScale = d3.scaleLinear()
   .domain([0, d3.max(DATA, d => d.population)])
-  .range([0, HEIGHT])
+  .range([BAR_HEIGHT, 0])
+
+const axisY = d3.axisLeft()
+  .scale(heightScale)
+  .ticks(5)
+  .tickFormat(d => `${d / 1000}k`)
+
+const axisGroup = svg.append('g')
+  .attr('transform', `translate(${MARGIN_LEFT - 10})`)
+  .call(axisY)
 
 // les bâtons
 barsGroup.selectAll('rect') // rects qui n'existent pas encore
@@ -43,8 +63,20 @@ barsGroup.selectAll('rect') // rects qui n'existent pas encore
     .append('rect') // créer un bâton
     .attr('x', (d, i) =>  i * BAR_SPACE)
     .attr('width', BAR_WIDTH)
-    .attr('y', d => HEIGHT - heightScale(d.population))
-    .attr('height', d => heightScale(d.population))
+    .attr('y', d => heightScale(d.population))
+    .attr('height', d => BAR_HEIGHT - heightScale(d.population))
+
+const textGroup = svg.append('g')
+  .attr('transform', `translate(${MARGIN_LEFT}, 0)`)
+
+textGroup.selectAll('text')
+  .data(DATA)
+  .enter()
+    .append('text')
+    .attr('x', (d, i) =>  (i * BAR_SPACE) + BAR_WIDTH / 2)
+    .attr('y', HEIGHT - 20)
+    .attr('text-anchor', 'middle')
+    .text(d => d.nom)
 
 </script>
   </body>
