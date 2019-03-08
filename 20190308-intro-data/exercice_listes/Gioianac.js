@@ -7,9 +7,11 @@ const villes = [
   { nom: 'Vevey', population: 19827 },
 ]
 
+
 module.exports = {
-  nomsDesVilles: villes,
-  villesDePlusDe30000Habitants: villes,
+  nomsDesVilles: villes.map(d => d.nom),
+  villesDePlusDe30000Habitants: villes.filter(d => d.population > 30000),
   nombreDHabitantsDYverdon: villes,
   sommeDuNombreDHabitants: villes,
 }
+
