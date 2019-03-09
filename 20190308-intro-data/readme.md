@@ -89,6 +89,7 @@ Exemples de visualisation avec des données utilisateur.
 
 ## Suite D3
 
+* [Code écrit en classe, commenté](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190308-intro-data/axes.html)
 * [Axes](https://observablehq.com/@idris-maps/d3-definir-les-axes)
 * [D3-shape](https://observablehq.com/@idris-maps/d3-shape)
 
