@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <style>
-html, body { margin: 0; padding: 0 }
-  </style>
-  <body>
-    <svg viewBox="0 0 200 200">
-      <circle id="cercle" cx="50" cy="25" r="20" />
-    </svg>
-    <script>
-    </script>
-  </body>
+    <style>
+        html, body { margin: 0; padding: 0 }
+        
+    </style>
+    <body>
+        <svg
+             xmlns="http://www.w3.org/2000/svg"
+             width="2000"
+             height="2000">
+            <rect id ="fond" width="500" height="500" fill="red" />
+            <polygon id = "trianglebas" points="50,450 50,350 150,450" fill="white" />
+            <polygon id = "trianglehaut" points="450,50 450,150 350,50" fill="white" />
+            <polygon id = "ligne" points="50,100 100,50 450,400 400, 450" fill="white" />
+        </svg> 
+        <script>
+            const cercle = document.getElementById('cercle')
+            cercle.addEventListener('click', () => {
+                cercle.style.fill = "blue";
+            })
+        </script>
+    </body>
 </html>
