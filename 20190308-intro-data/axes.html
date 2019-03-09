@@ -9,9 +9,13 @@
 
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script>
+// largeur du svg, 90% de la largeur de la page
 const WIDTH = window.innerWidth * 0.9
+// hauteur du svg, un tiers de sa largeur
 const HEIGHT = WIDTH / 3
+// marge entre les bâtons
 const MARGIN = 5
+// les données
 const DATA = [
   { nom: 'Lausanne', population: 138905 },
   { nom: 'Yverdon-les-Bains', population: 30143 },
@@ -20,12 +24,17 @@ const DATA = [
   { nom: 'Nyon', population: 20533 },
   { nom: 'Vevey', population: 19827 },
 ]
-
+// marge en bas, 1/10 de la hauteur du svg
 const MARGIN_BOTTOM = HEIGHT / 10
+// hauteur maximale des bâtons
 const BAR_HEIGHT = HEIGHT - MARGIN_BOTTOM
+// marge à gauche
 const MARGIN_LEFT = WIDTH / 20
+// largeur du svg dévolue aux bâtons
 const GRAPH_WIDTH = WIDTH - MARGIN_LEFT
+// espace dévolu à chaque bâton
 const BAR_SPACE = GRAPH_WIDTH / DATA.length
+// largeur des bâtons
 const BAR_WIDTH = BAR_SPACE - MARGIN
 
 // l'élément <svg>
@@ -33,23 +42,30 @@ const svg = d3.select('#graph')
   .attr('width', WIDTH)
   .attr('height', HEIGHT)
 
+// un rectangle bleu pour voir l'étendue du svg sur la page
 const fond = svg.append('rect')
   .attr('width', WIDTH)
   .attr('height', HEIGHT)
   .attr('fill', 'lightblue')
 
-// un élément <g> pour les bâtons
+// un élément <g> pour pouvoir bouger tous les bâtons en même temps
 const barsGroup = svg.append('g')
   .attr('transform', `translate(${MARGIN_LEFT}, 0)`)
 
-// l'échelle pour la hauteur
-const heightScale = d3.scaleLinear()
+// l'échelle pour la position sur l'axe Y des bâtons
+const yScale = d3.scaleLinear()
+  // les valeurs en entrée vont de 0 au maximum de population (138905)
   .domain([0, d3.max(DATA, d => d.population)])
+  // les valeurs en sortie vont de la 
   .range([BAR_HEIGHT, 0])
 
+// la légende de l'axe Y
 const axisY = d3.axisLeft()
-  .scale(heightScale)
+  // utilisons l'échelle plus haut
+  .scale(yScale)
+  // le nombre de "ticks"
   .ticks(5)
+  // le format du texte pour chaque "tick"
   .tickFormat(d => `${d / 1000}k`)
 
 const axisGroup = svg.append('g')
@@ -60,19 +76,21 @@ const axisGroup = svg.append('g')
 barsGroup.selectAll('rect') // rects qui n'existent pas encore
   .data(DATA) // joindre les données
   .enter() // quand une donnée entre
-    .append('rect') // créer un bâton
+    .append('rect') // créer un élément <rect>
     .attr('x', (d, i) =>  i * BAR_SPACE)
     .attr('width', BAR_WIDTH)
-    .attr('y', d => heightScale(d.population))
-    .attr('height', d => BAR_HEIGHT - heightScale(d.population))
+    .attr('y', d => yScale(d.population))
+    .attr('height', d => BAR_HEIGHT - yScale(d.population))
 
+// un groupe pour les légendes sur l'axe X (noms des villes)
 const textGroup = svg.append('g')
   .attr('transform', `translate(${MARGIN_LEFT}, 0)`)
 
-textGroup.selectAll('text')
-  .data(DATA)
-  .enter()
-    .append('text')
+// les textes
+textGroup.selectAll('text') // textes qui n'existent pas encore
+  .data(DATA) // joindre les données
+  .enter() // quand une donnée entre
+    .append('text') // créer un élément <text>
     .attr('x', (d, i) =>  (i * BAR_SPACE) + BAR_WIDTH / 2)
     .attr('y', HEIGHT - 20)
     .attr('text-anchor', 'middle')
