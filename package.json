@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/idris-maps/heig-datavis-2019/issues"
   },
-  "homepage": "https://github.com/idris-maps/heig-datavis-2019#readme"
+  "homepage": "https://github.com/idris-maps/heig-datavis-2019#readme",
+  "dependencies": {
+    "d3": "^5.9.1",
+    "node-fetch": "^2.3.0",
+    "ramda": "^0.26.1"
+  }
 }

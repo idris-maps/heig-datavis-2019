@@ -8,8 +8,24 @@ const villes = [
 ]
 
 module.exports = {
-  nomsDesVilles: villes,
-  villesDePlusDe30000Habitants: villes,
-  nombreDHabitantsDYverdon: villes,
-  sommeDuNombreDHabitants: villes,
+	// Afficher le nom des villes
+	nomsDesVilles: villes.map(d => d.nom),
+	
+	// Afficher le nom des villes et la population de plus de 30'000 habitants
+	villesDePlusDe30000Habitants: villes.filter(d => d.population > 30000),
+	
+	// Afficher le nombre d'habitants à Yverdon
+	nombreDHabitantsDYverdon: villes.find(d => d.nom === 'Yverdon').population,
+	
+	// Afficher la somme du nombre d'habitants
+	sommeDuNombreDHabitants: villes.reduce((res, som) => res + som.population, 0),
 }
+
+
+
+
+
+
+
+
+

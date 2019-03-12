@@ -1,0 +1,3 @@
+# Exercice données
+
+Trouvez un jeu de données de votre choix. Expliquez ce que vous souhaitez en faire: l'histoire que vous voulez raconter, le public cible, les types de graphiques...
