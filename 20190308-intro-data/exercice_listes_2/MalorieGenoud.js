@@ -8,8 +8,8 @@ const villes = [
 ]
 
 module.exports = {
-  populationDesVilles: villes,
-  villesDeMoinsDe30000Habitants: villes,
-  nombreDHabitantsDeNyon: villes,
-  sommeDuNombreDHabitants: villes,
+  populationDesVilles: villes.map(pop => pop.population),
+  villesDeMoinsDe30000Habitants: villes.filter(pop => pop.population < 30000),
+  nombreDHabitantsDeNyon: villes.find(pop => pop.nom === 'Nyon').population,
+  sommeDuNombreDHabitants: villes.reduce((res, som) => res + som.population, 0),
 }
