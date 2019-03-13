@@ -14,5 +14,6 @@ module.exports = {
   populationDesVilles: villes.map(d=> d.population),
   villesDeMoinsDe30000Habitants: villes.filter(d =>d.population < 30000),
   nombreDHabitantsDeNyon: villes.find(d => d.nom === 'Nyon').population,
-  sommeDuNombreDHabitants: villes.reduce(somme,0),
+  sommeDuNombreDHabitants: villes.reduce((somme, p) => somme + p.population, 0),
 }
+console.log(module.exports); 
