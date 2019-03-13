@@ -16,7 +16,7 @@ Vérifiez si vous avez node installé:
 node --version
 ```
 
-[Exemple de serveur]() en node.
+[Exemple de serveur](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190315-node/server.js) en node.
 
 Démarrez-le en allant dans ce dossier et:
 
@@ -75,6 +75,8 @@ npm install d3 --save
 ```
 
 `--save` va sauver le nom du module et sa version dans `package.json`
+
+Trouvez des modules sur [NPM](https://www.npmjs.com/)
 
 ### Lire et transformer un CSV avec node
 
