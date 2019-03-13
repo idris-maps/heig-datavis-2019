@@ -4,6 +4,12 @@ Données: [Demandes d'asiles à l'étranger par des citoyens suisses](https://ra
 
 Créez un nouveau "repo" github. Une fois votre projet terminé, ajoutez le lien dans la liste ci-dessous.
 
+Pour commencer rapidement, vous pouvez forker [https://github.com/idris-maps/heig-datavis-exercice-20190315](https://github.com/idris-maps/heig-datavis-exercice-20190315) et télécharger les dépendances avec:
+
+```
+npm install
+```
+
 ## But de l'exercie
 
 ### Transformation des données
