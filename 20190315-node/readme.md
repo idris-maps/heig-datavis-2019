@@ -1,5 +1,20 @@
 # 15 Mars 2019
 
+## Rappels
+
+* Les [fonctions D3](https://observablehq.com/@idris-maps/fonctions-d3) utilisées jusqu'ici.
+* Les [méthodes sur une liste](https://observablehq.com/@idris-maps/methodes-sur-une-liste-array)
+
+## Autres sources de données
+
+* [Union européenne](https://data.europa.eu/euodp/en/data/dataset?vocab_theme=http%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Fdata-theme%2FREGI&sort=views_total+desc)
+* [Ventes d'armes](https://www.sipri.org/databases)
+* [Google public data](https://www.google.com/publicdata/directory)
+* [DBpedia](https://wiki.dbpedia.org/downloads-2016-10)
+* [Yelp datasets](https://www.yelp.com/dataset)
+* [Humanitaire](https://data.humdata.org/)
+* [Énergies BP](https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html)
+
 ## Node.js
 
 D'après wikipedia:
@@ -109,6 +124,7 @@ npm install node-fetch d3 ramda --save
 * Compter le nombre d'apparitions de chaque artiste
 * Ordonner la liste d'artistes par nombre d'apparitions
 * Sauver les données obtenues dans un fichier JSON
+* Générer un fichier SVG avec un graphique en bâtons pour les 10 artistes avec le plus d'apparition
 
 ### Utiliser node pour générer un script pour une page HTML
 
@@ -122,7 +138,7 @@ npm install webpack webpack-cli --save-dev
 
 Un fichier de configuration:
 
-```
+```js
 const path = require('path')
 
 module.exports = {
@@ -135,3 +151,20 @@ module.exports = {
 ```
 
 Créer les dossiers `src` et `dist`. Ajouter un fichier HTML dans `dist/index.html` et le fichier principal du script `src/index.js`.
+
+Dans `package.json`, ajouter les scriptes `build` (pour créer le `bundle.js` final) et `watch` (à utiliser en cours de dévéloppement):
+
+```js
+{
+  // ...
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode=production",
+    "watch": "webpack --config webpack.config.js --watch --mode=development"
+  },
+}
+```
+
+À faire:
+
+* Télécharger `d3`
+* Créer le même graphique en bâtons que dans l'exercice précédent. Quand un bâton est clické: montrer les chansons de l'artiste avec l'année et le rang.
