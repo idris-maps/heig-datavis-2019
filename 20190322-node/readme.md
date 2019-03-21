@@ -71,9 +71,9 @@ talk.sayHello('Bernard')
 ou 
 
 ```js
-const { sayHello } = require('./talk')
+const { sayBye } = require('./talk')
 
-sayHello('Bernadette')
+sayBye('Bernadette')
 ```
 
 ### Utiliser des modules créés par d'autres
@@ -116,8 +116,8 @@ npm install node-fetch d3 ramda --save
 
 À faire:
 
-* Télécharger le fichier
-* Transformer le [CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) en [JSON](https://fr.wikipedia.org/wiki/JavaScript_Object_Notation)
+* Télécharger le fichier avec `fetch`
+* Transformer le [CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) en [JSON](https://fr.wikipedia.org/wiki/JavaScript_Object_Notation) avec `d3.parseCsv`
 * Nettoyer les noms d'artistes
   - Enlever les espaces en trop
   - Enlever les "featuring ..." pour ne garder que l'artiste principal
@@ -169,3 +169,8 @@ Dans `package.json`, ajouter les scriptes `build` (pour créer le `bundle.js` fi
 
 * Télécharger `d3`
 * Créer le même graphique en bâtons que dans l'exercice précédent. Quand un bâton est clické: montrer les chansons de l'artiste avec l'année et le rang.
+
+## D3
+
+* Représenter un [réseau](https://observablehq.com/@idris-maps/representer-un-reseau-avec-d3)
+* Un nuage de points // TODO `cantons.csv`
