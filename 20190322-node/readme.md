@@ -174,3 +174,8 @@ Dans `package.json`, ajouter les scriptes `build` (pour créer le `bundle.js` fi
 
 * Représenter un [réseau](https://observablehq.com/@idris-maps/representer-un-reseau-avec-d3)
 * Un nuage de points [données par canton](https://raw.githubusercontent.com/idris-maps/heig-datavis-2019/master/20190322-node/cantons.csv)
+
+## Devoir
+
+1. Terminer [exercice node](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190322-node/exercice_node)
+2. Regarder la [vidéo](https://www.youtube.com/watch?v=jbkSRLYSojo) 
