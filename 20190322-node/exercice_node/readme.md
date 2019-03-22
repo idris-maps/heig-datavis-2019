@@ -1,6 +1,6 @@
 # Exercice node
 
-Données: [Demandes d'asiles à l'étranger par des citoyens suisses](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190322-node/exercice_node/ch_asylum_demands.csv) d'après [UNHCR](https://www.unhcr.org/). [Source](https://data.humdata.org/dataset/unhcr-asylum-seekers-originating-che)
+Données: [Demandes d'asiles à l'étranger par des citoyens suisses](https://raw.githubusercontent.com/idris-maps/heig-datavis-2019/master/20190322-node/exercice_node/ch_asylum_demands.csv) d'après [UNHCR](https://www.unhcr.org/). [Source](https://data.humdata.org/dataset/unhcr-asylum-seekers-originating-che)
 
 Créez un nouveau "repo" github. Une fois votre projet terminé, ajoutez le lien dans la liste ci-dessous.
 
