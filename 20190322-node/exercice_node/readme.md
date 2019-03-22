@@ -35,7 +35,7 @@ ajoute un fichier `asylum.json` contenant une liste sous cette forme:
   //...
 ```
 
-* Utilisez `node-fetch` pour télécharger le fichier disponible [ici](https://raw.githubusercontent.com/idris-maps/heig-datavis-2019/master/20190315-node/exercie_node/ch_asylum_demands.csv)
+* Utilisez `node-fetch` pour télécharger le fichier disponible [ici](https://raw.githubusercontent.com/idris-maps/heig-datavis-2019/master/20190322-node/exercice_node/ch_asylum_demands.csv)
 * Utilsez `d3.parseCsv` pour transformer en JSON
 * Enlevez les lignes où `affected` est inconnu (`*`)
 * Dans chaque objet `affected` et `year` doivent être numériques (`1999`, pas `"1999"`)
