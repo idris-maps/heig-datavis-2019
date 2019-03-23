@@ -125,7 +125,8 @@ npm install node-fetch d3 ramda --save
 * Compter le nombre d'apparitions de chaque artiste
 * Ordonner la liste d'artistes par nombre d'apparitions
 * Sauver les données obtenues dans un fichier JSON
-* Générer un fichier SVG avec un graphique en bâtons pour les 10 artistes avec le plus d'apparition
+
+[Code commenté](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/run.js)
 
 ### Utiliser node pour générer un script pour une page HTML
 
