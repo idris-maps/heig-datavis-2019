@@ -80,6 +80,8 @@ ajoute un fichier `graph.svg`.
 
 Utilisez `asylumByCountry.json` ou une autre transformation de `asylum.json`, pour créer un graphique de votre choix.
 
+Vous pouvez voir un exemple de code pour créer un SVG avec node [ici](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/drawGraph.js)
+
 ## Liens
 
 Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la liste ci-dessous. Pour cela, créez un "Pull request" sur ce "repo" avec le nom `exercice-node/<VOTRE_NOM_SUR_GITHUB>`.
