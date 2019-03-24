@@ -128,6 +128,26 @@ npm install node-fetch d3 ramda --save
 
 [Code commenté](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/run.js)
 
+#### Créer un fichier SVG avec node
+
+Pour écrire un fichier SVG nous utilisons les [Littéraux de gabarits](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Litt%C3%A9raux_gabarits) pour créer des chaînes de charactère.
+
+Par exemple:
+
+```javascript
+const writeText = txt => `<text>${txt}</text>`
+
+writeText('Salut') // retourne <text>Salut</text>
+```
+
+Avec notre liste des 10 artistes avec le apparitions que nous avons créé plus haut, nous pouvons créer ce graphique:
+
+<div width="300">
+  <object data="https://raw.githubusercontent.com/idris-maps/exemple-transformation-de-donnees-avec-node/master/graph.svg" type="image/svg+xml"></object>
+</div>
+
+Voir le code commenté [ici](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/drawGraph.js)
+
 ### Utiliser node pour générer un script pour une page HTML
 
 #### Installer webpack
