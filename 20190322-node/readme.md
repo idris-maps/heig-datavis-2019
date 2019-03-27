@@ -140,7 +140,7 @@ const writeText = txt => `<text>${txt}</text>`
 writeText('Salut') // retourne <text>Salut</text>
 ```
 
-Avec notre liste des 10 artistes avec le apparitions que nous avons créé plus haut, nous pouvons créer ce graphique:
+Avec notre liste des 10 artistes avec le plus d'apparitions que nous avons créé plus haut, nous pouvons créer ce graphique:
 
 ![graph](https://raw.githubusercontent.com/idris-maps/exemple-transformation-de-donnees-avec-node/master/graph.svg?sanitize=true)
 
