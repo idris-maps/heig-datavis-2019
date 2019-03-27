@@ -100,6 +100,12 @@ Finissez les devoirs des semaines précédantes. 10% de votre note finale en dé
 
 Les fonctions utilisées en cours sont expliquées [ici](https://observablehq.com/@idris-maps/methodes-ramda). La documentation officielle, [ici](https://ramdajs.com/docs/).
 
+### Convertir un CSV en JSON
+
+* voir le [code commenté](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/run.js) pour télécharger et transformer un csv
+* [exemple commenté](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/drawGraph.js) de création de fichier svg avec node
+* correction de [l'exercice de la semaine dernière](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190322-node/exercice_node)
+
 ### Utiliser webpack pour créer un script pour une page HTML
 
 Pour avoir la mise en place, vous pouvez cloner [ce repo](https://github.com/idris-maps/webpack-d3)
@@ -120,7 +126,7 @@ But: télécharger les drapeaux de tous les cantons pour le nuage de point plus 
 
 Créez une liste de produits à partir de [cette page](https://www.webscraper.io/test-sites/e-commerce/allinone/computers/laptops).
 
-[Instructions]()
+[Instructions](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling/exercice_scraping)
 
 ## Rossling
 
