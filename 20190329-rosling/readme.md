@@ -100,6 +100,113 @@ Finissez les devoirs des semaines précédantes. 10% de votre note finale en dé
 
 Les fonctions utilisées en cours sont expliquées [ici](https://observablehq.com/@idris-maps/methodes-ramda). La documentation officielle, [ici](https://ramdajs.com/docs/).
 
+#### Programmation fonctionnelle
+
+```
+La programmation fonctionnelle est un paradigme de programmation de type déclaratif 
+```
+
+##### déclaratif
+
+*impératif*:
+
+```javascript
+let list = [1, 4, 2]
+for(let i = 0; i < list.length; i++) {
+  list[i] = list[i] + 1
+}
+console.log(list) // [2, 5, 3]
+```
+
+*déclaratif*:
+
+```javascript
+const list = [1, 4, 2]
+const addOne = n => n + 1
+console.log(list.map(addOne)) // [2, 5, 3]
+```
+
+#### pas de mutation
+
+*mutation*
+
+```javascript
+let count = 0
+const increaseCount = () => {
+  count = count + 1
+}
+increaseCount()
+console.log(count) // 1
+increaseCount()
+console.log(count) // 2
+```
+
+*pas de mutation*
+
+```javascript
+const count = 0
+const increaseCount = count => count + 1
+increase(count)
+console.log(count) // 0
+const increased = increaseCount(count)
+console.log(increased) // 1
+console.log(count) // 0
+```
+
+#### pure
+
+Une fonction est pure si elle retourne toujours la même chose quand on lui donne un argument.
+
+*impure*
+
+```javascript
+const a = 2
+const addA = b => a + b
+console.log(addA(3))
+```
+
+Si `a` change (`a = 8`), `addA(3)` retourne `11`.
+
+*pure*
+
+```javascript
+const add = (a, b) => a + b
+console.log(add(2, 3))
+```
+
+Ici si nous donnons les arguments `2` et `3` `add`, retourne toujours `5`.
+
+#### curry
+
+```javascript
+const add = a => b => a + b
+console.log(add(2)(3)) // 5
+const addTwo = add(2)
+console.log(addTwo(3)) // 5
+console.log([1, 4, 2].map(addTwo)) // [3, 6, 4]
+console.log([1, 4, 2].map(add(5))) // [6, 9, 7]
+```
+
+#### réutiliser et composer les fonctions
+
+```
+const add = a => b => a + b
+const substract = a => b => b - a
+
+const addTwo = add(2)
+const substractOne = substract(1)
+const addThree = add(3)
+
+[1, 4, 2]
+  .map(addTwo) // [3, 6, 4]
+  .map(substractOne) // [2, 5, 3]
+  .map(addThree) // [5, 8, 6]
+```
+
+[Wikipedia](https://fr.wikipedia.org/wiki/Programmation_fonctionnelle)
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/e-5obm1G_FY"></iframe>
+
 ### Convertir un CSV en JSON
 
 * voir le [code commenté](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/run.js) pour télécharger et transformer un csv
