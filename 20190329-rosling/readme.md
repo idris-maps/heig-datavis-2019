@@ -118,7 +118,7 @@ npm install
 
 Exemple de code: [nuage de points](https://github.com/idris-maps/exemple-nuage-de-points)
 
-## Scraping avec `cheerio`
+## Scraping avec [`cheerio`](https://github.com/cheeriojs/cheerio)
 
 But: télécharger les drapeaux de tous les cantons pour le nuage de point plus haut.
 
@@ -128,6 +128,6 @@ Créez une liste de produits à partir de [cette page](https://www.webscraper.io
 
 [Instructions](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling/exercice_scraping)
 
-## Rossling
+## Rosling
 
 But: créer un graphique comme décris dans la [vidéo de Hans Rosling](https://www.youtube.com/watch?v=jbkSRLYSojo)
