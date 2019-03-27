@@ -64,7 +64,7 @@ le résultat est
 [ [Function], [Function], [Function] ]
 ```
 
-Nous avons une liste avec trois fonctions.
+Nous avons une liste avec trois fonctions qui n'ont pas été executées.
 
 ### Différentes manières de définir une fonction
 
@@ -87,3 +87,41 @@ const add = function(a, b) {
 ```
 
 Une fonction avec `=>` est retournée automatiquement. Si vous l'écrivez avec `function` vous devez aussi lui dire ce qu'il faut retourner avec `return`
+
+## Rappels
+
+### Interrogation écrite la semaine prochaine
+
+Révisez les [méthodes sur une liste](https://observablehq.com/@idris-maps/methodes-sur-une-liste-array) et les [fonctions d3](https://observablehq.com/@idris-maps/fonctions-d3) que nous avons vues jusqu'ici. Ainsi que les notes des cours précédants.
+
+Finissez les devoirs des semaines précédantes. 10% de votre note finale en dépend.
+
+### Ramda
+
+Les fonctions utilisées en cours sont expliquées [ici](https://observablehq.com/@idris-maps/methodes-ramda). La documentation officielle, [ici](https://ramdajs.com/docs/).
+
+### Utiliser webpack pour créer un script pour une page HTML
+
+Pour avoir la mise en place, vous pouvez cloner [ce repo](https://github.com/idris-maps/webpack-d3)
+
+```bash
+git clone https://github.com/idris-maps/webpack-d3
+cd webpack-d3
+npm install
+```
+
+Exemple de code: [nuage de points](https://github.com/idris-maps/exemple-nuage-de-points)
+
+## Scraping avec `cheerio`
+
+But: télécharger les drapeaux de tous les cantons pour le nuage de point plus haut.
+
+### Exercice
+
+Créez une liste de produits à partir de [cette page](https://www.webscraper.io/test-sites/e-commerce/allinone/computers/laptops).
+
+[Instructions]()
+
+## Rossling
+
+But: créer un graphique comme décris dans la [vidéo de Hans Rosling](https://www.youtube.com/watch?v=jbkSRLYSojo)
