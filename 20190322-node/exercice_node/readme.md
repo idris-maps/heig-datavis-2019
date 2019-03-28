@@ -90,7 +90,7 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [Alvis-wesh]()
 * [AngelLando]()
 * [AudrisC](https://github.com/AudrisC/heig-datavis-exercice-20190315)
-* [Gagah98]()
+* [Gagah98](https://github.com/Gagah98/heig-datavis-exercice-20190315)
 * [Gioianac](https://github.com/Gioianac/heig-datavis-exercice-20190315)
 * [Ilanss]()
 * [Kaarroch]()
