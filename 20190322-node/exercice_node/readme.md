@@ -78,7 +78,7 @@ node drawGraph
 
 ajoute un fichier `graph.svg`.
 
-Utilisez `asylumByCountry.json` ou une autre transformation de `asylum.json`, pour créer un graphique de votre choix.
+Utilisez `asylumByCountry.json` ou une autre transformation de `asylum.json` pour créer un graphique de votre choix.
 
 Vous pouvez voir un exemple de code pour créer un SVG avec node [ici](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/drawGraph.js)
 
@@ -91,7 +91,7 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [AngelLando]()
 * [AudrisC](https://github.com/AudrisC/heig-datavis-exercice-20190315)
 * [Gagah98]()
-* [Gioianac]()
+* [Gioianac](https://github.com/Gioianac/heig-datavis-exercice-20190315)
 * [Ilanss]()
 * [Kaarroch]()
 * [Keassa]()
