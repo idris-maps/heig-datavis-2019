@@ -75,6 +75,12 @@ const add = (a, b) => a + b
 ```
 
 ```javascript
+const add = (a, b) => {
+  return a + b
+}
+```
+
+```javascript
 function add(a, b) {
   return a + b
 }
@@ -86,7 +92,80 @@ const add = function(a, b) {
 }
 ```
 
-Une fonction avec `=>` est retournée automatiquement. Si vous l'écrivez avec `function` vous devez aussi lui dire ce qu'il faut retourner avec `return`
+Sans `{}`, une fonction avec `=>` est retournée automatiquement. Sinon vous devez aussi lui dire ce qu'il faut retourner avec `return`.
+
+Pour retourner un objet automatiquement, il faut ajouter une parenthèse:
+
+```javascript
+const person = (name, age) => ({ name, age })
+```
+
+Sans les parenthèses la fonction n'est n'en est pas une et vous allez avoir une erreur:
+
+```javascript
+const person = (name, age) => { name, age } // Erreur !!!
+```
+
+Pour les autres variantes, un objet est retourné de cette manière:
+
+```javascript
+const person = function(name, age) {
+  return { name, age }
+}
+```
+
+Nous n'avons pas besoin de parenthèses.
+
+### Déstructurer et copier un objet
+
+#### Déstructurer
+
+```javascript
+const obj = { name: 'Bernadette', age: 26 }
+const { name, age } = obj
+console.log(name) // 'Bernadette'
+console.log(age) // 26
+```
+
+La même chose sans déstructurer:
+
+```javascript
+const obj = { name: 'Bernadette', age: 26 }
+const name = obj.name
+const age = obj.name
+console.log(name) // 'Bernadette'
+console.log(age) // 26
+```
+
+Explications sur [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring)
+
+Peut également être utilisé quand un objet est passé comme argument à une fonction:
+
+```javascript
+const getName = ({ name }) => name
+```
+
+est une autre manière de dire:
+
+```javascript
+const getName = person => person.name
+```
+
+#### Copier
+
+```javascript
+const obj1 = { name: 'Bernadette', age: 26 }
+
+const obj2 = { ...obj1 }
+console.log(obj2) // { name: 'Bernadette', age: 26 }
+
+const obj3 = { ...obj1, city: 'Yverdon' }
+console.log(obj3) // { name: 'Bernadette', age: 26, city: 'Yverdon' }
+
+const { name, ...rest } = obj3
+console.log(name) // 'Bernadette'
+console.log(rest) // { age: 26, city: 'Yverdon' }
+```
 
 ## Rappels
 
@@ -102,9 +181,7 @@ Les fonctions utilisées en cours sont expliquées [ici](https://observablehq.co
 
 #### Programmation fonctionnelle
 
-```
-La programmation fonctionnelle est un paradigme de programmation de type déclaratif 
-```
+*La programmation fonctionnelle est un paradigme de programmation de type déclaratif* - [Wikipedia](https://fr.wikipedia.org/wiki/Programmation_fonctionnelle)
 
 ##### déclaratif
 
@@ -155,7 +232,7 @@ console.log(count) // 0
 
 #### pure
 
-Une fonction est pure si elle retourne toujours la même chose quand on lui donne un argument.
+Une fonction est pure si elle retourne toujours la même chose avec les mêmes arguments.
 
 *impure*
 
@@ -187,7 +264,7 @@ console.log([1, 4, 2].map(addTwo)) // [3, 6, 4]
 console.log([1, 4, 2].map(add(5))) // [6, 9, 7]
 ```
 
-#### réutiliser et composer les fonctions
+#### créer des petites fonctions afin de réutilisation et composition
 
 ```
 const add = a => b => a + b
@@ -203,9 +280,7 @@ const addThree = add(3)
   .map(addThree) // [5, 8, 6]
 ```
 
-[Wikipedia](https://fr.wikipedia.org/wiki/Programmation_fonctionnelle)
-
-<iframe width="420" height="345" src="https://www.youtube.com/embed/e-5obm1G_FY"></iframe>
+[![Learning Functional Programming with JavaScript](https://img.youtube.com/vi/e-5obm1G_FY/0.jpg)](https://www.youtube.com/watch?v=e-5obm1G_FY)
 
 ### Convertir un CSV en JSON
 
@@ -215,7 +290,7 @@ const addThree = add(3)
 
 ### Utiliser webpack pour créer un script pour une page HTML
 
-Pour avoir la mise en place, vous pouvez cloner [ce repo](https://github.com/idris-maps/webpack-d3)
+Pour avoir la mise en place d'une application `d3` avec `webpack`, vous pouvez cloner [ce repo](https://github.com/idris-maps/webpack-d3)
 
 ```bash
 git clone https://github.com/idris-maps/webpack-d3
@@ -227,7 +302,7 @@ Exemple de code: [nuage de points](https://github.com/idris-maps/exemple-nuage-d
 
 ## Scraping avec [`cheerio`](https://github.com/cheeriojs/cheerio)
 
-But: télécharger les drapeaux de tous les cantons pour le nuage de point plus haut.
+But: télécharger les drapeaux de tous les cantons pour le nuage de points plus haut.
 
 ### Exercice
 
@@ -238,3 +313,5 @@ Créez une liste de produits à partir de [cette page](https://www.webscraper.io
 ## Rosling
 
 But: créer un graphique comme décris dans la [vidéo de Hans Rosling](https://www.youtube.com/watch?v=jbkSRLYSojo)
+
+[![Learning Functional Programming with JavaScript](https://img.youtube.com/vi/jbkSRLYSojo/0.jpg)](https://www.youtube.com/watch?v=jbkSRLYSojo)
