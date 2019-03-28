@@ -109,4 +109,4 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [paulinebaeni]()
 * [phgarcia93]()
 * [teoColomberotto]()
-* [vesti1066]()
+* [vesti1066](https://github.com/vesti1066/heig-datavis-exercice-20190315)
