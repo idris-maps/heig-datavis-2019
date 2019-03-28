@@ -103,7 +103,7 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [christopschranz]()
 * [cyrilBenningerHEIG]()
 * [elisabiver]()
-* [evandu65]()
+* [evandu65](https://github.com/evandu65/heig-datavis-exercice-20190315)
 * [loicpostec]()
 * [lucienPochon]()
 * [paulinebaeni]()
