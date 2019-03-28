@@ -91,7 +91,7 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [AngelLando]()
 * [AudrisC]()
 * [Gagah98]()
-* [Gioianac]()
+* [Gioianac](https://github.com/Gioianac/heig-datavis-exercice-20190315)
 * [Ilanss]()
 * [Kaarroch]()
 * [Keassa]()
