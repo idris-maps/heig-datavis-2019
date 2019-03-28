@@ -125,7 +125,26 @@ npm install node-fetch d3 ramda --save
 * Compter le nombre d'apparitions de chaque artiste
 * Ordonner la liste d'artistes par nombre d'apparitions
 * Sauver les données obtenues dans un fichier JSON
-* Générer un fichier SVG avec un graphique en bâtons pour les 10 artistes avec le plus d'apparition
+
+[Code commenté](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/run.js)
+
+#### Créer un fichier SVG avec node
+
+Pour écrire un fichier SVG nous utilisons les [Littéraux de gabarits](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Litt%C3%A9raux_gabarits) pour créer des chaînes de charactère.
+
+Par exemple:
+
+```javascript
+const writeText = txt => `<text>${txt}</text>`
+
+writeText('Salut') // retourne <text>Salut</text>
+```
+
+Avec notre liste des 10 artistes avec le plus d'apparitions que nous avons créé plus haut, nous pouvons créer ce graphique:
+
+![graph](https://raw.githubusercontent.com/idris-maps/exemple-transformation-de-donnees-avec-node/master/graph.svg?sanitize=true)
+
+Voir le code commenté [ici](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/drawGraph.js)
 
 ### Utiliser node pour générer un script pour une page HTML
 
@@ -173,4 +192,9 @@ Dans `package.json`, ajouter les scriptes `build` (pour créer le `bundle.js` fi
 ## D3
 
 * Représenter un [réseau](https://observablehq.com/@idris-maps/representer-un-reseau-avec-d3)
-* Un nuage de points // TODO `cantons.csv`
+* Un nuage de points [données par canton](https://raw.githubusercontent.com/idris-maps/heig-datavis-2019/master/20190322-node/cantons.csv)
+
+## Devoir
+
+1. Terminer [exercice node](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190322-node/exercice_node)
+2. Regarder la [vidéo](https://www.youtube.com/watch?v=jbkSRLYSojo) 

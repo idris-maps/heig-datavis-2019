@@ -1,6 +1,6 @@
 # Exercice node
 
-Données: [Demandes d'asiles à l'étranger par des citoyens suisses](https://raw.githubusercontent.com/idris-maps/heig-datavis-2019/master/20190315-node/exercie_node/ch_asylum_demands.csv) d'après [UNHCR](https://www.unhcr.org/). [Source](https://data.humdata.org/dataset/unhcr-asylum-seekers-originating-che)
+Données: [Demandes d'asiles à l'étranger par des citoyens suisses](https://raw.githubusercontent.com/idris-maps/heig-datavis-2019/master/20190322-node/exercice_node/ch_asylum_demands.csv) d'après [UNHCR](https://www.unhcr.org/). [Source](https://data.humdata.org/dataset/unhcr-asylum-seekers-originating-che)
 
 Créez un nouveau "repo" github. Une fois votre projet terminé, ajoutez le lien dans la liste ci-dessous.
 
@@ -35,7 +35,7 @@ ajoute un fichier `asylum.json` contenant une liste sous cette forme:
   //...
 ```
 
-* Utilisez `node-fetch` pour télécharger le fichier disponible [ici](https://raw.githubusercontent.com/idris-maps/heig-datavis-2019/master/20190315-node/exercie_node/ch_asylum_demands.csv)
+* Utilisez `node-fetch` pour télécharger le fichier disponible [ici](https://raw.githubusercontent.com/idris-maps/heig-datavis-2019/master/20190322-node/exercice_node/ch_asylum_demands.csv)
 * Utilsez `d3.parseCsv` pour transformer en JSON
 * Enlevez les lignes où `affected` est inconnu (`*`)
 * Dans chaque objet `affected` et `year` doivent être numériques (`1999`, pas `"1999"`)
@@ -78,7 +78,9 @@ node drawGraph
 
 ajoute un fichier `graph.svg`.
 
-Utilisez `asylumByCountry.json` ou une autre transformation de `asylum.json`, pour créer un graphique de votre choix.
+Utilisez `asylumByCountry.json` ou une autre transformation de `asylum.json` pour créer un graphique de votre choix.
+
+Vous pouvez voir un exemple de code pour créer un SVG avec node [ici](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/drawGraph.js)
 
 ## Liens
 
@@ -87,13 +89,13 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [Aksumiron]()
 * [Alvis-wesh]()
 * [AngelLando]()
-* [AudrisC]()
-* [Gagah98]()
-* [Gioianac]()
+* [AudrisC](https://github.com/AudrisC/heig-datavis-exercice-20190315)
+* [Gagah98](https://github.com/Gagah98/heig-datavis-exercice-20190315)
+* [Gioianac](https://github.com/Gioianac/heig-datavis-exercice-20190315)
 * [Ilanss]()
 * [Kaarroch]()
 * [Keassa]()
-* [Lowgic]()
+* [Lowgic](https://github.com/Lowgic/heig-datavis-exercice-20190315)
 * [MalorieGenoud](https://github.com/MalorieGenoud/heig-datavis-exercice-20190315)
 * [PriscaHuguenot]()
 * [Skyggen]()
@@ -101,10 +103,10 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [christopschranz]()
 * [cyrilBenningerHEIG]()
 * [elisabiver]()
-* [evandu65]()
-* [loicpostec]()
+* [evandu65](https://github.com/evandu65/heig-datavis-exercice-20190315)
+* [loicpostec](https://github.com/loicpostec/heig-datavis-exercice-20190315)
 * [lucienPochon]()
-* [paulinebaeni]()
+* [paulinebaeni](https://github.com/paulinebaeni/heig-datavis-exercice-20190315)
 * [phgarcia93]()
 * [teoColomberotto]()
-* [vesti1066]()
+* [vesti1066](https://github.com/vesti1066/heig-datavis-exercice-20190315)
