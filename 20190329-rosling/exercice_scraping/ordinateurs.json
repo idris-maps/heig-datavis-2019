@@ -1,0 +1,587 @@
+[
+ {
+  "produit": "Asus VivoBook X441NA-GA190",
+  "prix": "$295.99",
+  "etoiles": 3
+ },
+ {
+  "produit": "Prestigio SmartBook 133S Dark Grey",
+  "prix": "$299.00",
+  "etoiles": 2
+ },
+ {
+  "produit": "Prestigio SmartBook 133S Gold",
+  "prix": "$299.00",
+  "etoiles": 4
+ },
+ {
+  "produit": "Aspire E1-510",
+  "prix": "$306.99",
+  "etoiles": 3
+ },
+ {
+  "produit": "Lenovo V110-15IAP",
+  "prix": "$321.94",
+  "etoiles": 3
+ },
+ {
+  "produit": "Lenovo V110-15IAP",
+  "prix": "$356.49",
+  "etoiles": 2
+ },
+ {
+  "produit": "Hewlett Packard 250 G6 Dark Ash Silver",
+  "prix": "$364.46",
+  "etoiles": 1
+ },
+ {
+  "produit": "Acer Aspire 3 A315-31 Black",
+  "prix": "$372.70",
+  "etoiles": 2
+ },
+ {
+  "produit": "Acer Aspire A315-31-C33J",
+  "prix": "$379.94",
+  "etoiles": 2
+ },
+ {
+  "produit": "Acer Aspire ES1-572 Black",
+  "prix": "$379.95",
+  "etoiles": 4
+ },
+ {
+  "produit": "Acer Aspire 3 A315-31 Black",
+  "prix": "$391.48",
+  "etoiles": 4
+ },
+ {
+  "produit": "Acer Aspire 3 A315-21",
+  "prix": "$393.88",
+  "etoiles": 3
+ },
+ {
+  "produit": "Asus VivoBook Max",
+  "prix": "$399.00",
+  "etoiles": 1
+ },
+ {
+  "produit": "Asus VivoBook E502NA-GO022T Dark Blue",
+  "prix": "$399.99",
+  "etoiles": 4
+ },
+ {
+  "produit": "Lenovo ThinkPad E31-80",
+  "prix": "$404.23",
+  "etoiles": 1
+ },
+ {
+  "produit": "Acer Aspire 3 A315-31 Black",
+  "prix": "$408.98",
+  "etoiles": 4
+ },
+ {
+  "produit": "Lenovo V110-15ISK",
+  "prix": "$409.63",
+  "etoiles": 3
+ },
+ {
+  "produit": "Acer Aspire ES1-732 Black",
+  "prix": "$410.46",
+  "etoiles": 4
+ },
+ {
+  "produit": "Asus VivoBook 15 X540NA-GQ026T",
+  "prix": "$410.66",
+  "etoiles": 4
+ },
+ {
+  "produit": "Packard 255 G2",
+  "prix": "$416.99",
+  "etoiles": 2
+ },
+ {
+  "produit": "Asus EeeBook R416NA-FA014T",
+  "prix": "$433.30",
+  "etoiles": 1
+ },
+ {
+  "produit": "Acer Aspire 3 A315-51",
+  "prix": "$436.29",
+  "etoiles": 1
+ },
+ {
+  "produit": "Acer Aspire ES1-572 Black",
+  "prix": "$436.29",
+  "etoiles": 1
+ },
+ {
+  "produit": "Acer Extensa 15 (2540) Black",
+  "prix": "$439.73",
+  "etoiles": 4
+ },
+ {
+  "produit": "Acer Aspire ES1-572 Black",
+  "prix": "$454.62",
+  "etoiles": 1
+ },
+ {
+  "produit": "Lenovo V110-15ISK",
+  "prix": "$454.73",
+  "etoiles": 2
+ },
+ {
+  "produit": "Acer Aspire A315-51-33TG",
+  "prix": "$457.38",
+  "etoiles": 3
+ },
+ {
+  "produit": "Lenovo V110-15IKB",
+  "prix": "$465.95",
+  "etoiles": 1
+ },
+ {
+  "produit": "Asus VivoBook 15 X540UA-DM260 Chocolate Black",
+  "prix": "$468.56",
+  "etoiles": 3
+ },
+ {
+  "produit": "Acer Aspire ES1-572 Black",
+  "prix": "$469.10",
+  "etoiles": 3
+ },
+ {
+  "produit": "Lenovo V510 Black",
+  "prix": "$484.23",
+  "etoiles": 3
+ },
+ {
+  "produit": "Acer Aspire ES1-572 Black",
+  "prix": "$485.90",
+  "etoiles": 3
+ },
+ {
+  "produit": "Lenovo V510 Black",
+  "prix": "$487.80",
+  "etoiles": 2
+ },
+ {
+  "produit": "Acer Swift 1 SF113-31 Silver",
+  "prix": "$488.64",
+  "etoiles": 3
+ },
+ {
+  "produit": "Dell Vostro 15",
+  "prix": "$488.78",
+  "etoiles": 4
+ },
+ {
+  "produit": "Acer Aspire 3 A315-51 Black",
+  "prix": "$494.71",
+  "etoiles": 4
+ },
+ {
+  "produit": "Dell Vostro 15 (3568) Red",
+  "prix": "$497.17",
+  "etoiles": 1
+ },
+ {
+  "produit": "Lenovo V510 Black",
+  "prix": "$498.23",
+  "etoiles": 3
+ },
+ {
+  "produit": "HP 250 G3",
+  "prix": "$520.99",
+  "etoiles": 2
+ },
+ {
+  "produit": "Acer Spin 5",
+  "prix": "$564.98",
+  "etoiles": 2
+ },
+ {
+  "produit": "HP 350 G1",
+  "prix": "$577.99",
+  "etoiles": 2
+ },
+ {
+  "produit": "Aspire E1-572G",
+  "prix": "$581.99",
+  "etoiles": 1
+ },
+ {
+  "produit": "Pavilion",
+  "prix": "$609.99",
+  "etoiles": 1
+ },
+ {
+  "produit": "Acer Aspire A515-51-5654",
+  "prix": "$679.00",
+  "etoiles": 2
+ },
+ {
+  "produit": "Dell Inspiron 15",
+  "prix": "$679.00",
+  "etoiles": 2
+ },
+ {
+  "produit": "Asus VivoBook S14",
+  "prix": "$729.00",
+  "etoiles": 1
+ },
+ {
+  "produit": "ProBook",
+  "prix": "$739.99",
+  "etoiles": 4
+ },
+ {
+  "produit": "Inspiron 15",
+  "prix": "$745.99",
+  "etoiles": 3
+ },
+ {
+  "produit": "Asus ROG STRIX GL553VD-DM256",
+  "prix": "$799.00",
+  "etoiles": 2
+ },
+ {
+  "produit": "Acer Nitro 5 AN515-51",
+  "prix": "$809.00",
+  "etoiles": 1
+ },
+ {
+  "produit": "Asus ROG STRIX GL553VD-DM256",
+  "prix": "$899.00",
+  "etoiles": 1
+ },
+ {
+  "produit": "Lenovo ThinkPad L570",
+  "prix": "$999.00",
+  "etoiles": 3
+ },
+ {
+  "produit": "ThinkPad Yoga",
+  "prix": "$1033.99",
+  "etoiles": 2
+ },
+ {
+  "produit": "Lenovo ThinkPad L460",
+  "prix": "$1096.02",
+  "etoiles": 4
+ },
+ {
+  "produit": "Dell Inspiron 15 (7567) Black",
+  "prix": "$1098.42",
+  "etoiles": 1
+ },
+ {
+  "produit": "MSI GL72M 7RDX",
+  "prix": "$1099.00",
+  "etoiles": 4
+ },
+ {
+  "produit": "MSI GL72M 7RDX",
+  "prix": "$1099.00",
+  "etoiles": 1
+ },
+ {
+  "produit": "Asus ROG Strix GL553VD-DM535T",
+  "prix": "$1101.83",
+  "etoiles": 2
+ },
+ {
+  "produit": "Dell Latitude 5280",
+  "prix": "$1102.66",
+  "etoiles": 1
+ },
+ {
+  "produit": "Dell Latitude 5480",
+  "prix": "$1110.14",
+  "etoiles": 3
+ },
+ {
+  "produit": "Lenovo Legion Y520-15IKBM",
+  "prix": "$1112.91",
+  "etoiles": 4
+ },
+ {
+  "produit": "Toshiba Portege Z30-C-16J Grey",
+  "prix": "$1114.55",
+  "etoiles": 1
+ },
+ {
+  "produit": "Acer Predator Helios 300 (PH317-51)",
+  "prix": "$1123.87",
+  "etoiles": 2
+ },
+ {
+  "produit": "Acer Aspire 7 A715-71G",
+  "prix": "$1123.87",
+  "etoiles": 2
+ },
+ {
+  "produit": "Dell Inspiron 17 2in1 (7779) Silver",
+  "prix": "$1124.20",
+  "etoiles": 3
+ },
+ {
+  "produit": "Dell Latitude 5480",
+  "prix": "$1133.82",
+  "etoiles": 4
+ },
+ {
+  "produit": "Lenovo Legion Y520",
+  "prix": "$1133.91",
+  "etoiles": 1
+ },
+ {
+  "produit": "Asus AsusPro Advanced BU401LA-FA271G Dark Grey",
+  "prix": "$1139.54",
+  "etoiles": 3
+ },
+ {
+  "produit": "Acer Nitro 5 AN515-51",
+  "prix": "$1140.62",
+  "etoiles": 3
+ },
+ {
+  "produit": "Dell Latitude 5480",
+  "prix": "$1143.40",
+  "etoiles": 4
+ },
+ {
+  "produit": "Dell Inspiron 15 (7567) Black",
+  "prix": "$1144.20",
+  "etoiles": 1
+ },
+ {
+  "produit": "Dell Latitude 5580",
+  "prix": "$1144.40",
+  "etoiles": 3
+ },
+ {
+  "produit": "MSI GP62M 7RDX Leopard",
+  "prix": "$1149.00",
+  "etoiles": 1
+ },
+ {
+  "produit": "Lenovo Legion Y520-15IKBM",
+  "prix": "$1149.00",
+  "etoiles": 3
+ },
+ {
+  "produit": "Lenovo Yoga 720 Grey",
+  "prix": "$1149.73",
+  "etoiles": 2
+ },
+ {
+  "produit": "Toshiba Portege Z30-C-16L Grey",
+  "prix": "$1154.04",
+  "etoiles": 1
+ },
+ {
+  "produit": "Acer TravelMate P645-S-511A Black",
+  "prix": "$1170.10",
+  "etoiles": 1
+ },
+ {
+  "produit": "Dell Latitude 5580",
+  "prix": "$1178.19",
+  "etoiles": 3
+ },
+ {
+  "produit": "ThinkPad T540p",
+  "prix": "$1178.99",
+  "etoiles": 1
+ },
+ {
+  "produit": "MSI GS63 7RD Stealth",
+  "prix": "$1179.00",
+  "etoiles": 1
+ },
+ {
+  "produit": "Dell Latitude 5480",
+  "prix": "$1187.88",
+  "etoiles": 3
+ },
+ {
+  "produit": "Acer Predator Helios 300 (PH317-51)",
+  "prix": "$1187.98",
+  "etoiles": 3
+ },
+ {
+  "produit": "MSI GL62M 7REX",
+  "prix": "$1199.00",
+  "etoiles": 1
+ },
+ {
+  "produit": "MSI GL62M 7REX2",
+  "prix": "$1199.00",
+  "etoiles": 2
+ },
+ {
+  "produit": "Lenovo Yoga 910 Grey",
+  "prix": "$1199.73",
+  "etoiles": 3
+ },
+ {
+  "produit": "Toshiba Portege X30-D-10J Black/Blue",
+  "prix": "$1203.41",
+  "etoiles": 4
+ },
+ {
+  "produit": "Lenovo IdeaPad Miix 510 Platinum Silver",
+  "prix": "$1212.16",
+  "etoiles": 4
+ },
+ {
+  "produit": "Acer Predator Helios 300 (PH317-51)",
+  "prix": "$1221.58",
+  "etoiles": 1
+ },
+ {
+  "produit": "ThinkPad Yoga",
+  "prix": "$1223.99",
+  "etoiles": 3
+ },
+ {
+  "produit": "Asus VivoBook Pro 15 N580VN-FI006T Gold Metal",
+  "prix": "$1235.49",
+  "etoiles": 2
+ },
+ {
+  "produit": "Dell Latitude 5480",
+  "prix": "$1238.37",
+  "etoiles": 2
+ },
+ {
+  "produit": "Asus ZenBook UX530UX-FY040T Blue",
+  "prix": "$1239.20",
+  "etoiles": 1
+ },
+ {
+  "produit": "ThinkPad X230",
+  "prix": "$1244.99",
+  "etoiles": 3
+ },
+ {
+  "produit": "Asus ROG Strix GL753VE-GC096T",
+  "prix": "$1259.00",
+  "etoiles": 4
+ },
+ {
+  "produit": "Apple MacBook Air 13\"",
+  "prix": "$1260.13",
+  "etoiles": 4
+ },
+ {
+  "produit": "Dell Latitude 5480",
+  "prix": "$1271.06",
+  "etoiles": 1
+ },
+ {
+  "produit": "Hewlett Packard Spectre 13-v106na Dark Ash Silver",
+  "prix": "$1273.11",
+  "etoiles": 3
+ },
+ {
+  "produit": "Dell XPS 13",
+  "prix": "$1281.99",
+  "etoiles": 3
+ },
+ {
+  "produit": "Toshiba Portege Z30-C-16K Grey",
+  "prix": "$1294.74",
+  "etoiles": 1
+ },
+ {
+  "produit": "MSI GL62VR 7RFX",
+  "prix": "$1299.00",
+  "etoiles": 3
+ },
+ {
+  "produit": "Dell Latitude 5480",
+  "prix": "$1310.39",
+  "etoiles": 3
+ },
+ {
+  "produit": "ThinkPad X240",
+  "prix": "$1311.99",
+  "etoiles": 3
+ },
+ {
+  "produit": "Hewlett Packard ProBook 640 G3",
+  "prix": "$1326.83",
+  "etoiles": 1
+ },
+ {
+  "produit": "Apple MacBook Pro 13\" Space Gray",
+  "prix": "$1333.00",
+  "etoiles": 1
+ },
+ {
+  "produit": "Dell Latitude 5580",
+  "prix": "$1337.28",
+  "etoiles": 1
+ },
+ {
+  "produit": "Dell Latitude 5480",
+  "prix": "$1338.37",
+  "etoiles": 2
+ },
+ {
+  "produit": "Dell Latitude 5580",
+  "prix": "$1341.22",
+  "etoiles": 3
+ },
+ {
+  "produit": "Apple MacBook Air 13\"",
+  "prix": "$1347.78",
+  "etoiles": 2
+ },
+ {
+  "produit": "Lenovo ThinkPad T470",
+  "prix": "$1349.23",
+  "etoiles": 1
+ },
+ {
+  "produit": "Lenovo ThinkPad Yoga 370 Black",
+  "prix": "$1362.24",
+  "etoiles": 2
+ },
+ {
+  "produit": "Toshiba Portege X20W-D-10V Black/Blue",
+  "prix": "$1366.32",
+  "etoiles": 1
+ },
+ {
+  "produit": "Asus ASUSPRO B9440UA-GV0279R Gray",
+  "prix": "$1381.13",
+  "etoiles": 1
+ },
+ {
+  "produit": "Asus ROG Strix GL702VM-GC146T",
+  "prix": "$1399.00",
+  "etoiles": 3
+ },
+ {
+  "produit": "Lenovo Legion Y720",
+  "prix": "$1399.00",
+  "etoiles": 3
+ },
+ {
+  "produit": "Asus ROG Strix GL702ZC-GC154T",
+  "prix": "$1769.00",
+  "etoiles": 4
+ },
+ {
+  "produit": "Asus ROG Strix GL702ZC-GC209T",
+  "prix": "$1769.00",
+  "etoiles": 1
+ },
+ {
+  "produit": "Asus ROG Strix SCAR Edition GL503VM-ED115T",
+  "prix": "$1799.00",
+  "etoiles": 3
+ }
+]
