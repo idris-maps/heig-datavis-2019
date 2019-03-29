@@ -91,7 +91,7 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [Gagah98]()
 * [Gioianac]()
 * [Ilanss]()
-* [Kaarroch]()
+* [Kaarroch](https://github.com/Kaarroch/heig-datavis-exercice-20190315/tree/node/Kaarroch)
 * [Keassa]()
 * [Lowgic]()
 * [MalorieGenoud]()
