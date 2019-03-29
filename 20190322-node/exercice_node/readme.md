@@ -82,7 +82,7 @@ Utilisez `asylumByCountry.json` ou une autre transformation de `asylum.json` pou
 
 Vous pouvez voir un exemple de code pour créer un SVG avec node [ici](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/drawGraph.js)
 
-## Liens
+## Liens 
 
 Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la liste ci-dessous. Pour cela, créez un "Pull request" sur ce "repo" avec le nom `exercice-node/<VOTRE_NOM_SUR_GITHUB>`.
 
@@ -97,7 +97,7 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [Keassa]()
 * [Lowgic](https://github.com/Lowgic/heig-datavis-exercice-20190315)
 * [MalorieGenoud](https://github.com/MalorieGenoud/heig-datavis-exercice-20190315)
-* [PriscaHuguenot]()
+* [PriscaHuguenot](https://github.com/PriscaHuguenot/heig-datavis-exercice-20190315)
 * [Skyggen]()
 * [alestuzzi](https://github.com/alestuzzi/heig-datavis-exercice-20190315)
 * [christopschranz]()
