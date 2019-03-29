@@ -304,6 +304,8 @@ Exemple de code: [nuage de points](https://github.com/idris-maps/exemple-nuage-d
 
 But: télécharger les drapeaux de tous les cantons pour le nuage de points plus haut.
 
+[Code](https://github.com/idris-maps/scrape-drapeaux)
+
 ### Exercice
 
 Créez une liste de produits à partir de [cette page](https://www.webscraper.io/test-sites/e-commerce/allinone/computers/laptops).
