@@ -4,3 +4,4 @@
 * [Manipulation DOM](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190301-manipulation-dom)
 * [Introduction données](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190308-intro-data)
 * [Node.js](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190322-node)
+* [Scraping et grahique "Rosling"](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling)
