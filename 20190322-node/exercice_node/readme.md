@@ -97,7 +97,7 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [Keassa]()
 * [Lowgic](https://github.com/Lowgic/heig-datavis-exercice-20190315)
 * [MalorieGenoud](https://github.com/MalorieGenoud/heig-datavis-exercice-20190315)
-* [PriscaHuguenot]()
+* [PriscaHuguenot](https://github.com/PriscaHuguenot/heig-datavis-exercice-20190315)
 * [Skyggen]()
 * [alestuzzi](https://github.com/alestuzzi/heig-datavis-exercice-20190315)
 * [christopschranz]()
