@@ -88,7 +88,7 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 
 * [Aksumiron]()
 * [Alvis-wesh]()
-* [AngelLando]()
+* [AngelLando](https://github.com/AngelLando/heig-datavis-exercice-20190315)
 * [AudrisC](https://github.com/AudrisC/heig-datavis-exercice-20190315)
 * [Gagah98](https://github.com/Gagah98/heig-datavis-exercice-20190315)
 * [Gioianac](https://github.com/Gioianac/heig-datavis-exercice-20190315)
