@@ -101,7 +101,7 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [Skyggen]()
 * [alestuzzi](https://github.com/alestuzzi/heig-datavis-exercice-20190315)
 * [christopschranz]()
-* [cyrilBenningerHEIG]()
+* [cyrilBenningerHEIG](https://github.com/cyrilBenningerHEIG/heig-datavis-exercice-20190315)
 * [elisabiver]()
 * [evandu65](https://github.com/evandu65/heig-datavis-exercice-20190315)
 * [loicpostec](https://github.com/loicpostec/heig-datavis-exercice-20190315)
