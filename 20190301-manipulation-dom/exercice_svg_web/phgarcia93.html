@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html>
   <style>
-html, body { margin: 0; padding: 0 }
+html, body { 
+	margin: 0; 
+	padding: 0;
+	font-family: "Arial";
+	text-align: center;
+}
+.container {
+	background-color: black;
+	display: block;
+	height: 80vh;
+}
   </style>
+  <head>
+  	<title>Exercice SVG</title>
+  </head>
   <body>
-    <svg>
-    </svg>
+  	<h1>Exercice<h1>
+  	<h2>SVG dans une page web</h2>
+  	<div class="container">
+    	<svg class="svg-circle" viewbox="0 0 300 200">
+    		<circle id="circle" cx="50" cy="50" r="40" stroke="yellow" stroke-width="5" fill="green"></circle>
+    	</svg>
+	</div>
+	<div>
+		<input type="range" min="1" max="60" value="20" oninput="MOVE_CIRCLE(this, 'x')"/>
+		<input type="range" min="1" max="40" value="10" oninput="MOVE_CIRCLE(this, 'y')"/>
+	</div>
     <script>
+    	const MOVE_CIRCLE = function(slider, direction) {
+	    	let value = slider.value;
+	    	let circle = document.getElementById("circle");
+	    	let coord = "c" + direction;
+	    	circle.setAttributeNS(null, coord, value * 5);
+    	}
     </script>
   </body>
 </html>
