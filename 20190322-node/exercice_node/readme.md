@@ -94,7 +94,7 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [Gioianac](https://github.com/Gioianac/heig-datavis-exercice-20190315)
 * [Ilanss]()
 * [Kaarroch](https://github.com/Kaarroch/heig-datavis-exercice-20190315/tree/node/Kaarroch)
-* [Keassa]()
+* [Keassa](https://github.com/Keassa/heig-datavis-exercice-20190315)
 * [Lowgic](https://github.com/Lowgic/heig-datavis-exercice-20190315)
 * [MalorieGenoud](https://github.com/MalorieGenoud/heig-datavis-exercice-20190315)
 * [PriscaHuguenot](https://github.com/PriscaHuguenot/heig-datavis-exercice-20190315)
