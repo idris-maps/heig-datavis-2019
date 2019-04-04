@@ -50,7 +50,7 @@ Une représentation du monde à l'échelle 1:1 est impossible, il faut faire une
 
 ### Égocentrique
 
-![Carte babylonienne du monde](https://upload.wikimedia.org/wikipedia/commons/9/90/20180506_145606-babylon-map.jpg)
+![Carte babylonienne du monde](https://geekydementia.files.wordpress.com/2014/11/2zp6u0m.jpg)
 
 ![Navigation GPS](https://upload.wikimedia.org/wikipedia/commons/2/2c/Gosmore_in_berlin_with_winCE_on_transonic_6000.jpg)
 
