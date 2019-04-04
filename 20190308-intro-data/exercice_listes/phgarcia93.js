@@ -13,3 +13,12 @@ module.exports = {
   nombreDHabitantsDYverdon: villes,
   sommeDuNombreDHabitants: villes,
 }
+
+module.exports = {
+  NomsDesVilles: villes.map(p => p.nom),
+  VillesDePlusDe20000Habitants: villes.filter(habitants => habitants.population > 20000),
+  NombreDHabitantsDYverdon: villes.find(n => n.nom == "Yverdon").population,
+  SommeDuNombreDHabitants: villes.reduce((resultat, p) => resultat + p.population, 0),
+}
+
+console.log(module.exports);
