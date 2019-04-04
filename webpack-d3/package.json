@@ -1,0 +1,25 @@
+{
+  "name": "exemple-d3-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode=production",
+    "watch": "webpack --config webpack.config.js --watch --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "d3": "^5.9.2",
+    "file-system": "^2.2.2",
+    "node-fetch": "^2.3.0",
+    "ramda": "^0.26.1"
+  }
+}
