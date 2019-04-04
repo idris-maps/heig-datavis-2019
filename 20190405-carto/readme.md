@@ -85,6 +85,8 @@ Déformation de la taille des surfaces
 
 ![Carte de propagande japonnaise 1905](https://cdn8.openculture.com/2018/11/15232256/Russian-Octopus.jpg)
 
+![Carte de propagande de l'état islamique](https://i.kinja-img.com/gawker-media/image/upload/s--WHL3kWP---/c_scale,fl_progressive,q_80,w_800/792638422386215497.jpg)
+
 ### Consensus difficile
 
 ![Drapeau de l'ONU](https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_the_United_Nations.svg)
