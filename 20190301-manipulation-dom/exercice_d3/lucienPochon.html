@@ -1,21 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8" />
+  <style>
+  .graph {
+    background-color: orange;
+  }
+</style>
+</head>
+<body>
+  <svg id="graph"></svg>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script>
+   var svgWidth = 600;
+   var svgHeight = 400;
+   var svg = d3.select('svg')
+   .attr("width", svgWidth)
+   .attr("height", svgHeight)
+   .attr("class", "graph");
+   const dataset = [
+   { nom: 'Paul', note: 34 },
+   { nom: 'Pauline', note: 98 },
+   { nom: 'Pierre', note: 74 },
+   { nom: 'Pierrette', note: 52 },
+   ]
+   var barPadding = 14;
+   var barWidth = (svgWidth / dataset.length);
+   var barChart = svg.selectAll("rect")
+   .data(dataset)
+   .enter()
+   .append("rect")
+   .attr("y", function(d) {
+    return svgHeight - d.note - 50
+  })
+   .attr("height", function(d) {
+    return d.note;
+  })
+   .attr("width", barWidth - barPadding)
+   .attr("transform", function (d, i) {
+     var translate = [barWidth * i, 0];
+ svg.selectAll('text')
+    .data(dataset)
+    .enter()
+    .append('text')
+    .attr('x', (d, i) => i * barWidth + barWidth / 2)
+    .attr('y', svgHeight- 20)
+    .attr('text-anchor', 'middle')
+    .text(d => d.nom)
+     return "translate("+ translate +")";
+   });
+ </script>
 
-<svg id="graph"></svg>
-  
-<script src="https://d3js.org/d3.v5.min.js"></script>
-<script>
-  const DATA = [
-    { nom: 'Paul', note: 34 },
-    { nom: 'Pauline', note: 98 },
-    { nom: 'Pierre', note: 74 },
-    { nom: 'Pierrette', note: 52 },
-  ]
-  const graph = d3.select('#graph')
-</script>
-  </body>
+
+</body>
 </html>
