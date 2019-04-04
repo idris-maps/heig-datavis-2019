@@ -92,3 +92,11 @@ Déformation de la taille des surfaces
 ![Drapeau de l'ONU](https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_the_United_Nations.svg)
 
 [Comment représenter la Crimée dans OpenStreetMap](https://help.openstreetmap.org/questions/35048/why-crimea-is-in-russian-federation)
+
+### Données cartographiques
+
+[Exemples de données openstreetmap](https://observablehq.com/@idris-maps/donnees-cartographiques)
+
+### Cartographie avec D3
+
+[Cours](https://observablehq.com/@idris-maps/la-cartographie-avec-d3)
