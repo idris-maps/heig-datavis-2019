@@ -77,7 +77,7 @@ Déformation de la taille des surfaces
 
 ### Politique
 
-![Projection Gall-Peters](https://commons.wikimedia.org/wiki/File:Gall-Peters_with_Tissot%27s_Indicatrices_of_Distortion.svg)
+![Projection Gall-Peters](http://www.nae.org.uk/uploads/blog-images/35/20140604135752-gallxx-781684_comp.jpg)
 
 ![Carte du monde japonnaise](https://external-preview.redd.it/yIjmACKkmAg72ZxRNwJWN72k8iIcRhOA1nBAeuSEH2s.jpg?auto=webp&s=e3c18e5194a986ce6de1c4398c923e2ed497a656)
 
