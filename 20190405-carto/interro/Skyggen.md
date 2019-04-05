@@ -1,10 +1,14 @@
 ## 1. Qu'est ce que la visualisation de données?
+C'est un ensemble de méthodes de représentation graphique, en deux ou trois dimensions, qui peut utiliser la couleur et des trames. Permet aussi de représenter des données complexes de manière plus simple.
 
 # SVG
 
 ## 2. Expliquez la différence entre graphiques vectoriels (.svg) et matriciels (.png)
+La principale différence entre ces deux formats est que l’image vectorielle peut être agrandie à l’infinie sans perdre en qualité, tandis que l’image matricielle perd en netteté lors de l’agrandissement.
 
 ## 3. Que représente ce SVG?
+
+un emoticon smiley 
 
 ```svg
 <svg viewBox="0 0 100 100">
@@ -17,7 +21,17 @@
 
 ## 4. Que fait l'attribut `d` de l'élément `<path>` dans le SVG ci-dessus?
 
+donne les positions du tracé de la bouche à déssiner
+
 ## 5. Le dessin dans le SVG ci-dessus est au centre de la toile. Comment déplacer les quatre éléments de 10 unités vers la droite et 20 unités vers le bas?
+
+ <svg viewBox="0 0 100 100">
+  <circle cx="60" cy="70" r="30" fill="yellow"/>
+  <circle cx="50" cy="60" r="5" />
+  <circle cx="70" cy="60" r="5" />
+  <path d="M 45 80 C 50 90 70 90 75 80" stroke="black" stroke-width="2" fill="none"/>
+</svg>
+
  
 # D3
 
