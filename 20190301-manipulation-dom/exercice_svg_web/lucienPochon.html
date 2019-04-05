@@ -2,11 +2,32 @@
 <html>
   <style>
 html, body { margin: 0; padding: 0 }
-  </style>
+ #cercle {
+  fill: green;
+}
+    </style>
+  </head>
   <body>
-    <svg>
+    <svg viewBox="0 0 100 100">
+      <circle id="cercle" cx="50" cy="25" r="12" />
     </svg>
     <script>
+const cercle = document.getElementById('cercle');
+cercle.addEventListener('click', () => {
+  cercle.style.fill = "blue";
+});
+
+cercle.addEventListener('mouseover', () => {
+  cercle.setAttribute('r', "14");
+});
+
+cercle.addEventListener('mouseout', () => {
+  cercle.setAttribute('r', "12");
+});
+
+
+
+
     </script>
   </body>
 </html>
