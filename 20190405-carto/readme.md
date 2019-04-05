@@ -103,6 +103,3 @@ Déformation de la taille des surfaces
 
 [Cours](https://observablehq.com/@idris-maps/la-cartographie-avec-d3)
 
-## Exercice carto
-
-Forkez [ce repo](https://github.com/idris-maps/exercice-carto-20190405)
