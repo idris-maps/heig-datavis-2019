@@ -13,7 +13,7 @@ Répondez aux questions dans le fichier à votre nom `<VOTRE_NOM_SUR_GITHUB>.md`
 C'est un fichier markdown. Les parties de code ne peuvent pas être executées. Pour tester vos réponses vous pouvez:
 
 * Utilisez la console du navigateur
-* Créer un fichier (dans un autre dossier de votre ordinateur) et utiliser node.
+* Créer un fichier (dans un autre dossier de votre ordinateur) et utiliser `node`.
 * Utiliser [Observable](https://observablehq.com/)
 
-Une fois que vous avez terminé. Poussez votre branche sur github et créez un "pull request".https://observablehq.com/
+Une fois que vous avez terminé. Poussez votre branche sur github et créez un "pull request".
