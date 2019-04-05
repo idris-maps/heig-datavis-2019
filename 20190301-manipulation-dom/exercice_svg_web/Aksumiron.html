@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html>
   <style>
-html, body { margin: 0; padding: 0 }
+    html, body { margin: 0; padding: 0 }
+    #face {
+      fill : gold;
+    }
+    #face:hover {
+      fill: coral;
+    }
+    #mouth {
+      fill:none;
+      stroke: #000000;
+      stroke-width: 6px;
+      stroke-linecap: round;
+    }
   </style>
   <body>
-    <svg>
+    <svg class="smiley" width="256" height="256" viewbox ="0 0 256 256">
+      <circle id="face" cx="128" cy="128" r="120"/>
+      <circle id="left-eye" cx="100" cy="104" r="12" fill="black" />
+      <circle id="right-eye" cx="156" cy="104" r="12" fill="black" />
+      <path id="mouth" d="M100,160 Q128,190 156, 160"/>
     </svg>
     <script>
+
+      const mouth = document.getElementById('mouth')
+      const face = document.getElementById('face')
+
+      console.log(mouth);
+      console.log(face);
+
+      let yellowFace = true;
+
+      face.addEventListener('click', () => {
+
+        yellowFace = !yellowFace;
+
+        face.setAttribute('r', yellowFace ? 50 : 10)
+
+      })
     </script>
   </body>
 </html>
