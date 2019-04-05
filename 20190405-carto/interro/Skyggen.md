@@ -91,15 +91,15 @@ const ul = d3.select('#noms')
 
 ```javascript
 svg.selectAll('rect')
-  // ici
-  .data(DATA)
-  // ici
+  // ici selectionne tous les élément svg de type rect (rectangle)
+  .data(DATA) 
+  // ici récupère les informations DATA
   .enter()
-  // ici
+  // ici ajouter les données
   .append('rect')
-  // ici
+  // on ajoute un élément rect
   .attr('width', xScale)
-  // ici
+  // ici on définit une valeur à witdh (largeur) et xScale (position sur la largeur dispo)
 ```
 
 ## 8. Si nous avons les données suivantes
@@ -109,8 +109,10 @@ const DATA = [3, 1, 6, 2, 4]
 ```
 
 ### 8.1 Quelle fonction `d3` permets d'obtenir le minimum (1)?
+d3.min(DATA)
 
 ### 8.2 et le maximum (6)?
+d3.max(DATA)
 
 ### 8.3 Utilisons ces données pour définir la largeur (`width`) des rectangles de l'exercice 7.
 
@@ -118,7 +120,9 @@ La largeur du graphique est de 100 unités. Définissez la fonction `xScale` ave
 
 ```javascript
 const GRAPH_WIDTH = 100
-const xScale = d3.scaleLinear() // ici
+const xScale = d3.scaleLinear()
+  .domain([0, 6])
+  .range([0, 100])
 ```
 
 `xScale(3)` doit retourner `50`, `xScale(1)` doit retourner 16.66666... et ainsi de suite.
@@ -138,12 +142,15 @@ const ELEVES = [
 ]
 ```
 
+
+
 Utilisez les méthodes sur les listes (`.map`, `.filter`, `.find`, `.reduce` et `.length`) pour obtenir les résultats escomptés.
 
 ### 10.1 Une liste de noms
 
 ```javascript
 const noms = ELEVES. // ici
+ELEVES.map(ELEVE => `${ELEVE.nom}`)
 ```
 
 résultat:
@@ -165,6 +172,7 @@ Les élèves passent le test s'ils ont une note supérieure à 70. `pass` doit a
 
 ```javascript
 const avecPass = ELEVES. // ici
+
 ```
 
 résultat:
@@ -174,7 +182,8 @@ résultat:
   {"nom":"Baptiste","note":45,"pass":false},
   {"nom":"Barbara","note":67,"pass":false},
   {"nom":"Béatrice","note":87,"pass":true},
-  {"nom":"Bertrand","note":52,"pass":false},{"nom":"Bénédicte","note":48,"pass":false},
+  {"nom":"Bertrand","note":52,"pass":false},
+  {"nom":"Bénédicte","note":48,"pass":false},
   {"nom":"Blaise","note":73,"pass":true}
 ]
 ```
@@ -183,6 +192,7 @@ résultat:
 
 ```javascript
 const elevesQuiPassent = ELEVES. // ici
+elevesQuiPassent.filter(pass => pass.note >= 70)
 ```
 
 résultat:
@@ -198,6 +208,7 @@ résultat:
 
 ```javascript
 const noteDeBlaise = ELEVES. // ici
+noteDeBlaise.find(nom => nom.nom === 'Blaise').note
 ```
 
 résultat:
@@ -210,6 +221,7 @@ résultat:
 
 ```javascript
 const moyenne = ELEVES. // ici
+Math.round(moyenne.reduce((res, moy) => res + (moy.note)/6, 0))
 ```
 
 résultat
