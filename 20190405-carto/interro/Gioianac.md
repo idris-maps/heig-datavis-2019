@@ -92,7 +92,9 @@ const noms = [
   'Blaise'
 ]
 
-const ul = d3.select('#noms').append('ul');
+
+
+const ul = d3.select('#noms')
 
 	ul.selectAll('li')
 	.data(noms)
@@ -236,7 +238,7 @@ résultat:
 ### 10.5 La moyenne des notes de tous les élèves
 
 ```javascript
-const moyenne = ELEVES.reduce(moyenne, 0)
+const moyenne = ELEVES.reduce((result, d) => result + d.note, 0) / ELEVES.length
 
 ```
 
