@@ -118,8 +118,8 @@ La largeur du graphique est de 100 unités. Définissez la fonction `xScale` ave
 ```javascript
 const GRAPH_WIDTH = 100
 const xScale = d3.scaleLinear() // ici
-.domain([1, 6])
-  .range([0, ])
+.domain([0, 6])
+  .range([0, 100])
 ```
 
 `xScale(3)` doit retourner `50`, `xScale(1)` doit retourner 16.66666... et ainsi de suite.
