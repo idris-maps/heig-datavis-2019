@@ -85,6 +85,11 @@ const noms = [
 
 const ul = d3.select('#noms')
 // ici
+ul.selectAll('li')
+    .data(noms)
+    .enter()
+    .append('li')
+    .text(d => d)
 ```
 
 ## 7. Expliquez ce qui ce passe dans le code ci-dessous ligne par ligne
@@ -172,6 +177,7 @@ Les élèves passent le test s'ils ont une note supérieure à 70. `pass` doit a
 
 ```javascript
 const avecPass = ELEVES. // ici
+ELEVES.map(d =>({...d,nom:(d.nom),note:(d.note),pass:(d.note>70 ? true : false) }))
 
 ```
 
