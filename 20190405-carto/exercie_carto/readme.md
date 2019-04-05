@@ -28,6 +28,8 @@ Exemple de "feature" d'arbre.
 * Créez un fichier `data/getBuildings.js` qui génère un fichier `buildings.json`
 * Ajoutez les bâtiments à la carte
 
+## Liens
+
 * [Aksumiron]()
 * [Alvis-wesh]()
 * [AngelLando]()
