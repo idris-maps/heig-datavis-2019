@@ -82,26 +82,26 @@ Utilisez `asylumByCountry.json` ou une autre transformation de `asylum.json` pou
 
 Vous pouvez voir un exemple de code pour créer un SVG avec node [ici](https://github.com/idris-maps/exemple-transformation-de-donnees-avec-node/blob/master/drawGraph.js)
 
-## Liens
+## Liens 
 
 Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la liste ci-dessous. Pour cela, créez un "Pull request" sur ce "repo" avec le nom `exercice-node/<VOTRE_NOM_SUR_GITHUB>`.
 
 * [Aksumiron]()
-* [Alvis-wesh]()
+* [Alvis-wesh](https://github.com/Alvis-wesh/heig-datavis-2019/tree/master/20190315-node)
 * [AngelLando](https://github.com/AngelLando/heig-datavis-exercice-20190315)
 * [AudrisC](https://github.com/AudrisC/heig-datavis-exercice-20190315)
 * [Gagah98](https://github.com/Gagah98/heig-datavis-exercice-20190315)
 * [Gioianac](https://github.com/Gioianac/heig-datavis-exercice-20190315)
 * [Ilanss]()
-* [Kaarroch]()
-* [Keassa]()
+* [Kaarroch](https://github.com/Kaarroch/heig-datavis-exercice-20190315/tree/node/Kaarroch)
+* [Keassa](https://github.com/Keassa/heig-datavis-exercice-20190315)
 * [Lowgic](https://github.com/Lowgic/heig-datavis-exercice-20190315)
 * [MalorieGenoud](https://github.com/MalorieGenoud/heig-datavis-exercice-20190315)
-* [PriscaHuguenot]()
+* [PriscaHuguenot](https://github.com/PriscaHuguenot/heig-datavis-exercice-20190315)
 * [Skyggen]()
 * [alestuzzi](https://github.com/alestuzzi/heig-datavis-exercice-20190315)
 * [christopschranz]()
-* [cyrilBenningerHEIG]()
+* [cyrilBenningerHEIG](https://github.com/cyrilBenningerHEIG/heig-datavis-exercice-20190315)
 * [elisabiver]()
 * [evandu65](https://github.com/evandu65/heig-datavis-exercice-20190315)
 * [loicpostec](https://github.com/loicpostec/heig-datavis-exercice-20190315)
