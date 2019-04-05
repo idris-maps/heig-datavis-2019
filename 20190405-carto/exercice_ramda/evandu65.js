@@ -15,7 +15,8 @@ const maFonction = ([posts, users]) => {
             nom_utilisateur: R.prop('name',user),
             ville: R.prop('address', user).city,
             nom_companie: R.prop('company', user).name,
-            titres_posts: users.filter(R.propEq('userId', user.id)).map(R.prop('title', post)),
+            titres_posts: posts.filter(R.propEq('userId', user.id))
+            .map(R.prop('title')),
         }
     })
 }
