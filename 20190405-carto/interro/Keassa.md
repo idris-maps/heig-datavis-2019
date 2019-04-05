@@ -1,8 +1,14 @@
 ## 1. Qu'est ce que la visualisation de données?
 
+C'est un résumé visuel de données numériques. Cela permet de comprendre les données chiffrée et leur un implication en un seul coup d'oeil
+
 # SVG
 
+Le Scalable Vector Graphics (en français « graphique vectoriel adaptable »), ou SVG, est un format de données conçu pour décrire des ensembles de graphiques vectoriels et basé sur XML.
+
 ## 2. Expliquez la différence entre graphiques vectoriels (.svg) et matriciels (.png)
+
+Les graphiques matriciels sont fait de pixels, de petit carrée représentant une partie de l'image alors que les vestoriels sont fait de vecteurs. La différence principale et le résultat lorsque l'image est agrandie. La netteter de l'image reste la même avec les formats vesctoriels alors qu'elle se dégrade pour laisser apparaitre les pixels pour les formats matriciels.
 
 ## 3. Que représente ce SVG?
 
@@ -15,9 +21,15 @@
 </svg>
 ```
 
+Elle représente un espace svg "viewBox2 qui par de la racine et fait 100px sur 100px. A l'intérieur de cet espace se trouve 3 cercles déssinés grâce à l'élément "circle". Ils ont des coordonées x et y différentes ainsi qu'un rayon différent. Le premier cerle et rempli avec la couleur jaune. L'élément "path" permet de tracer une ligne noire de largeur 2 également remplie de noir à l'intérieur. Elle est tracée à partir du point 35 /60. Il s'agit en rélité d'une courbe indiquée par "C" dont les coordonées sont indiquée.
+
 ## 4. Que fait l'attribut `d` de l'élément `<path>` dans le SVG ci-dessus?
 
+Elle permet de déterminer la forme d'un élément path
+
 ## 5. Le dessin dans le SVG ci-dessus est au centre de la toile. Comment déplacer les quatre éléments de 10 unités vers la droite et 20 unités vers le bas?
+
+on peut utiliser la fonction translate() sur chaque élément. Puis lui passer en paramètre les coordonnées finales de chaque éléments
  
 # D3
 
@@ -60,7 +72,11 @@ Comment joindre les données (`noms`) à des éléments (`<li>`) de la liste pou
 Votre réponse:
 
 ```javascript
-const noms = [
+
+viewof data1 = {
+  const container = DOM.element('ul')
+
+const DATA = [
   'Baptiste',
   'Barbara',
   'Béatrice',
@@ -69,23 +85,31 @@ const noms = [
   'Blaise'
 ]
 
-const ul = d3.select('#noms')
-// ici
-```
+const ul = d3.select('container')
+
+ul.selectAll('li')
+    .data(DATA)
+    .enter()
+    .append('li')
+    .text(d => d)
+  
+  return container 
+  ```
 
 ## 7. Expliquez ce qui ce passe dans le code ci-dessous ligne par ligne
 
 ```javascript
 svg.selectAll('rect')
-  // ici
+  selectionne des éléments qui n'existent pas encore
+    nous voulons créer un élément rect pour chaque donnée dans DATA
   .data(DATA)
-  // ici
+  définit les données d^que nous souhaitons joindre
   .enter()
-  // ici
+  quand une donnée est ajoutée elle est stockée dans enter
   .append('rect')
-  // ici
+  nous ajoutons un élément <rect> à <ul>
   .attr('width', xScale)
-  // ici
+  appliquer xScale à l'attribut width
 ```
 
 ## 8. Si nous avons les données suivantes
@@ -96,7 +120,11 @@ const DATA = [3, 1, 6, 2, 4]
 
 ### 8.1 Quelle fonction `d3` permets d'obtenir le minimum (1)?
 
+d3.min(DATA)
+
 ### 8.2 et le maximum (6)?
+
+d3.max(DATA)
 
 ### 8.3 Utilisons ces données pour définir la largeur (`width`) des rectangles de l'exercice 7.
 
@@ -104,7 +132,9 @@ La largeur du graphique est de 100 unités. Définissez la fonction `xScale` ave
 
 ```javascript
 const GRAPH_WIDTH = 100
-const xScale = d3.scaleLinear() // ici
+const xScale = d3.scaleLinear().domain(DATA).range([0,GRAPH_WIDTH])
+
+
 ```
 
 `xScale(3)` doit retourner `50`, `xScale(1)` doit retourner 16.66666... et ainsi de suite.
@@ -129,7 +159,7 @@ Utilisez les méthodes sur les listes (`.map`, `.filter`, `.find`, `.reduce` et 
 ### 10.1 Une liste de noms
 
 ```javascript
-const noms = ELEVES. // ici
+const noms = ELEVES.map( ELEVES => ELEVES.nom) // ici
 ```
 
 résultat:
@@ -150,7 +180,7 @@ résultat:
 Les élèves passent le test s'ils ont une note supérieure à 70. `pass` doit avoir la valeur `true` ou `false`.
 
 ```javascript
-const avecPass = ELEVES. // ici
+const avecPass = ELEVES..map(d =>({...d,nom:(d.nom),note:(d.note),pass:(d.note>70 ? true : false) }))
 ```
 
 résultat:
@@ -168,7 +198,7 @@ résultat:
 ### 10.3 Une liste des élèves qui passent le test
 
 ```javascript
-const elevesQuiPassent = ELEVES. // ici
+const elevesQuiPassent = ELEVES.filter(ELEVES => ELEVES.note > 70); // ici
 ```
 
 résultat:
@@ -183,7 +213,7 @@ résultat:
 ### 10.4 La note de Blaise
 
 ```javascript
-const noteDeBlaise = ELEVES. // ici
+const noteDeBlaise = ELEVES.map() // ici
 ```
 
 résultat:
