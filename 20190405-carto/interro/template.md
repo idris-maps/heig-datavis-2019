@@ -147,7 +147,7 @@ résultat:
 
 ### 10.2 Avec une clé `pass`
 
-Les élèves passent le test s'ils ont une note supérieur à 70. `pass` doit avoir la valeur `true` ou `false`.
+Les élèves passent le test s'ils ont une note supérieure à 70. `pass` doit avoir la valeur `true` ou `false`.
 
 ```javascript
 const avecPass = ELEVES. // ici
