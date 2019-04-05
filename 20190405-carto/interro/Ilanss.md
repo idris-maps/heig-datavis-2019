@@ -1,11 +1,11 @@
 ## 1. Qu'est ce que la visualisation de données?
-
+La visualisation des données est un ensemble de méthodes de représentation graphique, en deux ou trois dimensions, utilisant ou non de la couleur et des trames. Les moyens informatiques permettent de représenter des ensembles complexes de données, de manière plus simple, didactique et pédagogique.
 # SVG
 
 ## 2. Expliquez la différence entre graphiques vectoriels (.svg) et matriciels (.png)
-
+Un png utilise des pixels, c'est une sorte de grille ou chaque case à sa couleur. De son côté le svg est vectoriel, c'est à dire qu'il est définit par des points et des vecteurs. Ainsi l'image est calculé en fonction de ses informations. L'avantage étant que l'on peut zoomer dessus indéfiniment sans perte de qualité.
 ## 3. Que représente ce SVG?
-
+Un smiley
 ```svg
 <svg viewBox="0 0 100 100">
   <circle cx="50" cy="50" r="30" fill="yellow"/>
@@ -16,9 +16,16 @@
 ```
 
 ## 4. Que fait l'attribut `d` de l'élément `<path>` dans le SVG ci-dessus?
-
+Cet attribut définit un tracer à dessiner.
 ## 5. Le dessin dans le SVG ci-dessus est au centre de la toile. Comment déplacer les quatre éléments de 10 unités vers la droite et 20 unités vers le bas?
- 
+```
+<svg viewBox="0 0 100 100">
+  <circle cx="60" cy="70" r="30" fill="yellow"/>
+  <circle cx="50" cy="60" r="5" />
+  <circle cx="70" cy="60" r="5" />
+  <path d="M 45 80 C 50 90 70 90 75 80" stroke="black" stroke-width="2" fill="none"/>
+</svg>
+```
 # D3
 
 ## 6. Comment joindre des données à des éléments DOM?
