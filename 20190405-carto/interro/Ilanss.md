@@ -91,7 +91,7 @@ ul.selectAll('li')
 svg.selectAll('rect')
   // On selectionne tous les éléments svg de type rectangle
   .data(DATA)
-  // ici
+  // On récupère les éléments DATA
   .enter()
   // Permet d'ajouter des données
   .append('rect')
