@@ -49,6 +49,7 @@ const noms = [
 ]
 
 const ul = d3.select('#noms')
+
 ```
 
 Comment joindre les données (`noms`) à des éléments (`<li>`) de la liste pour obtenir:
@@ -77,7 +78,11 @@ const noms = [
 ]
 
 const ul = d3.select('#noms')
-// ici
+ul.selectAll('li')
+    .data(noms)
+    .enter()
+    .append('li')
+    .text(d => d) // ici
 ```
 
 ## 7. Expliquez ce qui ce passe dans le code ci-dessous ligne par ligne
@@ -88,7 +93,7 @@ svg.selectAll('rect')
   .data(DATA)
   // ici
   .enter()
-  // ici
+  // Permet d'ajouter des données
   .append('rect')
   // On ajoute un élément rectangle
   .attr('width', xScale)
@@ -103,13 +108,11 @@ const DATA = [3, 1, 6, 2, 4]
 
 ### 8.1 Quelle fonction `d3` permets d'obtenir le minimum (1)?
 ```
-DATA.sort();
-DATA[0];
+d3.min(DATA);
 ```
 ### 8.2 et le maximum (6)?
 ```
-DATA.sort();
-DATA.lastIndexOf();
+d3.max(DATA);
 ```
 ### 8.3 Utilisons ces données pour définir la largeur (`width`) des rectangles de l'exercice 7.
 
@@ -144,8 +147,7 @@ Utilisez les méthodes sur les listes (`.map`, `.filter`, `.find`, `.reduce` et 
 ### 10.1 Une liste de noms
 
 ```javascript
-const noms = ELEVES. // ici
-noms.map(noms => noms.nom);
+const noms = ELEVES.map(x => x.nom) // ici
 ```
 
 résultat:
@@ -166,7 +168,7 @@ résultat:
 Les élèves passent le test s'ils ont une note supérieure à 70. `pass` doit avoir la valeur `true` ou `false`.
 
 ```javascript
-const avecPass = ELEVES. // ici
+const avecPass = ELEVES.map(d =>({...d,nom:(d.nom),note:(d.note),pass:(d.note>70 ? true : false) })) // ici
 ```
 
 résultat:
@@ -184,7 +186,7 @@ résultat:
 ### 10.3 Une liste des élèves qui passent le test
 
 ```javascript
-const elevesQuiPassent = ELEVES. // ici
+const elevesQuiPassent = ELEVES.filter(e => e.note > 70); // ici
 ```
 
 résultat:
@@ -199,7 +201,7 @@ résultat:
 ### 10.4 La note de Blaise
 
 ```javascript
-const noteDeBlaise = ELEVES. // ici
+const noteDeBlaise = ELEVES.find(e => e.nom =="Blaise").note; // ici
 ```
 
 résultat:
@@ -211,8 +213,7 @@ résultat:
 ### 10.5 La moyenne des notes de tous les élèves
 
 ```javascript
-const moyenne = ELEVES. // ici
-moyenne.reduce(moyenne +)
+const moyenne = ELEVES.reduce((resultat, e) => resultat + e.note, 0)/ELEVES.length // ici
 ```
 
 résultat
