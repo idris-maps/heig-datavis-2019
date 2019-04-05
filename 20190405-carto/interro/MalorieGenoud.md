@@ -126,8 +126,6 @@ const DATA = [3, 1, 6, 2, 4]
 La méthode **min**.
 
 ```javascript
-const DATA = [3, 1, 6, 2, 4]
-
 d3.min(DATA)
 ```
 ### 8.2 et le maximum (6)?
@@ -135,8 +133,6 @@ d3.min(DATA)
 la méthode **max**
 
 ```javascript
-const DATA = [3, 1, 6, 2, 4]
-
 d3.max(DATA)
 ```
 
