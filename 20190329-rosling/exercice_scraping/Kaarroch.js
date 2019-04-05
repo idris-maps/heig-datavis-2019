@@ -17,7 +17,7 @@ const getEtoiles = R.path(['children', 5, 'children', 3, 'attribs', 'data-rating
 
 //Je fais le tour de toute ma liste thumbnail qui contient la fiche de chaque objet et j'utilise Array.from pour transformer les objets retournés en tableaux 
 const liste = Array.from(thumbnails).map(ordinateur => ({
-    nom: getNom(ordinateur), //J'affiche le produit
+    nom: getNom(ordinateur), //J'affiche le nom du produit
     prix: getPrix(ordinateur), //puis le prix
     etoiles: getEtoiles(ordinateur) //puis le nombre d'étoiles
 }))
