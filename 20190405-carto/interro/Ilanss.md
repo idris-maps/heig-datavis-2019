@@ -84,15 +84,15 @@ const ul = d3.select('#noms')
 
 ```javascript
 svg.selectAll('rect')
-  // ici
+  // On selectionne tous les éléments svg de type rectangle
   .data(DATA)
   // ici
   .enter()
   // ici
   .append('rect')
-  // ici
+  // On ajoute un élément rectangle
   .attr('width', xScale)
-  // ici
+  // On définit l'attribut width (largeur) à la valeur xScale ce qui permet d'adapter le graphique sur la largeur disponible.
 ```
 
 ## 8. Si nous avons les données suivantes
@@ -102,9 +102,15 @@ const DATA = [3, 1, 6, 2, 4]
 ```
 
 ### 8.1 Quelle fonction `d3` permets d'obtenir le minimum (1)?
-
+```
+DATA.sort();
+DATA[0];
+```
 ### 8.2 et le maximum (6)?
-
+```
+DATA.sort();
+DATA.lastIndexOf();
+```
 ### 8.3 Utilisons ces données pour définir la largeur (`width`) des rectangles de l'exercice 7.
 
 La largeur du graphique est de 100 unités. Définissez la fonction `xScale` avec `d3.scaleLinear`.
@@ -112,6 +118,8 @@ La largeur du graphique est de 100 unités. Définissez la fonction `xScale` ave
 ```javascript
 const GRAPH_WIDTH = 100
 const xScale = d3.scaleLinear() // ici
+.domain([1, 6])
+  .range([0, ])
 ```
 
 `xScale(3)` doit retourner `50`, `xScale(1)` doit retourner 16.66666... et ainsi de suite.
@@ -137,6 +145,7 @@ Utilisez les méthodes sur les listes (`.map`, `.filter`, `.find`, `.reduce` et 
 
 ```javascript
 const noms = ELEVES. // ici
+noms.map(noms => noms.nom);
 ```
 
 résultat:
@@ -203,6 +212,7 @@ résultat:
 
 ```javascript
 const moyenne = ELEVES. // ici
+moyenne.reduce(moyenne +)
 ```
 
 résultat
