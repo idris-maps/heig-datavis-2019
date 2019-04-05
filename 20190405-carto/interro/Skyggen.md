@@ -227,5 +227,5 @@ Math.round(moyenne.reduce((res, moy) => res + (moy.note)/6, 0))
 résultat
 
 ```json
-62
+62 
 ```
