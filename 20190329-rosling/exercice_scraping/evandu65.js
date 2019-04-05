@@ -10,8 +10,6 @@ const getPrice = R.path(['children', 3, 'children', 1, 'children', 0, 'data'])
 const getTitle = R.path(['children', 3, 'children', 3, 'children', 1, 'attribs', 'title'])
 const getRate = R.path(['children', 5, 'children', 3, 'attribs', 'data-rating'])
 
-// console.log(getPrice(thumbnail))
-
 let result = Array.from(thumbnail).map(t => ({
     product: getTitle(t),
     price: getPrice(t),
