@@ -6,9 +6,15 @@
   <body>
 
 <svg id="graph"></svg>
-  
+
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script>
+  const WIDTH = width ;
+  const HEIGHT = width / 3 ;
+  const container = DOM.svg(WIDTH, HEIGHT) ;
+  const MARGIN = 5;
+  const svg = d3.select(container);
+
   const DATA = [
     { nom: 'Paul', note: 34 },
     { nom: 'Pauline', note: 98 },
@@ -16,6 +22,24 @@
     { nom: 'Pierrette', note: 52 },
   ]
   const graph = d3.select('#graph')
+  const BAR_WIDTH = WIDTH / DATA.length;
+
+  const heightScale = d3.scaleLinear()
+    .domain([0, d3.max(DATA, d => d.population)]) // le maximum de population
+    .range([0, HEIGHT]);
+
+  svg.selectAll('rect')
+    .data(DATA)
+    .enter()
+    .append('rect')
+    .attr('x', (d, i) =>  i * BAR_WIDTH)
+    .attr('width', BAR_WIDTH - MARGIN)
+    // nous devons passer d.population à heightScale
+    .attr('y', d => HEIGHT - heightScale(d.population))
+    .attr('height', d => heightScale(d.population));
+
+
+  return container;
 
 </script>
   </body>
