@@ -2,6 +2,8 @@
 
 ## Interrogation écrite
 
+[Ici](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190405-carto/interro)
+
 ## Nuage de points et suite `ramda`
 
 * [Télécharger les drapeaux](https://github.com/idris-maps/scrape-drapeaux/tree/master/final)
