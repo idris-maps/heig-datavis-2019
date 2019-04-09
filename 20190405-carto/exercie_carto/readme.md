@@ -32,7 +32,7 @@ Exemple de "feature" d'arbre.
 
 * [Aksumiron]()
 * [Alvis-wesh]()
-* [AngelLando]()
+* [AngelLando](https://github.com/AngelLando/exercice-carto-20190405)
 * [AudrisC]()
 * [Gagah98]()
 * [Gioianac]()
