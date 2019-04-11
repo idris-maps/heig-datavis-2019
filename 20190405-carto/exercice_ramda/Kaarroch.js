@@ -14,7 +14,7 @@ Le corps du code
 */
 
 /*
-Utiliser ramda pour créer une liste
+2. Utiliser ramda pour créer une liste
 */
 
 const format = ([posts, users]) => {
