@@ -43,7 +43,7 @@ Exemple de "feature" d'arbre.
 * [MalorieGenoud](https://github.com/MalorieGenoud/exercice-carto-20190405)
 * [PriscaHuguenot](https://github.com/PriscaHuguenot/exercice-carto-20190405)
 * [Skyggen]()
-* [alestuzzi]()
+* [alestuzzi](https://github.com/alestuzzi/exercice-carto-20190405)
 * [christopschranz]()
 * [cyrilBenningerHEIG]()
 * [elisabiver]()
