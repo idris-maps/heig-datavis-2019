@@ -2,6 +2,69 @@
 
 ## Retour interro
 
+[Notes](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190405-carto/interro/resultat.csv)
+
+### Question 5
+
+```
+<svg viewBox="0 0 100 100">
+  <g transform="translate(10, 20)">
+    <circle cx="50" cy="50" r="30" fill="yellow"/>
+    <circle cx="40" cy="40" r="5" />
+    <circle cx="60" cy="40" r="5" />
+    <path d="M 35 60 C 40 70 60 70 65 60" stroke="black" stroke-width="2" fill="none"/>
+  </g>
+</svg>
+```
+
+### Question 8
+
+```javascript
+const xScale = d3.scaleLinear()
+  .domain([0, d3.max(DATA)]) // pas .domain(DATA)
+  .range([0, GRAPH_WIDTH])
+```
+
+### Question 10.2
+
+8 fois:
+
+```javascript
+const avecPass = ELEVES.map(d =>({...d,nom:(d.nom),note:(d.note),pass:(d.note>70 ? true : false) }))
+```
+
+ça marche mais pour faire plus court:
+
+```javascript
+const avecPass = ELEVES.map(eleve => ({
+  ...eleve,
+  pass: d.note>70 ? true : false,
+}))
+```
+
+### 10.3
+
+```javascript
+const elevesQuiPassent = ELEVES.filter(
+  eleve => eleve.note > 70
+)
+```
+
+### 10.4
+
+```javascript
+const noteDeBlaise = ELEVES.find(
+  eleve => eleve.nom === 'Blaise'
+).note
+```
+
+### 10.5
+
+```javascript
+const somme = (resultat, eleve) => resultat + eleve.note
+const moyenne = ELEVES.reduce(somme, 0) / ELEVES.length
+```
+
 ## Geodonnées
 
 ### Les types de données OpenStreetMap

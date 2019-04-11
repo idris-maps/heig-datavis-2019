@@ -30,7 +30,8 @@ L'attribut `d` définit un tracé à dessiner. Un tracé est une liste de comman
 Pour déplacer les quatres éléments de 10 unités vers la droite et 20 unités vers le bas, deux possibilités s'offrent à nous :
   -1 : changer manuellement les données cx et cy de chaque cercle ainsi que les commandes dans l'attribut `d` de `<path>`
   -2 : Cette solution est la plus simple et celle que je préconiserai ; il suffit d'englober les éléments du SVG dans une balise `<g>` comme ceci :
-`
+
+```
 <svg viewBox="0 0 100 100">
   <g transform="translate(10, 20)">
   <circle cx="50" cy="50" r="30" fill="yellow"/>
@@ -39,7 +40,8 @@ Pour déplacer les quatres éléments de 10 unités vers la droite et 20 unités
   <path d="M 35 60 C 40 70 60 70 65 60" stroke="black" stroke-width="2" fill="none"/>
   </g>
 </svg>
-` 
+```
+
 # D3
 
 ## 6. Comment joindre des données à des éléments DOM?
@@ -133,7 +135,7 @@ La largeur du graphique est de 100 unités. Définissez la fonction `xScale` ave
 
 ```javascript
 const GRAPH_WIDTH = 100
-const xScale = d3.scaleLinear().domain([0, d3.max(DATA)]).range([0, GRAP_WIDTH])
+const xScale = d3.scaleLinear().domain([0, d3.max(DATA)]).range([0, GRAPH_WIDTH])
 ```
 
 `xScale(3)` doit retourner `50`, `xScale(1)` doit retourner 16.66666... et ainsi de suite.

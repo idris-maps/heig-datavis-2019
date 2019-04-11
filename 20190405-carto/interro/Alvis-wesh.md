@@ -204,7 +204,6 @@ résultat:
 
 ```javascript
 const elevesQuiPassent = ELEVES.filter(n => n.note > 70);
-
 ```
 
 résultat:
@@ -220,7 +219,6 @@ résultat:
 
 ```javascript
 const noteDeBlaise = ELEVES.find(b => b.nom =="Blaise").note;
-
 ```
 
 résultat:
@@ -233,7 +231,6 @@ résultat:
 
 ```javascript
 const moyenne = ELEVES.reduce((resultat, m) => resultat + m.note, 0)/ELEVES.length
-
 ```
 
 résultat
