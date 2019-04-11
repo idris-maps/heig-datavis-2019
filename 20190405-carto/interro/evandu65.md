@@ -1,9 +1,11 @@
 ## 1. Qu'est ce que la visualisation de données?
-
+La visualisation de données est le fait de représenter de manière visuelle (2d ou 3d) des données afin de faciliter la lecture de celles-ci.
 # SVG
 
 ## 2. Expliquez la différence entre graphiques vectoriels (.svg) et matriciels (.png)
+Une image vectorielle est créée différents objets individuels définis chacuns par des attributs (position, rayon si c'est un cercle, etc). Ces images ne se pixellisent pas quand on les agrandit.
 
+Une image matricielle est conposée d'une trame, c'est-à-dire d'un ensemble de points colorés (ou non). Plus on agrandit une image matricielle, plus on va remarques les petits points qui la composent (l'image se pixellise).
 ## 3. Que représente ce SVG?
 
 ```svg
@@ -14,11 +16,21 @@
   <path d="M 35 60 C 40 70 60 70 65 60" stroke="black" stroke-width="2" fill="none"/>
 </svg>
 ```
-
+Ce svg représente un arc de cercle et deux petits cercles noires placés sur un grand cercle jaune. C'est un smiley jaune qui sourit :)
 ## 4. Que fait l'attribut `d` de l'élément `<path>` dans le SVG ci-dessus?
-
+L'élément 'd' est une liste de points et d'autres informations sur la manière dont la path doit être dessiné. (cf mdn) Ici, cet élément indique le point de départ (35,60) et d'arrivée (65,60). On lui dit de dessiner une courbe avec l'instruction 'C' qui prend deux points de contrôle (40,70) et (60,70) avant le point d'arrivée.
 ## 5. Le dessin dans le SVG ci-dessus est au centre de la toile. Comment déplacer les quatre éléments de 10 unités vers la droite et 20 unités vers le bas?
- 
+Il est possible de grouper les éléments avec l'élément 'g'. On peut ensuite appliquer un 'translate' à ce groupe d'éléments afin de le déplacer.
+```svg
+<svg viewBox="0 0 100 100">
+  <g transform="translate(10, 20)">
+    <circle cx="50" cy="50" r="30" fill="yellow"/>
+    <circle cx="40" cy="40" r="5" />
+    <circle cx="60" cy="40" r="5" />
+    <path d="M 35 60 C 40 70 60 70 65 60" stroke="black" stroke-width="2" fill="none"/>
+  </g>
+</svg>
+```
 # D3
 
 ## 6. Comment joindre des données à des éléments DOM?
@@ -70,22 +82,27 @@ const noms = [
 ]
 
 const ul = d3.select('#noms')
-// ici
+
+ul.selectAll('li')
+    .data(noms)
+    .enter()
+    .append('li')
+    .text(d => d)
 ```
 
 ## 7. Expliquez ce qui ce passe dans le code ci-dessous ligne par ligne
 
 ```javascript
 svg.selectAll('rect')
-  // ici
+  // Permet de sélectionner les rectangles qui n'existent pas encore
   .data(DATA)
-  // ici
+  // Permet de définir les données que nous souhaitons joindre
   .enter()
-  // ici
+  // Après avoir ajouté une donnée, il faut fait un .enter()
   .append('rect')
-  // ici
+  // Nous ajoutons un élément <rect> à <svg>
   .attr('width', xScale)
-  // ici
+  // Nous définissons la largeur du rectangle à xScale
 ```
 
 ## 8. Si nous avons les données suivantes
@@ -95,16 +112,18 @@ const DATA = [3, 1, 6, 2, 4]
 ```
 
 ### 8.1 Quelle fonction `d3` permets d'obtenir le minimum (1)?
-
+d3.min(DATA)
 ### 8.2 et le maximum (6)?
-
+d3.max(DATA)
 ### 8.3 Utilisons ces données pour définir la largeur (`width`) des rectangles de l'exercice 7.
 
 La largeur du graphique est de 100 unités. Définissez la fonction `xScale` avec `d3.scaleLinear`.
 
 ```javascript
 const GRAPH_WIDTH = 100
-const xScale = d3.scaleLinear() // ici
+const xScale = d3.scaleLinear()
+    .domain([0, d3.max(DATA)])
+    .range([0, GRAPH_WIDTH])
 ```
 
 `xScale(3)` doit retourner `50`, `xScale(1)` doit retourner 16.66666... et ainsi de suite.
@@ -129,7 +148,7 @@ Utilisez les méthodes sur les listes (`.map`, `.filter`, `.find`, `.reduce` et 
 ### 10.1 Une liste de noms
 
 ```javascript
-const noms = ELEVES. // ici
+const noms = ELEVES.map(d => d.nom)
 ```
 
 résultat:
@@ -150,7 +169,7 @@ résultat:
 Les élèves passent le test s'ils ont une note supérieure à 70. `pass` doit avoir la valeur `true` ou `false`.
 
 ```javascript
-const avecPass = ELEVES. // ici
+const avecPass = ELEVES.map(d =>({...d,nom:(d.nom),note:(d.note),pass:(d.note>70 ? true : false) }))
 ```
 
 résultat:
@@ -168,7 +187,7 @@ résultat:
 ### 10.3 Une liste des élèves qui passent le test
 
 ```javascript
-const elevesQuiPassent = ELEVES. // ici
+const elevesQuiPassent = ELEVES.filter(d => d.note > 70)
 ```
 
 résultat:
@@ -183,7 +202,7 @@ résultat:
 ### 10.4 La note de Blaise
 
 ```javascript
-const noteDeBlaise = ELEVES. // ici
+const noteDeBlaise = ELEVES.find(e => e.nom =="Blaise").note
 ```
 
 résultat:
@@ -195,7 +214,7 @@ résultat:
 ### 10.5 La moyenne des notes de tous les élèves
 
 ```javascript
-const moyenne = ELEVES. // ici
+const moyenne = ELEVES.reduce((total, e) => total + e.note, 0)/ELEVES.length
 ```
 
 résultat
