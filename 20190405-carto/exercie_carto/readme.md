@@ -39,7 +39,7 @@ Exemple de "feature" d'arbre.
 * [Ilanss]()
 * [Kaarroch]()
 * [Keassa]()
-* [Lowgic]()
+* [Lowgic](https://github.com/Lowgic/exercice-carto-20190405)
 * [MalorieGenoud](https://github.com/MalorieGenoud/exercice-carto-20190405)
 * [PriscaHuguenot](https://github.com/PriscaHuguenot/exercice-carto-20190405)
 * [Skyggen]()
