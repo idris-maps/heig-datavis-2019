@@ -1,0 +1,1679 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/4719225",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "name": "Allée de Winterthour"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6469698,
+            46.7852185
+          ],
+          [
+            6.6465247,
+            46.7846544
+          ],
+          [
+            6.6461609,
+            46.7841848
+          ],
+          [
+            6.6456242,
+            46.7834964
+          ],
+          [
+            6.6453784,
+            46.7831805
+          ],
+          [
+            6.6452941,
+            46.783092
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/22735309",
+      "properties": {
+        "cycleway": "lane",
+        "highway": "residential",
+        "name": "Rue de l'Industrie",
+        "oneway": "no",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6499361,
+            46.7813263
+          ],
+          [
+            6.6498422,
+            46.7811545
+          ],
+          [
+            6.6493476,
+            46.7802709
+          ],
+          [
+            6.6490703,
+            46.7797429
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/22735315",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed:type": "CH:urban",
+        "name": "Rue Saint-Roch",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6466902,
+            46.7800193
+          ],
+          [
+            6.646517,
+            46.7797478
+          ],
+          [
+            6.6464283,
+            46.7796158
+          ],
+          [
+            6.6460976,
+            46.7791238
+          ],
+          [
+            6.6460844,
+            46.7791042
+          ],
+          [
+            6.6460148,
+            46.7790255
+          ],
+          [
+            6.6459408,
+            46.7789334
+          ],
+          [
+            6.6447546,
+            46.7772009
+          ],
+          [
+            6.6447021,
+            46.7771295
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/22903082",
+      "properties": {
+        "highway": "primary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
+        "name": "Avenue Haldimand",
+        "oneway": "yes",
+        "rcrc_ref": "401a",
+        "ref": "5",
+        "service": "bus",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.64299,
+            46.7796971
+          ],
+          [
+            6.643225,
+            46.779614
+          ],
+          [
+            6.6433052,
+            46.7795918
+          ],
+          [
+            6.6436219,
+            46.7795222
+          ],
+          [
+            6.6437671,
+            46.7794921
+          ],
+          [
+            6.6438936,
+            46.7794659
+          ],
+          [
+            6.6442141,
+            46.7794219
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23365461",
+      "properties": {
+        "foot": "yes",
+        "highway": "footway",
+        "name": "Rue des Pêcheurs"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.64373,
+            46.7806546
+          ],
+          [
+            6.6440228,
+            46.7810186
+          ],
+          [
+            6.6441651,
+            46.7811615
+          ],
+          [
+            6.64436,
+            46.7812868
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23365462",
+      "properties": {
+        "highway": "service",
+        "name": "Rue des Pêcheurs",
+        "service": "parking_aisle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6458444,
+            46.7807015
+          ],
+          [
+            6.64436,
+            46.7812868
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23365486",
+      "properties": {
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Avenue des Sports"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.64563,
+            46.7829435
+          ],
+          [
+            6.6456791,
+            46.7829215
+          ],
+          [
+            6.6458394,
+            46.7828504
+          ],
+          [
+            6.6471642,
+            46.7823583
+          ],
+          [
+            6.6473312,
+            46.7822925
+          ],
+          [
+            6.6486541,
+            46.7818288
+          ],
+          [
+            6.6487987,
+            46.7817762
+          ],
+          [
+            6.649011,
+            46.7816991
+          ],
+          [
+            6.6491876,
+            46.7816348
+          ],
+          [
+            6.6495821,
+            46.7814843
+          ],
+          [
+            6.6497225,
+            46.7814344
+          ],
+          [
+            6.6499178,
+            46.7813631
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23365487",
+      "properties": {
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed:type": "CH:urban",
+        "name": "Avenue de l'Hippodrome",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6431058,
+            46.7841367
+          ],
+          [
+            6.6433497,
+            46.7840785
+          ],
+          [
+            6.6436069,
+            46.7840092
+          ],
+          [
+            6.6437448,
+            46.7839459
+          ],
+          [
+            6.6438959,
+            46.7838728
+          ],
+          [
+            6.644047,
+            46.7837945
+          ],
+          [
+            6.644224,
+            46.7836807
+          ],
+          [
+            6.6444236,
+            46.7835696
+          ],
+          [
+            6.6452941,
+            46.783092
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23373585",
+      "properties": {
+        "access": "yes",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "motor_vehicle": "no",
+        "noname": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6444173,
+            46.7819566
+          ],
+          [
+            6.6447593,
+            46.7818223
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23373605",
+      "properties": {
+        "highway": "service",
+        "name": "Rue du Nord",
+        "oneway": "yes",
+        "source": "Survey, Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6447593,
+            46.7818223
+          ],
+          [
+            6.6451212,
+            46.7816921
+          ],
+          [
+            6.6458398,
+            46.7814179
+          ],
+          [
+            6.646161,
+            46.7813091
+          ],
+          [
+            6.6462551,
+            46.7812991
+          ],
+          [
+            6.646328,
+            46.7813247
+          ],
+          [
+            6.6467065,
+            46.7817893
+          ],
+          [
+            6.6476215,
+            46.7814454
+          ],
+          [
+            6.6480339,
+            46.7812969
+          ],
+          [
+            6.6481008,
+            46.7813144
+          ],
+          [
+            6.6483555,
+            46.7812168
+          ],
+          [
+            6.6485612,
+            46.7811395
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23373607",
+      "properties": {
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6467065,
+            46.7817893
+          ],
+          [
+            6.6467646,
+            46.7818616
+          ],
+          [
+            6.6471642,
+            46.7823583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23373621",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.649011,
+            46.7816991
+          ],
+          [
+            6.6489384,
+            46.7816067
+          ],
+          [
+            6.6487414,
+            46.7813562
+          ],
+          [
+            6.6485612,
+            46.7811395
+          ],
+          [
+            6.6481503,
+            46.780637
+          ],
+          [
+            6.6479958,
+            46.7805012
+          ],
+          [
+            6.6478412,
+            46.7803442
+          ],
+          [
+            6.6477044,
+            46.7803148
+          ],
+          [
+            6.6475194,
+            46.7803552
+          ],
+          [
+            6.646028,
+            46.7809283
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23373633",
+      "properties": {
+        "highway": "service",
+        "oneway": "yes",
+        "service": "parking_aisle",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6487987,
+            46.7817762
+          ],
+          [
+            6.6483555,
+            46.7812168
+          ],
+          [
+            6.6478408,
+            46.7805596
+          ],
+          [
+            6.6479958,
+            46.7805012
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26496134",
+      "properties": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Rue de l'Ancien-Stand",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6452941,
+            46.783092
+          ],
+          [
+            6.6451989,
+            46.7829969
+          ],
+          [
+            6.6448248,
+            46.7825068
+          ],
+          [
+            6.644658,
+            46.7822622
+          ],
+          [
+            6.6445082,
+            46.7820673
+          ],
+          [
+            6.6444173,
+            46.7819566
+          ],
+          [
+            6.6443714,
+            46.7818777
+          ],
+          [
+            6.6439283,
+            46.7812288
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26661901",
+      "properties": {
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6491876,
+            46.7816348
+          ],
+          [
+            6.6493984,
+            46.7819176
+          ],
+          [
+            6.6496799,
+            46.7822952
+          ],
+          [
+            6.649142,
+            46.7824832
+          ],
+          [
+            6.6488605,
+            46.7821056
+          ],
+          [
+            6.6486541,
+            46.7818288
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26713938",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6481503,
+            46.780637
+          ],
+          [
+            6.6487805,
+            46.7804443
+          ],
+          [
+            6.6493476,
+            46.7802709
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26761941",
+      "properties": {
+        "highway": "primary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
+        "name": "Avenue Haldimand",
+        "oneway": "yes",
+        "ref": "5",
+        "service": "bus",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6442141,
+            46.7794219
+          ],
+          [
+            6.6439441,
+            46.7795005
+          ],
+          [
+            6.6437942,
+            46.7795375
+          ],
+          [
+            6.6436444,
+            46.7795744
+          ],
+          [
+            6.643272,
+            46.779683
+          ],
+          [
+            6.6430852,
+            46.779754
+          ],
+          [
+            6.6430414,
+            46.7797746
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/32784073",
+      "properties": {
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
+        "name": "Avenue Haldimand",
+        "rcrc_ref": "401a",
+        "ref": "5",
+        "service": "bus",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6442141,
+            46.7794219
+          ],
+          [
+            6.6444976,
+            46.7793595
+          ],
+          [
+            6.6452041,
+            46.779204
+          ],
+          [
+            6.6460148,
+            46.7790255
+          ],
+          [
+            6.6464014,
+            46.7789389
+          ],
+          [
+            6.6470777,
+            46.7787875
+          ],
+          [
+            6.6480706,
+            46.7785652
+          ],
+          [
+            6.6481731,
+            46.7785422
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79760612",
+      "properties": {
+        "bicycle": "yes",
+        "cycleway": "lane",
+        "highway": "residential",
+        "name": "Rue de l'Industrie",
+        "oneway": "no",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6489781,
+            46.7795722
+          ],
+          [
+            6.6489538,
+            46.7795272
+          ],
+          [
+            6.6489299,
+            46.779483
+          ],
+          [
+            6.6486152,
+            46.7788993
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79760621",
+      "properties": {
+        "highway": "residential",
+        "layer": "-1",
+        "maxheight": "3.2",
+        "name": "Rue de l'Industrie",
+        "oneway": "no",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6490703,
+            46.7797429
+          ],
+          [
+            6.6489781,
+            46.7795722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/80122124",
+      "properties": {
+        "highway": "service",
+        "service": "parking_aisle",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6459935,
+            46.7816115
+          ],
+          [
+            6.6454032,
+            46.7818326
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/80122127",
+      "properties": {
+        "highway": "service",
+        "service": "parking_aisle",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6461752,
+            46.781839
+          ],
+          [
+            6.6457457,
+            46.7819998
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/80122129",
+      "properties": {
+        "highway": "service",
+        "service": "parking_aisle",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6459196,
+            46.7815189
+          ],
+          [
+            6.6453309,
+            46.7817393
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/80122130",
+      "properties": {
+        "highway": "service",
+        "service": "parking_aisle",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6460663,
+            46.7817027
+          ],
+          [
+            6.6454644,
+            46.781928
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/80122133",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6451212,
+            46.7816921
+          ],
+          [
+            6.6452212,
+            46.7818154
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/80122134",
+      "properties": {
+        "highway": "service",
+        "service": "parking_aisle",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6458398,
+            46.7814179
+          ],
+          [
+            6.6459196,
+            46.7815189
+          ],
+          [
+            6.6459935,
+            46.7816115
+          ],
+          [
+            6.6460663,
+            46.7817027
+          ],
+          [
+            6.6461752,
+            46.781839
+          ],
+          [
+            6.6462807,
+            46.7819712
+          ],
+          [
+            6.6458506,
+            46.7821322
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/80122831",
+      "properties": {
+        "highway": "footway",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6489384,
+            46.7816067
+          ],
+          [
+            6.6490269,
+            46.7815763
+          ],
+          [
+            6.6489514,
+            46.7812754
+          ],
+          [
+            6.6489276,
+            46.7811804
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/80122834",
+      "properties": {
+        "highway": "footway",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6487414,
+            46.7813562
+          ],
+          [
+            6.6489514,
+            46.7812754
+          ],
+          [
+            6.6491716,
+            46.7812171
+          ],
+          [
+            6.6493349,
+            46.7810581
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/80253703",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6493984,
+            46.7819176
+          ],
+          [
+            6.6488605,
+            46.7821056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975269",
+      "properties": {
+        "highway": "service",
+        "tunnel": "building_passage"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6441,
+            46.7805216
+          ],
+          [
+            6.6442395,
+            46.7804713
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975288",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6444976,
+            46.7793595
+          ],
+          [
+            6.6445493,
+            46.7794615
+          ],
+          [
+            6.6445551,
+            46.7794709
+          ],
+          [
+            6.6447243,
+            46.779743
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975300",
+      "properties": {
+        "highway": "service",
+        "service": "driveway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6457876,
+            46.7799215
+          ],
+          [
+            6.6458981,
+            46.7797914
+          ],
+          [
+            6.6464283,
+            46.7796158
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975302",
+      "properties": {
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6442395,
+            46.7804713
+          ],
+          [
+            6.6446548,
+            46.7803221
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/82309463",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.644658,
+            46.7822622
+          ],
+          [
+            6.6438784,
+            46.7825014
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/82309466",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6448248,
+            46.7825068
+          ],
+          [
+            6.6440403,
+            46.7827679
+          ],
+          [
+            6.6436712,
+            46.7828729
+          ],
+          [
+            6.6435866,
+            46.7829612
+          ],
+          [
+            6.642887,
+            46.7831661
+          ],
+          [
+            6.6427584,
+            46.7829687
+          ],
+          [
+            6.6435778,
+            46.7827264
+          ],
+          [
+            6.6439437,
+            46.7826081
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/82309470",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6437875,
+            46.7823502
+          ],
+          [
+            6.6438784,
+            46.7825014
+          ],
+          [
+            6.6439437,
+            46.7826081
+          ],
+          [
+            6.6440403,
+            46.7827679
+          ],
+          [
+            6.6442501,
+            46.7831107
+          ],
+          [
+            6.6437594,
+            46.7832432
+          ],
+          [
+            6.6429157,
+            46.7834822
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/82309473",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6445082,
+            46.7820673
+          ],
+          [
+            6.6437875,
+            46.7823502
+          ],
+          [
+            6.6434195,
+            46.7824704
+          ],
+          [
+            6.6433433,
+            46.7825538
+          ],
+          [
+            6.6430851,
+            46.782632
+          ],
+          [
+            6.6430407,
+            46.782636
+          ],
+          [
+            6.6430022,
+            46.7826199
+          ],
+          [
+            6.6427236,
+            46.782254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/82310526",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.646517,
+            46.7797478
+          ],
+          [
+            6.6469724,
+            46.7796302
+          ],
+          [
+            6.6470316,
+            46.779595
+          ],
+          [
+            6.6470634,
+            46.7795478
+          ],
+          [
+            6.6470579,
+            46.7795072
+          ],
+          [
+            6.6469684,
+            46.77932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/82554104",
+      "properties": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "layer": "1",
+        "lit": "yes",
+        "name": "Avenue des Sports",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6454247,
+            46.7830323
+          ],
+          [
+            6.64563,
+            46.7829435
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/83485229",
+      "properties": {
+        "highway": "residential",
+        "name": "Rue des Pêcheurs",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.64436,
+            46.7812868
+          ],
+          [
+            6.6447593,
+            46.7818223
+          ],
+          [
+            6.6456791,
+            46.7829215
+          ],
+          [
+            6.6469409,
+            46.7845285
+          ],
+          [
+            6.6473457,
+            46.785055
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/109928267",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2011 / R-Pod @ HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6467646,
+            46.7818616
+          ],
+          [
+            6.6470962,
+            46.7817313
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/341778087",
+      "properties": {
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6447243,
+            46.779743
+          ],
+          [
+            6.6450082,
+            46.779916
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/341778088",
+      "properties": {
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.64373,
+            46.7806546
+          ],
+          [
+            6.6441,
+            46.7805216
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/341778089",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6447243,
+            46.779743
+          ],
+          [
+            6.6449176,
+            46.7797024
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/341778090",
+      "properties": {
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6493963,
+            46.7811466
+          ],
+          [
+            6.6495821,
+            46.7814843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/341778091",
+      "properties": {
+        "highway": "service",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6479958,
+            46.7805012
+          ],
+          [
+            6.6486631,
+            46.7802497
+          ],
+          [
+            6.6487805,
+            46.7804443
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/408042611",
+      "properties": {
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "Avenue de l'Hippodrome",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6452941,
+            46.783092
+          ],
+          [
+            6.6453831,
+            46.7830522
+          ],
+          [
+            6.6454247,
+            46.7830323
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456768814",
+      "properties": {
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.646028,
+            46.7809283
+          ],
+          [
+            6.6458444,
+            46.7807015
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/473333230",
+      "properties": {
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6466902,
+            46.7800193
+          ],
+          [
+            6.6487741,
+            46.7795163
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/483951371",
+      "properties": {
+        "highway": "path"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6500605,
+            46.779241
+          ],
+          [
+            6.6489299,
+            46.779483
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/483951374",
+      "properties": {
+        "highway": "path"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6489299,
+            46.779483
+          ],
+          [
+            6.6487741,
+            46.7795163
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/555308876",
+      "properties": {
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.6495547,
+            46.7783356
+          ],
+          [
+            6.6492184,
+            46.7784139
+          ],
+          [
+            6.6488476,
+            46.7785017
+          ],
+          [
+            6.6484775,
+            46.778586
+          ],
+          [
+            6.6484828,
+            46.7786011
+          ],
+          [
+            6.6484517,
+            46.7786075
+          ],
+          [
+            6.6483854,
+            46.7786211
+          ],
+          [
+            6.6476351,
+            46.7787787
+          ],
+          [
+            6.6460976,
+            46.7791238
+          ],
+          [
+            6.6445551,
+            46.7794709
+          ],
+          [
+            6.6440765,
+            46.7795458
+          ],
+          [
+            6.6436836,
+            46.7796269
+          ],
+          [
+            6.6431209,
+            46.7798039
+          ]
+        ]
+      }
+    }
+  ]
+}

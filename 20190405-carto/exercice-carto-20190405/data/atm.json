@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/3578326056",
+      "properties": {
+        "amenity": "atm",
+        "drive_through": "yes",
+        "operator": "BCV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6471491,
+          46.7815839
+        ]
+      }
+    }
+  ]
+}

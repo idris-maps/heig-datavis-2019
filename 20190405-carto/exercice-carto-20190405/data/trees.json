@@ -1,0 +1,551 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/930835841",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6457033,
+          46.7830809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/934760090",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6455191,
+          46.7828399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/934760100",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6449052,
+          46.782049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/934760101",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.645151,
+          46.7823663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/934760102",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6453909,
+          46.7826772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/934760103",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6447676,
+          46.7818976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/934760120",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6450192,
+          46.7822061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/934760122",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6452756,
+          46.7825226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/954080422",
+      "properties": {
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6446613,
+          46.7810755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/954080432",
+      "properties": {
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6445847,
+          46.7816408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/954080448",
+      "properties": {
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6446725,
+          46.7817683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/954080456",
+      "properties": {
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6448226,
+          46.7810127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/954080461",
+      "properties": {
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6442683,
+          46.781182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/954080469",
+      "properties": {
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6443688,
+          46.7813277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/954080489",
+      "properties": {
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6445791,
+          46.7811075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/954080495",
+      "properties": {
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6444904,
+          46.7811421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/954080501",
+      "properties": {
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6447413,
+          46.7810443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/955099459",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6494323,
+          46.7813657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/955099495",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6487343,
+          46.7808696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/955099554",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6484937,
+          46.7817101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/955099595",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6481519,
+          46.7817975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/955099648",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6491989,
+          46.780624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/955099695",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6481731,
+          46.7815198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/955099764",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6486573,
+          46.7807624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/955099853",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6483517,
+          46.7816475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/955099896",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6492663,
+          46.7812157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/955099960",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.648833,
+          46.781247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/955100064",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6477018,
+          46.7814926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1075389329",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6443669,
+          46.7797621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1075389351",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.644657,
+          46.780077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1075389376",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6450713,
+          46.7798657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1075389394",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6455312,
+          46.7797952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1075389419",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6458667,
+          46.7794886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1075389437",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.645527,
+          46.7796337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1075389442",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6442509,
+          46.7799278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1075389462",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6456927,
+          46.7795632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1075389467",
+      "properties": {
+        "natural": "tree",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6448931,
+          46.7799651
+        ]
+      }
+    }
+  ]
+}
