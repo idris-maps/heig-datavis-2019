@@ -41,7 +41,7 @@ Exemple de "feature" d'arbre.
 * [Keassa]()
 * [Lowgic]()
 * [MalorieGenoud]()
-* [PriscaHuguenot]()
+* [PriscaHuguenot](https://github.com/PriscaHuguenot/exercice-carto-20190405)
 * [Skyggen]()
 * [alestuzzi]()
 * [christopschranz]()
