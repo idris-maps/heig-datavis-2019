@@ -1,4 +1,3336 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "relation/1200851",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD",
+        "type": "multipolygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6484326,
+              46.7820931
+            ],
+            [
+              6.6485847,
+              46.7820392
+            ],
+            [
+              6.6485606,
+              46.7820072
+            ],
+            [
+              6.6487151,
+              46.7819525
+            ],
+            [
+              6.6489372,
+              46.7822468
+            ],
+            [
+              6.6492854,
+              46.7821236
+            ],
+            [
+              6.6492486,
+              46.7820749
+            ],
+            [
+              6.6493588,
+              46.7820359
+            ],
+            [
+              6.6493963,
+              46.7820856
+            ],
+            [
+              6.6495592,
+              46.782028
+            ],
+            [
+              6.6494742,
+              46.7819154
+            ],
+            [
+              6.6495201,
+              46.7818992
+            ],
+            [
+              6.6494411,
+              46.7817945
+            ],
+            [
+              6.6493832,
+              46.781815
+            ],
+            [
+              6.6493145,
+              46.7817239
+            ],
+            [
+              6.6494975,
+              46.7816591
+            ],
+            [
+              6.649509,
+              46.7816744
+            ],
+            [
+              6.6496479,
+              46.7816252
+            ],
+            [
+              6.6496937,
+              46.7816859
+            ],
+            [
+              6.6495587,
+              46.7817337
+            ],
+            [
+              6.6495666,
+              46.7817443
+            ],
+            [
+              6.6495516,
+              46.7817496
+            ],
+            [
+              6.6500474,
+              46.7824065
+            ],
+            [
+              6.6499835,
+              46.7824291
+            ],
+            [
+              6.6499935,
+              46.7824424
+            ],
+            [
+              6.6490962,
+              46.78276
+            ],
+            [
+              6.648966,
+              46.7825876
+            ],
+            [
+              6.6488396,
+              46.7826323
+            ],
+            [
+              6.6484326,
+              46.7820931
+            ]
+          ],
+          [
+            [
+              6.6491318,
+              46.7826036
+            ],
+            [
+              6.6497822,
+              46.7823751
+            ],
+            [
+              6.6496282,
+              46.7821695
+            ],
+            [
+              6.6489778,
+              46.7823981
+            ],
+            [
+              6.6491318,
+              46.7826036
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79741526",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6488418,
+              46.7820181
+            ],
+            [
+              6.6487729,
+              46.7819326
+            ],
+            [
+              6.6492528,
+              46.7817525
+            ],
+            [
+              6.6493261,
+              46.7818435
+            ],
+            [
+              6.6488418,
+              46.7820181
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79757077",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "5",
+        "addr:postcode": "1400",
+        "addr:street": "Rue de l'Ancien-Stand",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6448393,
+              46.7826734
+            ],
+            [
+              6.6450421,
+              46.7829816
+            ],
+            [
+              6.6444358,
+              46.7831687
+            ],
+            [
+              6.644233,
+              46.7828604
+            ],
+            [
+              6.6448393,
+              46.7826734
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79757079",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6439849,
+              46.7828413
+            ],
+            [
+              6.6441385,
+              46.7830806
+            ],
+            [
+              6.643793,
+              46.7831778
+            ],
+            [
+              6.6436432,
+              46.7829386
+            ],
+            [
+              6.6439849,
+              46.7828413
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79820851",
+      "properties": {
+        "addr:housenumber": "3",
+        "addr:street": "Rue de l'Ancien-Stand",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6439857,
+              46.7825475
+            ],
+            [
+              6.6445052,
+              46.7823776
+            ],
+            [
+              6.6444824,
+              46.7823449
+            ],
+            [
+              6.6445676,
+              46.782317
+            ],
+            [
+              6.6446766,
+              46.7824732
+            ],
+            [
+              6.6440719,
+              46.782671
+            ],
+            [
+              6.6439857,
+              46.7825475
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79820854",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Rue de l'Ancien-Stand",
+        "building": "yes",
+        "name": "Pavillon STE",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6437585,
+              46.7822638
+            ],
+            [
+              6.6436934,
+              46.7821927
+            ],
+            [
+              6.6439404,
+              46.7820865
+            ],
+            [
+              6.6439939,
+              46.7821449
+            ],
+            [
+              6.6438402,
+              46.782211
+            ],
+            [
+              6.6438519,
+              46.7822237
+            ],
+            [
+              6.6437585,
+              46.7822638
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821637",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "14",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6456065,
+              46.7824366
+            ],
+            [
+              6.6455589,
+              46.782377
+            ],
+            [
+              6.6456725,
+              46.7823345
+            ],
+            [
+              6.6457201,
+              46.7823941
+            ],
+            [
+              6.6456065,
+              46.7824366
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821640",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "10",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6466038,
+              46.782459
+            ],
+            [
+              6.6465431,
+              46.7823788
+            ],
+            [
+              6.6466868,
+              46.7823278
+            ],
+            [
+              6.6467475,
+              46.782408
+            ],
+            [
+              6.6466038,
+              46.782459
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821642",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "14b",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6457644,
+              46.7823429
+            ],
+            [
+              6.6457445,
+              46.7823185
+            ],
+            [
+              6.6457149,
+              46.7822823
+            ],
+            [
+              6.6457619,
+              46.7822643
+            ],
+            [
+              6.6459469,
+              46.7821934
+            ],
+            [
+              6.6460823,
+              46.7823592
+            ],
+            [
+              6.6459942,
+              46.782393
+            ],
+            [
+              6.6459083,
+              46.7822878
+            ],
+            [
+              6.6457644,
+              46.7823429
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821643",
+      "properties": {
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6460119,
+              46.7821661
+            ],
+            [
+              6.64606,
+              46.7821486
+            ],
+            [
+              6.646158,
+              46.7822748
+            ],
+            [
+              6.64611,
+              46.7822923
+            ],
+            [
+              6.6460119,
+              46.7821661
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821647",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6454135,
+              46.7825265
+            ],
+            [
+              6.6452018,
+              46.7822481
+            ],
+            [
+              6.6453543,
+              46.7821937
+            ],
+            [
+              6.6455659,
+              46.7824722
+            ],
+            [
+              6.6454135,
+              46.7825265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821648",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "8",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6464023,
+              46.7825349
+            ],
+            [
+              6.6462874,
+              46.7823805
+            ],
+            [
+              6.6464116,
+              46.7823372
+            ],
+            [
+              6.6465265,
+              46.7824915
+            ],
+            [
+              6.6464023,
+              46.7825349
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821652",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "12",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6464864,
+              46.7816523
+            ],
+            [
+              6.6468547,
+              46.7821149
+            ],
+            [
+              6.64681,
+              46.7821316
+            ],
+            [
+              6.6468464,
+              46.7821773
+            ],
+            [
+              6.6468159,
+              46.7821887
+            ],
+            [
+              6.6468003,
+              46.7821691
+            ],
+            [
+              6.6466948,
+              46.7822085
+            ],
+            [
+              6.6466753,
+              46.782184
+            ],
+            [
+              6.6465133,
+              46.7822445
+            ],
+            [
+              6.6463786,
+              46.7820752
+            ],
+            [
+              6.6464193,
+              46.78206
+            ],
+            [
+              6.6464051,
+              46.7820422
+            ],
+            [
+              6.6465277,
+              46.7819965
+            ],
+            [
+              6.646307,
+              46.7817193
+            ],
+            [
+              6.6464864,
+              46.7816523
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821655",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "2",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6455698,
+              46.7826078
+            ],
+            [
+              6.645817,
+              46.7825207
+            ],
+            [
+              6.6458406,
+              46.7825521
+            ],
+            [
+              6.6458965,
+              46.7826264
+            ],
+            [
+              6.6456493,
+              46.7827136
+            ],
+            [
+              6.6455698,
+              46.7826078
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821657",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "8b",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6462481,
+              46.7821951
+            ],
+            [
+              6.6461987,
+              46.7821273
+            ],
+            [
+              6.6462836,
+              46.7820983
+            ],
+            [
+              6.6463329,
+              46.7821661
+            ],
+            [
+              6.6462481,
+              46.7821951
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821660",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "2b",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6458975,
+              46.7827162
+            ],
+            [
+              6.6458582,
+              46.7826668
+            ],
+            [
+              6.6459665,
+              46.7826261
+            ],
+            [
+              6.6460058,
+              46.7826755
+            ],
+            [
+              6.6458975,
+              46.7827162
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821662",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "4",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6460647,
+              46.782654
+            ],
+            [
+              6.6460244,
+              46.7826017
+            ],
+            [
+              6.646167,
+              46.7825498
+            ],
+            [
+              6.6462073,
+              46.7826021
+            ],
+            [
+              6.6460647,
+              46.782654
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821668",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6468326,
+              46.7823845
+            ],
+            [
+              6.6467509,
+              46.7822871
+            ],
+            [
+              6.6468117,
+              46.7822632
+            ],
+            [
+              6.6468934,
+              46.7823606
+            ],
+            [
+              6.6468326,
+              46.7823845
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821674",
+      "properties": {
+        "addr:housenumber": "32",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6488224,
+              46.7812074
+            ],
+            [
+              6.6487379,
+              46.7810527
+            ],
+            [
+              6.6488781,
+              46.7810168
+            ],
+            [
+              6.648844,
+              46.7809544
+            ],
+            [
+              6.6492525,
+              46.7808497
+            ],
+            [
+              6.6492618,
+              46.7808668
+            ],
+            [
+              6.6493973,
+              46.7808321
+            ],
+            [
+              6.6495062,
+              46.7810313
+            ],
+            [
+              6.6495397,
+              46.7810227
+            ],
+            [
+              6.6496552,
+              46.7812342
+            ],
+            [
+              6.6495106,
+              46.7812712
+            ],
+            [
+              6.6493752,
+              46.7810235
+            ],
+            [
+              6.6489767,
+              46.7811256
+            ],
+            [
+              6.648997,
+              46.7811626
+            ],
+            [
+              6.6489276,
+              46.7811804
+            ],
+            [
+              6.6488224,
+              46.7812074
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821677",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6449636,
+              46.7819369
+            ],
+            [
+              6.6448814,
+              46.7818282
+            ],
+            [
+              6.6450728,
+              46.7817603
+            ],
+            [
+              6.645155,
+              46.781869
+            ],
+            [
+              6.6451107,
+              46.7818847
+            ],
+            [
+              6.6449636,
+              46.7819369
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79821678",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6456206,
+              46.78277
+            ],
+            [
+              6.645668,
+              46.7827506
+            ],
+            [
+              6.6457041,
+              46.782792
+            ],
+            [
+              6.6456567,
+              46.7828114
+            ],
+            [
+              6.6456206,
+              46.78277
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79827290",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "27",
+        "addr:postcode": "1400",
+        "addr:street": "Rue Saint-Roch",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6461651,
+              46.7795951
+            ],
+            [
+              6.6461131,
+              46.7795228
+            ],
+            [
+              6.6462195,
+              46.7794867
+            ],
+            [
+              6.6462715,
+              46.779559
+            ],
+            [
+              6.6461651,
+              46.7795951
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79827293",
+      "properties": {
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6458735,
+              46.7796198
+            ],
+            [
+              6.6459997,
+              46.7794691
+            ],
+            [
+              6.6460821,
+              46.7795016
+            ],
+            [
+              6.6459559,
+              46.7796524
+            ],
+            [
+              6.6458735,
+              46.7796198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79827294",
+      "properties": {
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6493501,
+              46.7800276
+            ],
+            [
+              6.6493303,
+              46.779991
+            ],
+            [
+              6.6492565,
+              46.7800098
+            ],
+            [
+              6.6492306,
+              46.779962
+            ],
+            [
+              6.6494151,
+              46.779915
+            ],
+            [
+              6.6493799,
+              46.7798502
+            ],
+            [
+              6.6496107,
+              46.7797915
+            ],
+            [
+              6.6495625,
+              46.7797027
+            ],
+            [
+              6.6502834,
+              46.7795194
+            ],
+            [
+              6.6503773,
+              46.7796926
+            ],
+            [
+              6.6498355,
+              46.7798304
+            ],
+            [
+              6.6498707,
+              46.7798952
+            ],
+            [
+              6.6493501,
+              46.7800276
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/79827297",
+      "properties": {
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6455587,
+              46.780149
+            ],
+            [
+              6.6455303,
+              46.7801261
+            ],
+            [
+              6.6454877,
+              46.7800917
+            ],
+            [
+              6.6454589,
+              46.7800685
+            ],
+            [
+              6.6456456,
+              46.7799601
+            ],
+            [
+              6.6457453,
+              46.7800406
+            ],
+            [
+              6.6455587,
+              46.780149
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/80123110",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "17",
+        "addr:postcode": "1400",
+        "addr:street": "Rue de l'Industrie",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.647942,
+              46.7803205
+            ],
+            [
+              6.6481982,
+              46.7802256
+            ],
+            [
+              6.6482088,
+              46.7802391
+            ],
+            [
+              6.6485534,
+              46.7801115
+            ],
+            [
+              6.6486226,
+              46.7801992
+            ],
+            [
+              6.6484371,
+              46.7802678
+            ],
+            [
+              6.6484491,
+              46.780283
+            ],
+            [
+              6.6482695,
+              46.7803495
+            ],
+            [
+              6.6482581,
+              46.780335
+            ],
+            [
+              6.6480223,
+              46.7804223
+            ],
+            [
+              6.647942,
+              46.7803205
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975272",
+      "properties": {
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.647141,
+              46.7790848
+            ],
+            [
+              6.6468433,
+              46.7791513
+            ],
+            [
+              6.6466937,
+              46.7791827
+            ],
+            [
+              6.6465125,
+              46.7792235
+            ],
+            [
+              6.6465724,
+              46.7793175
+            ],
+            [
+              6.6463864,
+              46.779377
+            ],
+            [
+              6.6463308,
+              46.7793013
+            ],
+            [
+              6.6462929,
+              46.7793182
+            ],
+            [
+              6.6462835,
+              46.7793039
+            ],
+            [
+              6.6462532,
+              46.7792508
+            ],
+            [
+              6.6462456,
+              46.779221
+            ],
+            [
+              6.6462645,
+              46.7791652
+            ],
+            [
+              6.6463175,
+              46.7791224
+            ],
+            [
+              6.64638,
+              46.7790926
+            ],
+            [
+              6.6471888,
+              46.7789177
+            ],
+            [
+              6.6472514,
+              46.7790587
+            ],
+            [
+              6.647141,
+              46.7790848
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975273",
+      "properties": {
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6450804,
+              46.7799316
+            ],
+            [
+              6.6452134,
+              46.7800306
+            ],
+            [
+              6.6448105,
+              46.7802843
+            ],
+            [
+              6.6446775,
+              46.7801852
+            ],
+            [
+              6.6450804,
+              46.7799316
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975275",
+      "properties": {
+        "addr:housenumber": "15",
+        "addr:street": "Avenue Haldimand",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6447503,
+              46.7798231
+            ],
+            [
+              6.6448021,
+              46.7799013
+            ],
+            [
+              6.6445063,
+              46.7799932
+            ],
+            [
+              6.6444545,
+              46.779915
+            ],
+            [
+              6.6447503,
+              46.7798231
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975277",
+      "properties": {
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6461428,
+              46.7796249
+            ],
+            [
+              6.646163,
+              46.7796627
+            ],
+            [
+              6.6461096,
+              46.7796761
+            ],
+            [
+              6.6460893,
+              46.7796383
+            ],
+            [
+              6.6461428,
+              46.7796249
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975278",
+      "properties": {
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6468012,
+              46.7796531
+            ],
+            [
+              6.6466152,
+              46.7797125
+            ],
+            [
+              6.6463864,
+              46.779377
+            ],
+            [
+              6.6465724,
+              46.7793175
+            ],
+            [
+              6.6468012,
+              46.7796531
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975282",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "29",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue Haldimand",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6455672,
+              46.7792919
+            ],
+            [
+              6.6456431,
+              46.7794339
+            ],
+            [
+              6.6455163,
+              46.7794657
+            ],
+            [
+              6.6454404,
+              46.7793236
+            ],
+            [
+              6.6455672,
+              46.7792919
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975284",
+      "properties": {
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6445189,
+              46.7801064
+            ],
+            [
+              6.6444068,
+              46.7801466
+            ],
+            [
+              6.6443682,
+              46.7800963
+            ],
+            [
+              6.6444804,
+              46.7800561
+            ],
+            [
+              6.6444984,
+              46.7800796
+            ],
+            [
+              6.6445189,
+              46.7801064
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975286",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "31",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue Haldimand",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6455672,
+              46.7792919
+            ],
+            [
+              6.6456959,
+              46.7792596
+            ],
+            [
+              6.6457718,
+              46.7794016
+            ],
+            [
+              6.6456431,
+              46.7794339
+            ],
+            [
+              6.6455672,
+              46.7792919
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975287",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "4",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6443682,
+              46.7800963
+            ],
+            [
+              6.6444068,
+              46.7801466
+            ],
+            [
+              6.6445539,
+              46.7803388
+            ],
+            [
+              6.64442,
+              46.7803869
+            ],
+            [
+              6.6442343,
+              46.7801444
+            ],
+            [
+              6.6443682,
+              46.7800963
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975290",
+      "properties": {
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6446991,
+              46.7796935
+            ],
+            [
+              6.6446276,
+              46.7795423
+            ],
+            [
+              6.64462,
+              46.7795262
+            ],
+            [
+              6.6449104,
+              46.7794617
+            ],
+            [
+              6.6449767,
+              46.779447
+            ],
+            [
+              6.6449813,
+              46.7794567
+            ],
+            [
+              6.6450126,
+              46.7795228
+            ],
+            [
+              6.6450309,
+              46.7795615
+            ],
+            [
+              6.6447939,
+              46.779614
+            ],
+            [
+              6.6448189,
+              46.779667
+            ],
+            [
+              6.6446991,
+              46.7796935
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975297",
+      "properties": {
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6449699,
+              46.7796323
+            ],
+            [
+              6.6449922,
+              46.7796256
+            ],
+            [
+              6.6449738,
+              46.7795956
+            ],
+            [
+              6.6450357,
+              46.7795768
+            ],
+            [
+              6.6450539,
+              46.779604
+            ],
+            [
+              6.6450682,
+              46.7795979
+            ],
+            [
+              6.6451545,
+              46.7797136
+            ],
+            [
+              6.6450562,
+              46.779748
+            ],
+            [
+              6.6449699,
+              46.7796323
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975298",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "29",
+        "addr:postcode": "1400",
+        "addr:street": "Rue Saint-Roch",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6459474,
+              46.780039
+            ],
+            [
+              6.6460406,
+              46.7800091
+            ],
+            [
+              6.6460533,
+              46.7800277
+            ],
+            [
+              6.6463493,
+              46.7799328
+            ],
+            [
+              6.6462842,
+              46.7798376
+            ],
+            [
+              6.645971,
+              46.779938
+            ],
+            [
+              6.6459015,
+              46.7798364
+            ],
+            [
+              6.6463406,
+              46.7796956
+            ],
+            [
+              6.6464087,
+              46.7797951
+            ],
+            [
+              6.6463289,
+              46.7798207
+            ],
+            [
+              6.6464419,
+              46.779986
+            ],
+            [
+              6.6460067,
+              46.7801256
+            ],
+            [
+              6.6459474,
+              46.780039
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975301",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "25",
+        "addr:street": "Avenue Haldimand",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6450268,
+              46.7794626
+            ],
+            [
+              6.6451847,
+              46.7794224
+            ],
+            [
+              6.6452406,
+              46.7795252
+            ],
+            [
+              6.6450827,
+              46.7795655
+            ],
+            [
+              6.6450525,
+              46.7795118
+            ],
+            [
+              6.6450126,
+              46.7795228
+            ],
+            [
+              6.6449813,
+              46.7794567
+            ],
+            [
+              6.6450131,
+              46.7794476
+            ],
+            [
+              6.6450268,
+              46.7794626
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/81975306",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "7",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6438861,
+              46.780636
+            ],
+            [
+              6.6441226,
+              46.780551
+            ],
+            [
+              6.6441,
+              46.7805216
+            ],
+            [
+              6.6438991,
+              46.7802593
+            ],
+            [
+              6.6440387,
+              46.7802092
+            ],
+            [
+              6.6442395,
+              46.7804713
+            ],
+            [
+              6.6442625,
+              46.7805012
+            ],
+            [
+              6.6444735,
+              46.7804254
+            ],
+            [
+              6.6445207,
+              46.780487
+            ],
+            [
+              6.6439335,
+              46.780698
+            ],
+            [
+              6.6438861,
+              46.780636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/82231948",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "17",
+        "addr:street": "Avenue Haldimand",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6444689,
+              46.779649
+            ],
+            [
+              6.6443929,
+              46.7795336
+            ],
+            [
+              6.6445256,
+              46.7794926
+            ],
+            [
+              6.6446016,
+              46.779608
+            ],
+            [
+              6.6446252,
+              46.7796466
+            ],
+            [
+              6.644566,
+              46.7796641
+            ],
+            [
+              6.6445415,
+              46.7796262
+            ],
+            [
+              6.6444689,
+              46.779649
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/82231949",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "11",
+        "addr:street": "Avenue Haldimand",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6439354,
+              46.7797279
+            ],
+            [
+              6.6438521,
+              46.7796099
+            ],
+            [
+              6.644006,
+              46.7795783
+            ],
+            [
+              6.6440719,
+              46.7796971
+            ],
+            [
+              6.6439354,
+              46.7797279
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/82231951",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "13",
+        "addr:street": "Avenue Haldimand",
+        "building": "yes",
+        "source": "Orthophoto Yverdon 2007 / HEIG-VD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6440719,
+              46.7796971
+            ],
+            [
+              6.644006,
+              46.7795783
+            ],
+            [
+              6.6441595,
+              46.7795498
+            ],
+            [
+              6.6442229,
+              46.779658
+            ],
+            [
+              6.6441275,
+              46.7796896
+            ],
+            [
+              6.6442405,
+              46.7798953
+            ],
+            [
+              6.6441995,
+              46.7799117
+            ],
+            [
+              6.6440719,
+              46.7796971
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/341778085",
+      "properties": {
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6489357,
+              46.7799578
+            ],
+            [
+              6.6488995,
+              46.7798927
+            ],
+            [
+              6.6490477,
+              46.7798541
+            ],
+            [
+              6.6490839,
+              46.7799192
+            ],
+            [
+              6.6489357,
+              46.7799578
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/341778086",
+      "properties": {
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.644698,
+              46.7797547
+            ],
+            [
+              6.6445103,
+              46.7798126
+            ],
+            [
+              6.6444678,
+              46.779748
+            ],
+            [
+              6.6445908,
+              46.77971
+            ],
+            [
+              6.6446554,
+              46.77969
+            ],
+            [
+              6.644698,
+              46.7797547
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/359565600",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "10",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6451787,
+              46.7819746
+            ],
+            [
+              6.6452446,
+              46.7820618
+            ],
+            [
+              6.6450976,
+              46.782114
+            ],
+            [
+              6.6450316,
+              46.7820268
+            ],
+            [
+              6.6451787,
+              46.7819746
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/359565601",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "11",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6452018,
+              46.7822481
+            ],
+            [
+              6.6451334,
+              46.7821581
+            ],
+            [
+              6.6453577,
+              46.7820781
+            ],
+            [
+              6.6454261,
+              46.7821681
+            ],
+            [
+              6.6453543,
+              46.7821937
+            ],
+            [
+              6.6452018,
+              46.7822481
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/359565602",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "12",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6453577,
+              46.7820781
+            ],
+            [
+              6.6455283,
+              46.7820173
+            ],
+            [
+              6.6455967,
+              46.7821073
+            ],
+            [
+              6.6454261,
+              46.7821681
+            ],
+            [
+              6.6453577,
+              46.7820781
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/359565603",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "13",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6455283,
+              46.7820173
+            ],
+            [
+              6.6456265,
+              46.7819823
+            ],
+            [
+              6.6456949,
+              46.7820723
+            ],
+            [
+              6.6455967,
+              46.7821073
+            ],
+            [
+              6.6455283,
+              46.7820173
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/359565604",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "9",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6451107,
+              46.7818847
+            ],
+            [
+              6.6451787,
+              46.7819746
+            ],
+            [
+              6.6450316,
+              46.7820268
+            ],
+            [
+              6.6449636,
+              46.7819369
+            ],
+            [
+              6.6451107,
+              46.7818847
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/359565605",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6452033,
+              46.7819647
+            ],
+            [
+              6.6451861,
+              46.7819399
+            ],
+            [
+              6.6453178,
+              46.7818969
+            ],
+            [
+              6.645335,
+              46.7819217
+            ],
+            [
+              6.6452033,
+              46.7819647
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/359565606",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6457149,
+              46.7822823
+            ],
+            [
+              6.6457445,
+              46.7823185
+            ],
+            [
+              6.6456879,
+              46.7823401
+            ],
+            [
+              6.6456584,
+              46.7823039
+            ],
+            [
+              6.6457149,
+              46.7822823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/359565608",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6465354,
+              46.7824757
+            ],
+            [
+              6.6464958,
+              46.7824268
+            ],
+            [
+              6.6465304,
+              46.7824137
+            ],
+            [
+              6.64657,
+              46.7824625
+            ],
+            [
+              6.6465354,
+              46.7824757
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/359565609",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6458965,
+              46.7826264
+            ],
+            [
+              6.6458406,
+              46.7825521
+            ],
+            [
+              6.6459232,
+              46.782523
+            ],
+            [
+              6.6459791,
+              46.7825973
+            ],
+            [
+              6.6458965,
+              46.7826264
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/359565610",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6457149,
+              46.7822823
+            ],
+            [
+              6.6456812,
+              46.782241
+            ],
+            [
+              6.6456158,
+              46.7821609
+            ],
+            [
+              6.6456628,
+              46.7821429
+            ],
+            [
+              6.6457619,
+              46.7822643
+            ],
+            [
+              6.6457149,
+              46.7822823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/359565611",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6456812,
+              46.782241
+            ],
+            [
+              6.6456477,
+              46.7822538
+            ],
+            [
+              6.6455672,
+              46.7821552
+            ],
+            [
+              6.6456007,
+              46.7821424
+            ],
+            [
+              6.6456158,
+              46.7821609
+            ],
+            [
+              6.6456812,
+              46.782241
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/359565612",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue des Sports",
+        "building": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6464864,
+              46.7816523
+            ],
+            [
+              6.646307,
+              46.7817193
+            ],
+            [
+              6.6462509,
+              46.7817402
+            ],
+            [
+              6.6461318,
+              46.7815906
+            ],
+            [
+              6.6461644,
+              46.7815785
+            ],
+            [
+              6.6460778,
+              46.7814696
+            ],
+            [
+              6.6462975,
+              46.7813876
+            ],
+            [
+              6.6465032,
+              46.781646
+            ],
+            [
+              6.6464864,
+              46.7816523
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/460537619",
+      "properties": {
+        "addr:housenumber": "20",
+        "addr:street": "Rue de l'Industrie",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6494302,
+              46.7802031
+            ],
+            [
+              6.6493567,
+              46.7800676
+            ],
+            [
+              6.6494539,
+              46.7800429
+            ],
+            [
+              6.6494945,
+              46.7801179
+            ],
+            [
+              6.6495273,
+              46.7801784
+            ],
+            [
+              6.6494302,
+              46.7802031
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/466647269",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "27",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue Haldimand",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6455163,
+              46.7794657
+            ],
+            [
+              6.645379,
+              46.7795001
+            ],
+            [
+              6.645303,
+              46.7793581
+            ],
+            [
+              6.6454404,
+              46.7793236
+            ],
+            [
+              6.6455163,
+              46.7794657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/466647272",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:housenumber": "33",
+        "addr:postcode": "1400",
+        "addr:street": "Avenue Haldimand",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6457718,
+              46.7794016
+            ],
+            [
+              6.6456959,
+              46.7792596
+            ],
+            [
+              6.6458259,
+              46.779227
+            ],
+            [
+              6.6459018,
+              46.779369
+            ],
+            [
+              6.6457718,
+              46.7794016
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/467902543",
+      "properties": {
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6473678,
+              46.7793226
+            ],
+            [
+              6.6475182,
+              46.7797629
+            ],
+            [
+              6.6467676,
+              46.7799456
+            ],
+            [
+              6.6467069,
+              46.779831
+            ],
+            [
+              6.6472386,
+              46.7797032
+            ],
+            [
+              6.6471219,
+              46.7793594
+            ],
+            [
+              6.6473678,
+              46.7793226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/467902544",
+      "properties": {
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6485001,
+              46.7788041
+            ],
+            [
+              6.6488241,
+              46.7794452
+            ],
+            [
+              6.6476246,
+              46.7797371
+            ],
+            [
+              6.647566,
+              46.7796211
+            ],
+            [
+              6.6485291,
+              46.7793858
+            ],
+            [
+              6.6483378,
+              46.7790073
+            ],
+            [
+              6.6480438,
+              46.7790792
+            ],
+            [
+              6.6479684,
+              46.7789301
+            ],
+            [
+              6.6485001,
+              46.7788041
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/506506854",
+      "properties": {
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6444984,
+              46.7800796
+            ],
+            [
+              6.6444804,
+              46.7800561
+            ],
+            [
+              6.6445183,
+              46.7800424
+            ],
+            [
+              6.6445363,
+              46.7800659
+            ],
+            [
+              6.6444984,
+              46.7800796
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/506506855",
+      "properties": {
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6446554,
+              46.77969
+            ],
+            [
+              6.6445908,
+              46.77971
+            ],
+            [
+              6.6445796,
+              46.7796961
+            ],
+            [
+              6.644607,
+              46.7796886
+            ],
+            [
+              6.6445989,
+              46.7796737
+            ],
+            [
+              6.6446387,
+              46.7796626
+            ],
+            [
+              6.6446554,
+              46.77969
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/506516209",
+      "properties": {
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6458795,
+              46.7831017
+            ],
+            [
+              6.6460181,
+              46.7830457
+            ],
+            [
+              6.646068,
+              46.783097
+            ],
+            [
+              6.6461089,
+              46.783083
+            ],
+            [
+              6.6461702,
+              46.7831546
+            ],
+            [
+              6.6461725,
+              46.7831794
+            ],
+            [
+              6.6461566,
+              46.7831981
+            ],
+            [
+              6.6460612,
+              46.7832308
+            ],
+            [
+              6.6460249,
+              46.7831934
+            ],
+            [
+              6.6459704,
+              46.7832105
+            ],
+            [
+              6.6458795,
+              46.7831017
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/506516210",
+      "properties": {
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6458409,
+              46.7830208
+            ],
+            [
+              6.6458704,
+              46.7830146
+            ],
+            [
+              6.6458863,
+              46.7829368
+            ],
+            [
+              6.6459181,
+              46.7829368
+            ],
+            [
+              6.6459,
+              46.7830239
+            ],
+            [
+              6.6459,
+              46.7830535
+            ],
+            [
+              6.6458772,
+              46.7830721
+            ],
+            [
+              6.6458364,
+              46.7830752
+            ],
+            [
+              6.6458182,
+              46.7830612
+            ],
+            [
+              6.6458137,
+              46.7830395
+            ],
+            [
+              6.6458409,
+              46.7830208
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/616890595",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6448785,
+              46.7815552
+            ],
+            [
+              6.6447426,
+              46.7816051
+            ],
+            [
+              6.6448269,
+              46.7817127
+            ],
+            [
+              6.6447656,
+              46.7817352
+            ],
+            [
+              6.644491,
+              46.7813843
+            ],
+            [
+              6.6445367,
+              46.7813675
+            ],
+            [
+              6.6446165,
+              46.7814695
+            ],
+            [
+              6.644768,
+              46.781414
+            ],
+            [
+              6.6448785,
+              46.7815552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/616890598",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6452123,
+              46.7814149
+            ],
+            [
+              6.6450928,
+              46.7812621
+            ],
+            [
+              6.6453425,
+              46.7811704
+            ],
+            [
+              6.645462,
+              46.7813232
+            ],
+            [
+              6.6452123,
+              46.7814149
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/616890601",
+      "properties": {
+        "addr:city": "Yverdon-les-Bains",
+        "addr:country": "CH",
+        "addr:postcode": "1400",
+        "addr:street": "Rue des Pêcheurs",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6461627,
+              46.7812758
+            ],
+            [
+              6.6448593,
+              46.7817542
+            ],
+            [
+              6.6448269,
+              46.7817127
+            ],
+            [
+              6.6447426,
+              46.7816051
+            ],
+            [
+              6.6448785,
+              46.7815552
+            ],
+            [
+              6.6448949,
+              46.7815761
+            ],
+            [
+              6.6452395,
+              46.7814496
+            ],
+            [
+              6.6452123,
+              46.7814149
+            ],
+            [
+              6.645462,
+              46.7813232
+            ],
+            [
+              6.6454857,
+              46.7813535
+            ],
+            [
+              6.645888,
+              46.7812059
+            ],
+            [
+              6.6458328,
+              46.7811355
+            ],
+            [
+              6.6457846,
+              46.7811532
+            ],
+            [
+              6.6457309,
+              46.7810845
+            ],
+            [
+              6.6457962,
+              46.7810606
+            ],
+            [
+              6.6457413,
+              46.7809904
+            ],
+            [
+              6.645322,
+              46.7811443
+            ],
+            [
+              6.6453425,
+              46.7811704
+            ],
+            [
+              6.6450928,
+              46.7812621
+            ],
+            [
+              6.6450718,
+              46.7812353
+            ],
+            [
+              6.6447272,
+              46.7813618
+            ],
+            [
+              6.644768,
+              46.781414
+            ],
+            [
+              6.6446165,
+              46.7814695
+            ],
+            [
+              6.6445367,
+              46.7813675
+            ],
+            [
+              6.6444826,
+              46.7812983
+            ],
+            [
+              6.6458015,
+              46.7808143
+            ],
+            [
+              6.6460462,
+              46.7811269
+            ],
+            [
+              6.6461627,
+              46.7812758
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
