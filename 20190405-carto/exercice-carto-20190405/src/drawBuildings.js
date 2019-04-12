@@ -10,7 +10,7 @@ export default (svg, projection) => {
         .data(buildings.features)
         .enter()
         .append('text')
-        .attr('class', 'atm')
+        .attr('class', 'building')
         .attr('transform', getTransform)
         .attr('fill', 'red')
         .text('$')
