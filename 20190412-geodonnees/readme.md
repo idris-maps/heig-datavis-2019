@@ -65,6 +65,8 @@ const somme = (resultat, eleve) => resultat + eleve.note
 const moyenne = ELEVES.reduce(somme, 0) / ELEVES.length
 ```
 
+## Correction des devoirs
+
 ## Geodonnées
 
 ### Les types de données OpenStreetMap
