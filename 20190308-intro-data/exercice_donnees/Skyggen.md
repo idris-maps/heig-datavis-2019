@@ -1,8 +1,5 @@
-Je pensais faire mon travail noté sur une carte de la suisse romande. Qui regrouperait les postions des boîtes à livre. 
-Je ne sais pas encore ou retouver ces données mais je pourrai au pire les ajouter moi même sur un fichier externe.
+Popular TV Shows
 
-Option 1:
-Si clic sur le Pin de la boite des informations apparaisse comme par exemple adresse, photo, etc...
+graphiques sur les séries télévisé les informations serait récupéré sur themoviedb.org
 
-Option 2:
-utilisation de la géolocalisation du smartphone pour recentrer la carte au bonne endroit.
+Exemple 1 montre un classement des meilleures série avec les notes des utilisateurs.
