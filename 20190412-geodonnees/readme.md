@@ -134,4 +134,5 @@ Créez une carte utile avec leaflet. Avec au moins une couche de tuiles et une c
 
 ## Devoirs
 
-
+1. [Exercice leaflet](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190412-geodonnees/exercice_leaflet)
+2. Pour votre projet de fin de cours, ayez une idée où trouvez les données et une ébauche de ce que vous souhaitez réaliser.
