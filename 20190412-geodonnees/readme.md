@@ -132,4 +132,6 @@ Créez une carte utile avec leaflet. Avec au moins une couche de tuiles et une c
 * [Manuel d'utilisation](https://observablehq.com/@observablehq/observable-user-manual)
 * [Exemples](https://observablehq.com/@idris-maps/observable)
 
-## Projets
+## Devoirs
+
+
