@@ -2,6 +2,8 @@
 
 ## Projets de fin de cours
 
+[Instructions](https://github.com/idris-maps/heig-datavis-2019/tree/master/projets)
+
 ## Leaflet
 
 * [exercice pour aujourd'hui](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190412-geodonnees/exercice_leaflet)
@@ -66,6 +68,20 @@ window.requestAnimationFrame(tick)
 **Exercie 2**
 
 Animez votre dessin
+
+## Suite scraping
+
+**"application web monopage"**
+
+> Une application web monopage (en anglais single-page application ou SPA) est une application web accessible via une page web unique. Le but est d'éviter le chargement d'une nouvelle page à chaque action demandée, et de fluidifier ainsi l'expérience utilisateur. Deux méthodes existent pour ce faire : l'ensemble des éléments de l'application est chargé (contenu, images, CSS et JavaScript) dans un unique fichier HTML, soit les ressources nécessaires sont récupérées et affichées dynamiquement en fonction des actions de l'utilisateur.
+
+[Wikipedia](https://fr.wikipedia.org/wiki/Application_web_monopage)
+
+La partie intéressante: 
+
+> **les ressources nécessaires sont récupérées et affichées dynamiquement en fonction des actions de l'utilisateur.**
+
+Pour ce genre d'applications, nous devons observer les requêtes faites par le navigateur et les répliquer pour collecter les données que nous souhaitons.
 
 ## Abstractions D3
 
