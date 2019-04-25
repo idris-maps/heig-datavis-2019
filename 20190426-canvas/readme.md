@@ -61,6 +61,8 @@ const tick = timestamp => {
 window.requestAnimationFrame(tick)
 ```
 
+[Exemple avec canvas](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemple_raf/index.html)
+
 **Exercie 2**
 
 Animez votre dessin
