@@ -40,13 +40,30 @@ monDessin = {
 * [Documentation MDN](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)
 * [Cours](https://observablehq.com/@idris-maps/canvas)
 
-### Exercice 1
+**Exercice 1**
 
 Faire un dessin avec canvas
 
-### `requestAnimationFrame`
+### requestAnimationFrame
 
+[Documentation MDN](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
 
+```javascript
+// une fonction appellée à chaque fois que le navigateur est raffraichi
+const tick = timestamp => {
+  // déplacer des éléments ici
+  
+  // appeller la fonction la prochaine fois que le navigateur est prêt
+  window.requestAnimationFrame(tick)
+}
+
+// démarrer l'animation
+window.requestAnimationFrame(tick)
+```
+
+**Exercie 2**
+
+Animez votre dessin
 
 ## Abstractions D3
 
