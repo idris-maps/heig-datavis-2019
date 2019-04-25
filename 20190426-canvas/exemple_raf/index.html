@@ -1,0 +1,35 @@
+<html>
+<body>
+  <canvas id="c">
+  <script>
+const RADIUS = 50
+const WIDTH = window.innerWidth
+const HEIGHT = window.innerHeight
+
+const c = document.getElementById('c')
+const ctx = c.getContext('2d')
+
+c.setAttribute('width', WIDTH)
+c.setAttribute('height', HEIGHT)
+
+const draw = (x, y) => {
+  ctx.clearRect(0, 0, WIDTH, HEIGHT)
+  ctx.beginPath()
+  ctx.arc(x, y, RADIUS, 0, Math.PI * 2)
+  ctx.fill()
+}
+
+let Y = 0
+let DOWN = true
+
+const tick = timestamp => {
+  if (Y > HEIGHT - RADIUS) { DOWN = false }
+  if (Y < RADIUS) { DOWN = true }
+  if (DOWN) { Y = Y + 10 } else { Y = Y - 10 }
+  draw(WIDTH / 2, Y)
+  window.requestAnimationFrame(tick)
+}
+window.requestAnimationFrame(tick)
+  </script>
+</body>
+</html>
