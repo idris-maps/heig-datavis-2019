@@ -316,4 +316,6 @@ Créez une liste de produits à partir de [cette page](https://www.webscraper.io
 
 But: créer un graphique comme décris dans la [vidéo de Hans Rosling](https://www.youtube.com/watch?v=jbkSRLYSojo)
 
-[![Learning Functional Programming with JavaScript](https://img.youtube.com/vi/jbkSRLYSojo/0.jpg)](https://www.youtube.com/watch?v=jbkSRLYSojo)
+[![Video Hans Rosling](https://img.youtube.com/vi/jbkSRLYSojo/0.jpg)](https://www.youtube.com/watch?v=jbkSRLYSojo)
+
+[Exemple de code](https://github.com/idris-maps/rosling-graph) et [résultat](http://intelligent-burst.surge.sh/)
