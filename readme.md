@@ -22,7 +22,7 @@
 * [Données ouvertes - 1](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190308-intro-data#donn%C3%A9es-ouvertes)
 * [Données ouvertes - 2](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190322-node#autres-sources-de-donn%C3%A9es)
 * [Scraping avec cheerio](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling#scraping-avec-cheerio)
-* [Scraping en observant les requêtes du navigateur]()
+* [Scraping en observant les requêtes du navigateur](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas#suite-scraping)
 
 #### Transformer des données
 
@@ -65,6 +65,11 @@
 
 #### Canvas
 
+* [Mise en place](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas#canvas)
+* [Formes de base](https://observablehq.com/@idris-maps/canvas)
+* [Animation](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas#requestanimationframe)
+
+
 ### Autre
 
 ### Généralités javascript
@@ -82,4 +87,4 @@
 ### Approches de programmation
 
 * [Programmation fonctionelle](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling#programmation-fonctionnelle)
-* [Programmation orientée objets]()
+* [Programmation orientée objets](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas#programmation-orient%C3%A9e-objets)

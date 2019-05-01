@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>
+      Millisecondes depuis le début: <span id="time"></span>
+      <br/>
+      Rafraîchis <span id="count"></span> fois
+      <br/>
+      Ticks par seconde: <span id="fps"></span>
+    </h1>
+    <script>
+const time = document.getElementById('time')
+const count = document.getElementById('count')
+const fps = document.getElementById('fps')
+
+let c = 0
+
+const tick = timestamp => {
+  c = c + 1
+  count.innerHTML = c
+  time.innerHTML = timestamp
+  fps.innerHTML = c / (timestamp / 1000)
+  window.requestAnimationFrame(tick)
+}
+
+window.requestAnimationFrame(tick)
+    </script>
+  </body>
+</html>

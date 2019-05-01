@@ -1,0 +1,50 @@
+<html>
+<body>
+  <canvas id="c">
+  <script>
+const RADIUS = 50
+const WIDTH = window.innerWidth
+const HEIGHT = window.innerHeight
+
+const canvas = document.getElementById('c')
+const ctx = canvas.getContext('2d')
+
+canvas.setAttribute('width', WIDTH)
+canvas.setAttribute('height', HEIGHT)
+
+const draw = ({x, y, clicked}) => {
+  ctx.beginPath()
+  ctx.arc(x, y, RADIUS, 0, Math.PI * 2)
+  ctx.fillStyle = clicked ? 'red' : 'black'
+  ctx.fill()
+}
+
+const circles = Array.from(Array(10))
+  .map(() => ({
+    x: Math.random() * WIDTH,
+    y: Math.random() * HEIGHT,
+    clicked: false,
+  }))
+
+circles.forEach(draw)
+
+const squared = n => Math.pow(n, 2)
+const checkIfClicked = ({ layerX, layerY }) =>
+  circle => {
+    const x = Math.abs(circle.x - layerX)
+    const y = Math.abs(circle.y - layerY)
+    const distance = Math.sqrt(squared(x) + squared(y))
+    return {
+      ...circle,
+      clicked: distance < RADIUS
+    }
+  }
+
+canvas.addEventListener('click', e => {
+  ctx.clearRect(0, 0, WIDTH, HEIGHT)
+  circles.map(checkIfClicked(e)).forEach(draw)
+})
+
+  </script>
+</body>
+</html>

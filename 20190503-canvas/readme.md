@@ -63,7 +63,7 @@ console.log(pierrette.parle()) // Je m'appelle Pierrette et j'ai 2 amis
 
 > L'élément canvas est un composant de HTML qui permet d'effectuer des rendus dynamiques d'images bitmap via des scripts
 
-[wikipedia](L'élément canvas est un composant de HTML qui permet d'effectuer des rendus dynamiques d'images bitmap via des scripts)
+[wikipedia](https://fr.wikipedia.org/wiki/Canvas_(HTML))
 
 **Dans une page HTML**
 
@@ -95,6 +95,18 @@ monDessin = {
 
 Faire un dessin avec canvas
 
+### écouter les événements
+
+Contrairement à un SVG, les éléments du canvas ne sont pas représentés dans le DOM. Ils ne peuvent donc pas réagir à des événements tels qu'un "click" de souris. 
+
+Si nous souhaitons faire quelque chose lorsqu'un élément est clické, nous devons:
+
+* écouter les événements sur le canvas
+* voir si le click est sur l'élément
+* modifier le dessin
+
+[Exemple](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_canvas_click.html)
+
 ### requestAnimationFrame
 
 [Documentation MDN](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
@@ -112,8 +124,10 @@ const tick = timestamp => {
 window.requestAnimationFrame(tick)
 ```
 
-[Exemple avec canvas](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_raf.html)
+* [Exemple avec du texte](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_raf_canvas_text.html)
+* [Exemple avec SVG](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_raf_canvas.html)
+* [Exemple avec canvas](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_raf_canvas.html)
 
 **Exercie 2**
 
-Animez votre dessin
+Animez votre dessin ou faites-le réagir à un événement
