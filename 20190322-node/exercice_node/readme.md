@@ -106,7 +106,7 @@ Une fois que vous avez terminé, ajoutez le lien à votre "repo" github à la li
 * [evandu65](https://github.com/evandu65/heig-datavis-exercice-20190315)
 * [loicpostec](https://github.com/loicpostec/heig-datavis-exercice-20190315)
 * [lucienPochon]()
-* [paulinebaeni](https://github.com/paulinebaeni/heig-datavis-exercice-20190315)
+* [paulinebaeni](https://github.com/paulinebaeni/heig-datavis-exercice-20190315/tree/exercice-node/paulinebaeni)
 * [phgarcia93]()
 * [teoColomberotto]()
 * [vesti1066](https://github.com/vesti1066/heig-datavis-exercice-20190315)
