@@ -27,7 +27,7 @@ La partie intéressante:
 
 Pour ce genre d'applications, nous devons observer les requêtes faites par le navigateur et les répliquer pour collecter les données que nous souhaitons.
 
-### Programmation orientée objets
+## Programmation orientée objets
 
 > La programmation orientée objet (POO), ou programmation par objet, est un paradigme de programmation informatique. Il consiste en la définition et l'interaction de briques logicielles appelées objets ; un objet représente un concept, une idée ou toute entité du monde physique, comme une voiture, une personne ou encore une page d'un livre. Il possède une structure interne et un comportement, et il sait interagir avec ses pairs.
 
