@@ -4,11 +4,60 @@
 
 [Instructions](https://github.com/idris-maps/heig-datavis-2019/tree/master/projets)
 
+## Interro la semaine prochaine
+
 ## Leaflet
 
 * [exercice pour aujourd'hui](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190412-geodonnees/exercice_leaflet)
 * [Application leaflet commencée la dernière fois](https://github.com/idris-maps/leaflet-osm-apis)
 * [leaflet-d3](https://observablehq.com/@idris-maps/leaflet-et-d3)
+
+
+## Suite scraping
+
+**"application web monopage"**
+
+> Une application web monopage (en anglais single-page application ou SPA) est une application web accessible via une page web unique. Le but est d'éviter le chargement d'une nouvelle page à chaque action demandée, et de fluidifier ainsi l'expérience utilisateur. Deux méthodes existent pour ce faire : l'ensemble des éléments de l'application est chargé (contenu, images, CSS et JavaScript) dans un unique fichier HTML, soit les ressources nécessaires sont récupérées et affichées dynamiquement en fonction des actions de l'utilisateur.
+
+[Wikipedia](https://fr.wikipedia.org/wiki/Application_web_monopage)
+
+La partie intéressante: 
+
+> **les ressources nécessaires sont récupérées et affichées dynamiquement en fonction des actions de l'utilisateur.**
+
+Pour ce genre d'applications, nous devons observer les requêtes faites par le navigateur et les répliquer pour collecter les données que nous souhaitons.
+
+### Programmation orientée objets
+
+> La programmation orientée objet (POO), ou programmation par objet, est un paradigme de programmation informatique. Il consiste en la définition et l'interaction de briques logicielles appelées objets ; un objet représente un concept, une idée ou toute entité du monde physique, comme une voiture, une personne ou encore une page d'un livre. Il possède une structure interne et un comportement, et il sait interagir avec ses pairs.
+
+[wikipedia](https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet)
+
+[Article MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+
+[![Anjana Vakil - Oops! OOP's not what I thought](https://img.youtube.com/vi/qMdxExJCD5s/0.jpg)](https://www.youtube.com/watch?v=qMdxExJCD5s)
+
+```javascript
+function Personne(nom) {
+  this.nom = nom
+  this.amis = []
+  this.ajouterAmi = ami =>
+    this.amis = [...this.amis, ami]
+  this.parle = () =>
+    `Je m'appelle ${this.nom} et j'ai ${this.amis.length} amis`
+  return this
+}
+
+const pierrette = new Personne('Pierrette')
+
+pierrette.ajouterAmi('Paul')
+pierrette.ajouterAmi('Pierre')
+
+console.log(pierrette.amis) // ['Paul', 'Pierre']
+console.log(pierrette.parle()) // Je m'appelle Pierrette et j'ai 2 amis
+```
+
+[Exemple](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_raf.html)
 
 ## Canvas
 
@@ -63,34 +112,8 @@ const tick = timestamp => {
 window.requestAnimationFrame(tick)
 ```
 
-[Exemple avec canvas](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemple_raf/index.html)
+[Exemple avec canvas](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_raf.html)
 
 **Exercie 2**
 
 Animez votre dessin
-
-## Suite scraping
-
-**"application web monopage"**
-
-> Une application web monopage (en anglais single-page application ou SPA) est une application web accessible via une page web unique. Le but est d'éviter le chargement d'une nouvelle page à chaque action demandée, et de fluidifier ainsi l'expérience utilisateur. Deux méthodes existent pour ce faire : l'ensemble des éléments de l'application est chargé (contenu, images, CSS et JavaScript) dans un unique fichier HTML, soit les ressources nécessaires sont récupérées et affichées dynamiquement en fonction des actions de l'utilisateur.
-
-[Wikipedia](https://fr.wikipedia.org/wiki/Application_web_monopage)
-
-La partie intéressante: 
-
-> **les ressources nécessaires sont récupérées et affichées dynamiquement en fonction des actions de l'utilisateur.**
-
-Pour ce genre d'applications, nous devons observer les requêtes faites par le navigateur et les répliquer pour collecter les données que nous souhaitons.
-
-## Abstractions D3
-
-### Billboard.js
-
-* [Documentation](https://naver.github.io/billboard.js/release/latest/doc/)
-* [Cours](https://observablehq.com/@idris-maps/billboard)
-
-### Vega-lite
-
-* [Documentation](https://vega.github.io/vega-lite/)
-* [Demo](https://vega.github.io/editor/#/custom/vega-lite)

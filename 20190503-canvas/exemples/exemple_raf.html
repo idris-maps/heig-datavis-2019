@@ -22,7 +22,7 @@ const draw = (x, y) => {
 let Y = 0
 let DOWN = true
 
-const tick = timestamp => {
+const tick = () => {
   if (Y > HEIGHT - RADIUS) { DOWN = false }
   if (Y < RADIUS) { DOWN = true }
   if (DOWN) { Y = Y + 10 } else { Y = Y - 10 }

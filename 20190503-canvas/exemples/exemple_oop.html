@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1></h1>
+    <p></p>
+    <p></p> 
+    <script>
+
+function Dom(selector) {
+  this.elements = Array.from(
+    document.querySelectorAll(selector)
+  )
+  this.style = (key, value) => {
+    this.elements.map(el => el.style[key] = value)
+    return this
+  }
+  this.text = string => {
+    this.elements.map(el => el.innerHTML = string)
+    return this
+  }
+  return this
+}
+
+    </script>  
+  </body>
+</html>
