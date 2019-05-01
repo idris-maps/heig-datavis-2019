@@ -1,3 +1,4 @@
+
 const villes = [
   { nom: 'Lausanne', population: 138905 },
   { nom: 'Yverdon', population: 30143 },
@@ -7,9 +8,12 @@ const villes = [
   { nom: 'Vevey', population: 19827 },
 ]
 
+const somme = (result,d) => result + d.population
+
+
 module.exports = {
-  populationDesVilles: villes,
-  villesDeMoinsDe30000Habitants: villes,
-  nombreDHabitantsDeNyon: villes,
-  sommeDuNombreDHabitants: villes,
+  populationDesVilles: villes.map(d=> d.population),
+  villesDeMoinsDe30000Habitants: villes.filter(d =>d.population < 30000),
+  nombreDHabitantsDeNyon: villes.find(d => d.nom === 'Nyon').population,
+  sommeDuNombreDHabitants: villes.reduce(somme,0),
 }

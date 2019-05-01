@@ -47,7 +47,7 @@ Exemple de "feature" d'arbre.
 * [christopschranz]()
 * [cyrilBenningerHEIG]()
 * [elisabiver]()
-* [evandu65]()
+* [evandu65](https://github.com/evandu65/exercice-carto-20190405/tree/exercice_carto/evandu65)
 * [loicpostec]()
 * [lucienPochon]()
 * [paulinebaeni](https://github.com/paulinebaeni/exercice-carto-20190405/)
