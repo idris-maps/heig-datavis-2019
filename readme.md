@@ -77,6 +77,7 @@
 * [Fonctions/méthodes qui prennent une fonction en argument](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling#les-fonctions--m%C3%A9thodes-qui-prennent-une-fonction)
 * [Différentes manières de définir une fonction](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling#diff%C3%A9rentes-mani%C3%A8res-de-d%C3%A9finir-une-fonction)
 * [Déstructurer et copier un objet](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling#d%C3%A9structurer-et-copier-un-objet)
+* [Animation](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas#requestanimationframe)
 
 ### Outils
 
