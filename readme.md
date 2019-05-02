@@ -56,6 +56,7 @@
 * [Liste des fonctions D3 utilisées en classe](https://observablehq.com/@idris-maps/fonctions-d3)
 * [Représenter un réseau](https://observablehq.com/@idris-maps/representer-un-reseau-avec-d3)
 * [Graphique Rosling](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling#rosling)
+* [Billboard.js](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas#billboard)
 
 #### Cartographie
 
