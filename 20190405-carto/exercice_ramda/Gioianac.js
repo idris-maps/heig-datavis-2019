@@ -14,10 +14,10 @@ const telecharger = url =>
 const maFonction = ([posts, users]) => {
     return users.map(user => {
         return {
-            nom_utilisateur: 'Machin',
-            ville: 'Truc',
-            nom_companie: 'Bidule',
-            titres_posts: posts.filter(R.propEq('userId', user.id))
+            nom_utilisateur: R.prop('username', user),
+            ville: R.prop('address', user).city,
+            nom_companie: R.prop('company', user).name,
+            titres_posts: posts.filter(R.propEq('userId', user.id)).map(R.prop('title'))
         }
     })
 }
