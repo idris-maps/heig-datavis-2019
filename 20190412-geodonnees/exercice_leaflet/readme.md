@@ -17,7 +17,7 @@ Pour l'inspiration, voyez ce [repo](https://github.com/idris-maps/exercice-osm-l
 * [AngelLando]()
 * [AudrisC]()
 * [Gagah98](https://github.com/Gagah98/leaflet-webpack)
-* [Gioianac]()
+* [Gioianac](https://github.com/Gioianac/leaflet-webpack)
 * [Ilanss]()
 * [Kaarroch]()
 * [Keassa]()
