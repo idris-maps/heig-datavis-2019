@@ -57,13 +57,13 @@ console.log(pierrette.amis) // ['Paul', 'Pierre']
 console.log(pierrette.parle()) // Je m'appelle Pierrette et j'ai 2 amis
 ```
 
-[Exemple](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_raf.html)
+[Exemple](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190503-canvas/exemples/exemple_raf.html)
 
 ## Billboard
 
 * [Site](https://naver.github.io/billboard.js/)
 * [Cours](https://observablehq.com/@idris-maps/billboard)
-* [Exemple dans une page web](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_billboard.html)
+* [Exemple dans une page web](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190503-canvas/exemples/exemple_billboard.html)
 
 ## Canvas
 
@@ -111,7 +111,7 @@ Si nous souhaitons faire quelque chose lorsqu'un élément est clické, nous dev
 * voir si le click est sur l'élément
 * modifier le dessin
 
-[Exemple](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_canvas_click.html)
+[Exemple](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190503-canvas/exemples/exemple_canvas_click.html)
 
 ### requestAnimationFrame
 
@@ -130,9 +130,9 @@ const tick = timestamp => {
 window.requestAnimationFrame(tick)
 ```
 
-* [Exemple avec du texte](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_raf_canvas_text.html)
-* [Exemple avec SVG](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_raf_canvas.html)
-* [Exemple avec canvas](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_raf_canvas.html)
+* [Exemple avec du texte](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190503-canvas/exemples/exemple_raf_canvas_text.html)
+* [Exemple avec SVG](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190503-canvas/exemples/exemple_raf_canvas.html)
+* [Exemple avec canvas](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190503-canvas/exemples/exemple_raf_canvas.html)
 
 **Exercie 2**
 
