@@ -9,7 +9,7 @@
 * [Scraping et grahique "Rosling"](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling)
 * [Cartographie avec D3](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190405-carto)
 * [Géodonnées](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190412-geodonnees)
-* [Canvas](https://github.com/idris-maps/heig-datavis-2019/tree/master/projets)
+* [Canvas](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas)
 
 ## Index
 
