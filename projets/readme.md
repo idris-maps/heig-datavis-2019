@@ -53,6 +53,6 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 * [loicpostec]()
 * [lucienPochon]()
 * [paulinebaeni]()
-* [phgarcia93]()
+* [phgarcan](https://github.com/phgarcan/random-eat)
 * [teoColomberotto]()
 * [vesti1066]()
