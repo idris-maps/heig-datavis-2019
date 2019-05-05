@@ -33,6 +33,6 @@ Pour l'inspiration, voyez ce [repo](https://github.com/idris-maps/exercice-osm-l
 * [loicpostec]()
 * [lucienPochon]()
 * [paulinebaeni]()
-* [phgarcia93]()
+* [phgarcia93](https://github.com/phgarcan/leaflet-webpack.git)
 * [teoColomberotto]()
 * [vesti1066]()
