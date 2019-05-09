@@ -12,21 +12,23 @@
 ### Three.js
 
 * [Site](https://threejs.org/)
-* [Exemple cube]()
+* [Exemple cube](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190510-3d/exemples/three.html)
 
 ### A-frame
 
-* [Site]()
-* [Exemple cube]()
+* [Site](https://aframe.io/)
+* [Exemple cube](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190510-3d/exemples/aframe.html)
 
-## Abstractions D3
+## D3 transition
 
-### Billboard.js
+[Observable](https://observablehq.com/@idris-maps/transitions-avec-d3)
 
-* [Documentation](https://naver.github.io/billboard.js/release/latest/doc/)
-* [Cours](https://observablehq.com/@idris-maps/billboard)
-
-### Vega-lite
+## Vega-lite
 
 * [Documentation](https://vega.github.io/vega-lite/)
 * [Demo](https://vega.github.io/editor/#/custom/vega-lite)
+* [Observable](https://observablehq.com/@idris-maps/vega-lite)
+
+## Topojson
+
+[Observable](https://observablehq.com/@idris-maps/topojson)
