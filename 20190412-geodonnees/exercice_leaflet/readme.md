@@ -22,7 +22,7 @@ Pour l'inspiration, voyez ce [repo](https://github.com/idris-maps/exercice-osm-l
 * [Kaarroch]()
 * [Keassa]()
 * [Lowgic]()
-* [MalorieGenoud]()
+* [MalorieGenoud](https://github.com/MalorieGenoud/leaflet-webpack)
 * [PriscaHuguenot](https://github.com/PriscaHuguenot/leaflet-webpack)
 * [Skyggen]()
 * [alestuzzi](https://github.com/alestuzzi/leaflet-webpack)
