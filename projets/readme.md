@@ -44,7 +44,7 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 * [Lowgic]()
 * [MalorieGenoud]()
 * [PriscaHuguenot]()
-* [Skyggen](https://github.com/Skyggen/movieDB)
+* [Skyggen](https://github.com/Skyggen/ProjetDataVis)
 * [alestuzzi]()
 * [christopschranz]()
 * [cyrilBenningerHEIG]()
