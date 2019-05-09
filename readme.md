@@ -9,7 +9,7 @@
 * [Scraping et grahique "Rosling"](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling)
 * [Cartographie avec D3](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190405-carto)
 * [Géodonnées](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190412-geodonnees)
-* [Canvas](https://github.com/idris-maps/heig-datavis-2019/tree/master/projets)
+* [Canvas](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas)
 
 ## Index
 
@@ -22,7 +22,7 @@
 * [Données ouvertes - 1](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190308-intro-data#donn%C3%A9es-ouvertes)
 * [Données ouvertes - 2](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190322-node#autres-sources-de-donn%C3%A9es)
 * [Scraping avec cheerio](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling#scraping-avec-cheerio)
-* [Scraping en observant les requêtes du navigateur]()
+* [Scraping en observant les requêtes du navigateur](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas#suite-scraping)
 
 #### Transformer des données
 
@@ -56,6 +56,7 @@
 * [Liste des fonctions D3 utilisées en classe](https://observablehq.com/@idris-maps/fonctions-d3)
 * [Représenter un réseau](https://observablehq.com/@idris-maps/representer-un-reseau-avec-d3)
 * [Graphique Rosling](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling#rosling)
+* [Billboard.js](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas#billboard)
 
 #### Cartographie
 
@@ -65,6 +66,11 @@
 
 #### Canvas
 
+* [Mise en place](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas#canvas)
+* [Formes de base](https://observablehq.com/@idris-maps/canvas)
+* [Animation](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas#requestanimationframe)
+
+
 ### Autre
 
 ### Généralités javascript
@@ -72,6 +78,7 @@
 * [Fonctions/méthodes qui prennent une fonction en argument](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling#les-fonctions--m%C3%A9thodes-qui-prennent-une-fonction)
 * [Différentes manières de définir une fonction](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling#diff%C3%A9rentes-mani%C3%A8res-de-d%C3%A9finir-une-fonction)
 * [Déstructurer et copier un objet](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling#d%C3%A9structurer-et-copier-un-objet)
+* [Animation](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas#requestanimationframe)
 
 ### Outils
 
@@ -82,4 +89,4 @@
 ### Approches de programmation
 
 * [Programmation fonctionelle](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190329-rosling#programmation-fonctionnelle)
-* [Programmation orientée objets]()
+* [Programmation orientée objets](https://github.com/idris-maps/heig-datavis-2019/tree/master/20190503-canvas#programmation-orient%C3%A9e-objets)

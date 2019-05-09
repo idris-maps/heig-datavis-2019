@@ -1,0 +1,33 @@
+<html>
+<body>
+  <svg>
+    <circle></circle>
+  </svg>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script>
+const RADIUS = 50
+const WIDTH = window.innerWidth
+const HEIGHT = window.innerHeight
+
+const svg = d3.select('svg')
+  .attr('viewBox', `0 0 ${WIDTH} ${HEIGHT}`)
+
+const circle = d3.select('circle')
+  .attr('cx', WIDTH / 2)
+  .attr('r', RADIUS)
+
+let Y = 0
+let DOWN = true
+
+const tick = () => {
+  if (Y > HEIGHT - RADIUS) { DOWN = false }
+  if (Y < RADIUS) { DOWN = true }
+  if (DOWN) { Y = Y + 10 } else { Y = Y - 10 }
+  circle.attr('cy', Y)
+  window.requestAnimationFrame(tick)
+}
+window.requestAnimationFrame(tick)
+
+  </script>
+</body>
+</html>

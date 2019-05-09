@@ -35,7 +35,7 @@ Exemple de "feature" d'arbre.
 * [AngelLando](https://github.com/AngelLando/exercice-carto-20190405)
 * [AudrisC](https://github.com/AudrisC/exercice-carto-20190405)
 * [Gagah98](https://github.com/Gagah98/exercice-carto-20190405)
-* [Gioianac]()
+* [Gioianac](https://github.com/Gioianac/exercice-carto-20190405)
 * [Ilanss]()
 * [Kaarroch](https://github.com/Kaarroch/exercice-carto-20190405)
 * [Keassa]()

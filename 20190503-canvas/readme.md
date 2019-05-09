@@ -1,4 +1,4 @@
-# 26 Avril 2019
+# 3 Mai 2019
 
 ## Projets de fin de cours
 
@@ -27,7 +27,7 @@ La partie intéressante:
 
 Pour ce genre d'applications, nous devons observer les requêtes faites par le navigateur et les répliquer pour collecter les données que nous souhaitons.
 
-### Programmation orientée objets
+## Programmation orientée objets
 
 > La programmation orientée objet (POO), ou programmation par objet, est un paradigme de programmation informatique. Il consiste en la définition et l'interaction de briques logicielles appelées objets ; un objet représente un concept, une idée ou toute entité du monde physique, comme une voiture, une personne ou encore une page d'un livre. Il possède une structure interne et un comportement, et il sait interagir avec ses pairs.
 
@@ -57,13 +57,19 @@ console.log(pierrette.amis) // ['Paul', 'Pierre']
 console.log(pierrette.parle()) // Je m'appelle Pierrette et j'ai 2 amis
 ```
 
-[Exemple](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_raf.html)
+[Exemple](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190503-canvas/exemples/exemple_raf.html)
+
+## Billboard
+
+* [Site](https://naver.github.io/billboard.js/)
+* [Cours](https://observablehq.com/@idris-maps/billboard)
+* [Exemple dans une page web](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190503-canvas/exemples/exemple_billboard.html)
 
 ## Canvas
 
 > L'élément canvas est un composant de HTML qui permet d'effectuer des rendus dynamiques d'images bitmap via des scripts
 
-[wikipedia](L'élément canvas est un composant de HTML qui permet d'effectuer des rendus dynamiques d'images bitmap via des scripts)
+[wikipedia](https://fr.wikipedia.org/wiki/Canvas_(HTML))
 
 **Dans une page HTML**
 
@@ -95,6 +101,18 @@ monDessin = {
 
 Faire un dessin avec canvas
 
+### écouter les événements
+
+Contrairement à un SVG, les éléments du canvas ne sont pas représentés dans le DOM. Ils ne peuvent donc pas réagir à des événements tels qu'un "click" de souris. 
+
+Si nous souhaitons faire quelque chose lorsqu'un élément est clické, nous devons:
+
+* écouter les événements sur le canvas
+* voir si le click est sur l'élément
+* modifier le dessin
+
+[Exemple](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190503-canvas/exemples/exemple_canvas_click.html)
+
 ### requestAnimationFrame
 
 [Documentation MDN](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
@@ -112,8 +130,10 @@ const tick = timestamp => {
 window.requestAnimationFrame(tick)
 ```
 
-[Exemple avec canvas](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190426-canvas/exemples/exemple_raf.html)
+* [Exemple avec du texte](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190503-canvas/exemples/exemple_raf_canvas_text.html)
+* [Exemple avec SVG](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190503-canvas/exemples/exemple_raf_canvas.html)
+* [Exemple avec canvas](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190503-canvas/exemples/exemple_raf_canvas.html)
 
 **Exercie 2**
 
-Animez votre dessin
+Animez votre dessin ou faites-le réagir à un événement
