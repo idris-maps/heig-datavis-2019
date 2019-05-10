@@ -18,6 +18,7 @@
 
 * [Site](https://aframe.io/)
 * [Exemple cube](https://github.com/idris-maps/heig-datavis-2019/blob/master/20190510-3d/exemples/aframe.html)
+* [Exemple graphique en bâtons](https://observablehq.com/@idris-maps/a-frame)
 
 ## D3 transition
 
