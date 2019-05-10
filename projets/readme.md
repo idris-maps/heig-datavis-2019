@@ -35,7 +35,7 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 * [Aksumiron]()
 * [Alvis-wesh]()
 * [AngelLando]()
-* [AudrisC]()
+* [AudrisC](https://github.com/idris-maps/heig-datavis-2019/tree/projets/AudrisC/projets)
 * [Gagah98]()
 * [Gioianac](https://github.com/Gioianac/projet_visualDon)
 * [Ilanss](https://github.com/Ilanss/Projet-DataVis)
