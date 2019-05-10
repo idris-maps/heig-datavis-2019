@@ -35,4 +35,4 @@ Pour l'inspiration, voyez ce [repo](https://github.com/idris-maps/exercice-osm-l
 * [paulinebaeni]()
 * [phgarcia93](https://github.com/phgarcan/leaflet-webpack.git)
 * [teoColomberotto]()
-* [vesti1066]()
+* [vesti1066](https://github.com/vesti1066/leaflet-webpack/tree/exercice_leaflet/vesti1066)
