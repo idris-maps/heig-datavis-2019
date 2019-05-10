@@ -37,7 +37,7 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 * [AngelLando]()
 * [AudrisC]()
 * [Gagah98]()
-* [Gioianac]()
+* [Gioianac](https://github.com/Gioianac/projet_visualDon)
 * [Ilanss](https://github.com/Ilanss/Projet-DataVis)
 * [Kaarroch](https://github.com/Kaarroch/VisualDon-Examen)
 * [Keassa]()
