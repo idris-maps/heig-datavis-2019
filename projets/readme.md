@@ -52,7 +52,7 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 * [evandu65]()
 * [loicpostec]()
 * [lucienPochon]()
-* [paulinebaeni]()
+* [paulinebaeni](https://github.com/paulinebaeni/projetfinal)
 * [phgarcan](https://github.com/phgarcan/random-eat)
 * [teoColomberotto]()
 * [vesti1066](https://github.com/vesti1066/projet_visualdon)
