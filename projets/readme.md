@@ -54,5 +54,5 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 * [lucienPochon]()
 * [paulinebaeni](https://github.com/paulinebaeni/projetfinal)
 * [phgarcan](https://github.com/phgarcan/random-eat)
-* [teoColomberotto]()
+* [teoColomberotto](https://github.com/teoColomberotto/VisDonn_Project_TeoColomberotto)
 * [vesti1066](https://github.com/vesti1066/projet_visualdon)
