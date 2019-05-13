@@ -33,7 +33,7 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 ## Liens
 
 * [Aksumiron]()
-* [Alvis-wesh](https://github.com/Alvis-wesh/projet_VisDon)
+* [Alvis-wesh](https://github.com/Alvis-wesh/Projet_VisDon_Final)
 * [AngelLando]()
 * [AudrisC](https://github.com/AudrisC/Projet_VisDon)
 * [Gagah98](https://github.com/Gagah98/datavis-project)
