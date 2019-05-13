@@ -41,7 +41,7 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 * [Ilanss](https://github.com/Ilanss/Projet-DataVis)
 * [Kaarroch](https://github.com/Kaarroch/VisualDon-Examen)
 * [Keassa]()
-* [Lowgic]()
+* [Lowgic](https://github.com/Lowgic/projet-visualdon)
 * [MalorieGenoud](https://github.com/MalorieGenoud/Projet_VisualDon)
 * [PriscaHuguenot](https://github.com/MalorieGenoud/Projet_VisualDon)
 * [Skyggen](https://github.com/Skyggen/ProjetDataVis)
