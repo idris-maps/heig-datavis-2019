@@ -49,7 +49,7 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 * [christopschranz](https://github.com/christopschranz/projetVisuDon)
 * [cyrilBenningerHEIG](https://github.com/cyrilBenningerHEIG/DataVis-Projet)
 * [elisabiver]()
-* [evandu65]()
+* [evandu65](https://github.com/evandu65/heig-plastics-svg)
 * [loicpostec](https://github.com/loicpostec/Datavis-project)
 * [lucienPochon]()
 * [paulinebaeni](https://github.com/paulinebaeni/projetfinal)
