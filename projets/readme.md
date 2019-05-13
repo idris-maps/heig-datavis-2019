@@ -47,7 +47,7 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 * [Skyggen](https://github.com/Skyggen/ProjetDataVis)
 * [alestuzzi](https://github.com/alestuzzi/projet_visDon)
 * [christopschranz](https://github.com/christopschranz/projetVisuDon)
-* [cyrilBenningerHEIG]()
+* [cyrilBenningerHEIG](https://github.com/cyrilBenningerHEIG/DataVis-Projet)
 * [elisabiver]()
 * [evandu65]()
 * [loicpostec]()
