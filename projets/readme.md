@@ -51,7 +51,7 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 * [elisabiver]()
 * [evandu65]()
 * [loicpostec](https://github.com/loicpostec/Datavis-project)
-* [lucienPochon]()
+* [lucienPochon](https://github.com/lucienPochon/VisualDonProject)
 * [paulinebaeni](https://github.com/paulinebaeni/projetfinal)
 * [phgarcan](https://github.com/phgarcan/random-eat)
 * [teoColomberotto](https://github.com/teoColomberotto/VisDonn_Project_TeoColomberotto)
