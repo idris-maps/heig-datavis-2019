@@ -34,7 +34,7 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 
 * [Aksumiron](https://github.com/Aksumiron/projet-VisDon)
 * [Alvis-wesh](https://github.com/Alvis-wesh/Projet_VisDon_Final)
-* [AngelLando]()
+* [AngelLando](https://github.com/AngelLando/visdon_project)
 * [AudrisC](https://github.com/AudrisC/Projet_VisDon)
 * [Gagah98](https://github.com/Gagah98/datavis-project)
 * [Gioianac](https://github.com/Gioianac/projet_visualDon)
