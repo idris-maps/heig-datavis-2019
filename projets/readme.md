@@ -50,7 +50,7 @@ On doit pouvoir mettre le dossier tel quel sur un serveur et voir votre projet.
 * [cyrilBenningerHEIG]()
 * [elisabiver]()
 * [evandu65]()
-* [loicpostec]()
+* [loicpostec](https://github.com/loicpostec/Datavis-project)
 * [lucienPochon]()
 * [paulinebaeni](https://github.com/paulinebaeni/projetfinal)
 * [phgarcan](https://github.com/phgarcan/random-eat)
