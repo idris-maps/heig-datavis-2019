@@ -1,0 +1,22 @@
+{
+  "name": "bundle-d3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode=production",
+    "watch": "webpack --config webpack.config.js --watch --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "d3": "^5.9.1",
+    "ramda": "^0.26.1"
+  }
+}
