@@ -15,46 +15,66 @@
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script>
 
-  const DATA = [
-    { nom: 'Paul', note: 34 },
-    { nom: 'Pauline', note: 98 },
-    { nom: 'Pierre', note: 74 },
-    { nom: 'Pierrette', note: 52 },
-  ];
- 
-  var svgWidth = 500;
-var svgHeight = 400;
-var svg = d3.select('#graph')
-    .attr("width", svgWidth)
-    .attr("height", svgHeight)
-    .attr("class", "bar-chart");
+   // DATA.sort((a, b) => a.sum > b.sum ? -1 : 1);
+
+
+    const DATA = [
+        { country: 'Canada', sum: 54 },
+        { country: 'USA', sum: 21 },
+        { country: 'Luxembourg', sum: 15 },
+        { country: 'Switzerland', sum: 7 },
+        { country: 'Germany', sum: 7 },
+        { country: 'Norway', sum: 6 },
+        { country: 'Netherlands', sum: 6 },
+        { country: 'New Zealand', sum: 5 },
+        { country: 'Australia', sum: 5 },
+        { country: 'Austria', sum: 4 },
+        { country: 'Iceland', sum: 4 },
+        { country: 'Liechtenstein', sum: 3 },
+        { country: 'Malta', sum: 2 },
+        { country: 'Sweden', sum: 2 },
+        { country: 'Spain', sum: 1 },
+        { country: 'Finland', sum: 1 },
+        { country: 'Belgium', sum: 1 },
+        { country: 'Korea', sum: 1 },
+        { country: 'Czech Rep', sum: 1 },
+        { country: 'Italy', sum: 1 }    ];
+
+    var svgWidth = 1200;
+    var svgHeight = 400;
+    var svg = d3.select('#graph')
+        .attr("width", svgWidth)
+        .attr("height", svgHeight)
+        .attr("class", "bar-chart");
 
     var barPadding = 5;
-var barWidth = (svgWidth / DATA.length);
-var barChart = svg.selectAll("rect")
-    .data(DATA)
-    .enter()
-    .append("rect")
-    .attr("y", function(d) {
-        return svgHeight - d.note - 50
-    })
-    .attr("height", function(d) {
-        return d.note;
-    })
-    .attr("width", barWidth - barPadding)
-    .attr("transform", function (d, i) {
-         var translate = [barWidth * i, 0];
-         return "translate("+ translate +")";
-    });
+    var barWidth = (svgWidth / DATA.length);
+    console.log(barWidth);
+    var barChart = svg.selectAll("rect")
+        .data(DATA)
+        .enter()
+        .append("rect")
+        .attr("y", function(d) {
+            return svgHeight - d.sum - 50
+        })
+        .attr("height", function(d) {
+            return d.sum;
+        })
+        .attr("width", barWidth - barPadding)
+        .attr("transform", function (d, i) {
+            var translate = [barWidth * i, 0];
+            return "translate("+ translate +")";
+        });
 
     svg.selectAll('text')
-    .data(DATA)
-    .enter()
-    .append('text')
-    .attr('x', (d, i) => i * barWidth + barWidth / 2)
-    .attr('y', svgHeight-20)
-    .attr('text-anchor', 'middle')
-    .text(d => d.nom)
+        .data(DATA)
+        .enter()
+        .append('text')
+        .attr('x', (d, i) => i * barWidth + barWidth / 2)
+        .attr('y', svgHeight-20)
+        .attr('text-anchor', 'middle')
+        .text(d => d.country)
+
 </script>
   </body>
 </html>

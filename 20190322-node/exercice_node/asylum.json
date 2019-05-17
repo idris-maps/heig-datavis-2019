@@ -1,0 +1,492 @@
+[
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 1999
+  },
+  {
+    "affected": 3,
+    "country": "Norway",
+    "year": 1999
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 1999
+  },
+  {
+    "affected": 1,
+    "country": "Austria",
+    "year": 2000
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2000
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2000
+  },
+  {
+    "affected": 1,
+    "country": "Germany",
+    "year": 2000
+  },
+  {
+    "affected": 1,
+    "country": "Germany",
+    "year": 2000
+  },
+  {
+    "affected": 1,
+    "country": "Germany",
+    "year": 2000
+  },
+  {
+    "affected": 1,
+    "country": "Germany",
+    "year": 2000
+  },
+  {
+    "affected": 1,
+    "country": "Netherlands",
+    "year": 2000
+  },
+  {
+    "affected": 4,
+    "country": "USA",
+    "year": 2000
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2001
+  },
+  {
+    "affected": 1,
+    "country": "Australia",
+    "year": 2002
+  },
+  {
+    "affected": 2,
+    "country": "Australia",
+    "year": 2002
+  },
+  {
+    "affected": 1,
+    "country": "Austria",
+    "year": 2002
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2002
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2002
+  },
+  {
+    "affected": 3,
+    "country": "Canada",
+    "year": 2002
+  },
+  {
+    "affected": 1,
+    "country": "Liechtenstein",
+    "year": 2002
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2002
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2002
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2003
+  },
+  {
+    "affected": 1,
+    "country": "Korea",
+    "year": 2003
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2004
+  },
+  {
+    "affected": 1,
+    "country": "Czech Rep",
+    "year": 2004
+  },
+  {
+    "affected": 1,
+    "country": "Liechtenstein",
+    "year": 2004
+  },
+  {
+    "affected": 1,
+    "country": "Netherlands",
+    "year": 2004
+  },
+  {
+    "affected": 1,
+    "country": "Netherlands",
+    "year": 2004
+  },
+  {
+    "affected": 1,
+    "country": "Austria",
+    "year": 2005
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2005
+  },
+  {
+    "affected": 2,
+    "country": "Canada",
+    "year": 2005
+  },
+  {
+    "affected": 1,
+    "country": "Germany",
+    "year": 2005
+  },
+  {
+    "affected": 1,
+    "country": "Spain",
+    "year": 2005
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2005
+  },
+  {
+    "affected": 4,
+    "country": "Canada",
+    "year": 2006
+  },
+  {
+    "affected": 2,
+    "country": "Canada",
+    "year": 2006
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2006
+  },
+  {
+    "affected": 1,
+    "country": "Australia",
+    "year": 2007
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2007
+  },
+  {
+    "affected": 1,
+    "country": "Liechtenstein",
+    "year": 2007
+  },
+  {
+    "affected": 1,
+    "country": "Sweden",
+    "year": 2007
+  },
+  {
+    "affected": 1,
+    "country": "Sweden",
+    "year": 2007
+  },
+  {
+    "affected": 1,
+    "country": "Australia",
+    "year": 2008
+  },
+  {
+    "affected": 2,
+    "country": "Canada",
+    "year": 2008
+  },
+  {
+    "affected": 2,
+    "country": "Canada",
+    "year": 2008
+  },
+  {
+    "affected": 1,
+    "country": "Germany",
+    "year": 2008
+  },
+  {
+    "affected": 1,
+    "country": "Switzerland",
+    "year": 2008
+  },
+  {
+    "affected": 2,
+    "country": "USA",
+    "year": 2008
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2009
+  },
+  {
+    "affected": 3,
+    "country": "Canada",
+    "year": 2009
+  },
+  {
+    "affected": 3,
+    "country": "Canada",
+    "year": 2009
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2009
+  },
+  {
+    "affected": 1,
+    "country": "Netherlands",
+    "year": 2009
+  },
+  {
+    "affected": 2,
+    "country": "Switzerland",
+    "year": 2009
+  },
+  {
+    "affected": 1,
+    "country": "Switzerland",
+    "year": 2009
+  },
+  {
+    "affected": 1,
+    "country": "Switzerland",
+    "year": 2009
+  },
+  {
+    "affected": 1,
+    "country": "Austria",
+    "year": 2010
+  },
+  {
+    "affected": 3,
+    "country": "Canada",
+    "year": 2010
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2010
+  },
+  {
+    "affected": 3,
+    "country": "Canada",
+    "year": 2010
+  },
+  {
+    "affected": 1,
+    "country": "Italy",
+    "year": 2010
+  },
+  {
+    "affected": 2,
+    "country": "Norway",
+    "year": 2010
+  },
+  {
+    "affected": 1,
+    "country": "Switzerland",
+    "year": 2010
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2010
+  },
+  {
+    "affected": 2,
+    "country": "Canada",
+    "year": 2011
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2011
+  },
+  {
+    "affected": 1,
+    "country": "Switzerland",
+    "year": 2011
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2011
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2011
+  },
+  {
+    "affected": 2,
+    "country": "Canada",
+    "year": 2012
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2012
+  },
+  {
+    "affected": 1,
+    "country": "Netherlands",
+    "year": 2012
+  },
+  {
+    "affected": 5,
+    "country": "New Zealand",
+    "year": 2012
+  },
+  {
+    "affected": 1,
+    "country": "Netherlands",
+    "year": 2013
+  },
+  {
+    "affected": 7,
+    "country": "Luxembourg",
+    "year": 2014
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2014
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2014
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2014
+  },
+  {
+    "affected": 1,
+    "country": "Germany",
+    "year": 2014
+  },
+  {
+    "affected": 7,
+    "country": "Luxembourg",
+    "year": 2014
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2014
+  },
+  {
+    "affected": 2,
+    "country": "Iceland",
+    "year": 2015
+  },
+  {
+    "affected": 1,
+    "country": "Malta",
+    "year": 2015
+  },
+  {
+    "affected": 1,
+    "country": "Belgium",
+    "year": 2015
+  },
+  {
+    "affected": 4,
+    "country": "Canada",
+    "year": 2015
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2015
+  },
+  {
+    "affected": 2,
+    "country": "Iceland",
+    "year": 2015
+  },
+  {
+    "affected": 1,
+    "country": "Malta",
+    "year": 2015
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2015
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2016
+  },
+  {
+    "affected": 1,
+    "country": "Canada",
+    "year": 2016
+  },
+  {
+    "affected": 1,
+    "country": "Finland",
+    "year": 2016
+  },
+  {
+    "affected": 1,
+    "country": "Luxembourg",
+    "year": 2016
+  },
+  {
+    "affected": 1,
+    "country": "Norway",
+    "year": 2016
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2016
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2016
+  },
+  {
+    "affected": 1,
+    "country": "USA",
+    "year": 2016
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "exercice_node",
+  "version": "1.0.0",
+  "description": "Données: [Demandes d'asiles à l'étranger par des citoyens suisses](https://raw.githubusercontent.com/idris-maps/heig-datavis-2019/master/20190315-node/exercie_node/ch_asylum_demands.csv) d'après [UNHCR](https://www.unhcr.org/). [Source](https://data.humdata.org/dataset/unhcr-asylum-seekers-originating-che)",
+  "main": "exercice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^5.9.2",
+    "node-fetch": "^2.3.0",
+    "ramda": "^0.26.1"
+  }
+}

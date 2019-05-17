@@ -1,0 +1,16 @@
+{
+  "name": "exo-music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^5.9.2",
+    "node-fetch": "^2.3.0",
+    "ramda": "^0.26.1"
+  }
+}
